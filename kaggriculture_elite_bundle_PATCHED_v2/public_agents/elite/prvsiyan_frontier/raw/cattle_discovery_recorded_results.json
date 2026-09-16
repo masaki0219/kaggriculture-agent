@@ -1,0 +1,218 @@
+[
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107423497",
+    "seed": "735781542",
+    "seat": "0",
+    "candidate_reward": "114745.0",
+    "opponent_reward": "86564.0",
+    "margin": "28181.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107423497",
+    "seed": "735781542",
+    "seat": "1",
+    "candidate_reward": "114745.0",
+    "opponent_reward": "86564.0",
+    "margin": "28181.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107424452",
+    "seed": "1563356901",
+    "seat": "0",
+    "candidate_reward": "140016.0",
+    "opponent_reward": "119948.0",
+    "margin": "20068.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107424452",
+    "seed": "1563356901",
+    "seat": "1",
+    "candidate_reward": "140016.0",
+    "opponent_reward": "119948.0",
+    "margin": "20068.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107426389",
+    "seed": "706023377",
+    "seat": "0",
+    "candidate_reward": "112136.0",
+    "opponent_reward": "116389.0",
+    "margin": "-4253.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107426389",
+    "seed": "706023377",
+    "seat": "1",
+    "candidate_reward": "112136.0",
+    "opponent_reward": "116389.0",
+    "margin": "-4253.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107427389",
+    "seed": "28826036",
+    "seat": "0",
+    "candidate_reward": "127336.0",
+    "opponent_reward": "107615.0",
+    "margin": "19721.0"
+  },
+  {
+    "candidate_label": "V226A",
+    "opponent_label": "raw_e107427389",
+    "seed": "28826036",
+    "seat": "1",
+    "candidate_reward": "127336.0",
+    "opponent_reward": "107615.0",
+    "margin": "19721.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107423497",
+    "seed": "735781542",
+    "seat": "0",
+    "candidate_reward": "114745.0",
+    "opponent_reward": "86564.0",
+    "margin": "28181.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107423497",
+    "seed": "735781542",
+    "seat": "1",
+    "candidate_reward": "114745.0",
+    "opponent_reward": "86564.0",
+    "margin": "28181.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107424452",
+    "seed": "1563356901",
+    "seat": "0",
+    "candidate_reward": "147951.0",
+    "opponent_reward": "124418.0",
+    "margin": "23533.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107424452",
+    "seed": "1563356901",
+    "seat": "1",
+    "candidate_reward": "147951.0",
+    "opponent_reward": "124418.0",
+    "margin": "23533.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107426389",
+    "seed": "706023377",
+    "seat": "0",
+    "candidate_reward": "113147.0",
+    "opponent_reward": "104009.0",
+    "margin": "9138.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107426389",
+    "seed": "706023377",
+    "seat": "1",
+    "candidate_reward": "113147.0",
+    "opponent_reward": "104009.0",
+    "margin": "9138.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107427389",
+    "seed": "28826036",
+    "seat": "0",
+    "candidate_reward": "125686.0",
+    "opponent_reward": "103202.0",
+    "margin": "22484.0"
+  },
+  {
+    "candidate_label": "V231C2",
+    "opponent_label": "raw_e107427389",
+    "seed": "28826036",
+    "seat": "1",
+    "candidate_reward": "125686.0",
+    "opponent_reward": "103202.0",
+    "margin": "22484.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107423497",
+    "seed": "735781542",
+    "seat": "0",
+    "candidate_reward": "114745.0",
+    "opponent_reward": "86564.0",
+    "margin": "28181.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107423497",
+    "seed": "735781542",
+    "seat": "1",
+    "candidate_reward": "114745.0",
+    "opponent_reward": "86564.0",
+    "margin": "28181.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107424452",
+    "seed": "1563356901",
+    "seat": "0",
+    "candidate_reward": "148586.0",
+    "opponent_reward": "124714.0",
+    "margin": "23872.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107424452",
+    "seed": "1563356901",
+    "seat": "1",
+    "candidate_reward": "148586.0",
+    "opponent_reward": "124714.0",
+    "margin": "23872.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107426389",
+    "seed": "706023377",
+    "seat": "0",
+    "candidate_reward": "112344.0",
+    "opponent_reward": "97284.0",
+    "margin": "15060.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107426389",
+    "seed": "706023377",
+    "seat": "1",
+    "candidate_reward": "112344.0",
+    "opponent_reward": "97284.0",
+    "margin": "15060.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107427389",
+    "seed": "28826036",
+    "seat": "0",
+    "candidate_reward": "125686.0",
+    "opponent_reward": "103202.0",
+    "margin": "22484.0"
+  },
+  {
+    "candidate_label": "V231C4",
+    "opponent_label": "raw_e107427389",
+    "seed": "28826036",
+    "seat": "1",
+    "candidate_reward": "125686.0",
+    "opponent_reward": "103202.0",
+    "margin": "22484.0"
+  }
+]

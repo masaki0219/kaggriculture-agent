@@ -1,0 +1,218 @@
+[
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107423497.py",
+    "opponent_label": "raw_e107423497",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 735781542,
+    "seat": 0
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107423497.py",
+    "opponent_label": "raw_e107423497",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 735781542,
+    "seat": 1
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107424452.py",
+    "opponent_label": "raw_e107424452",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 1563356901,
+    "seat": 0
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107424452.py",
+    "opponent_label": "raw_e107424452",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 1563356901,
+    "seat": 1
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 706023377,
+    "seat": 0
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 706023377,
+    "seat": 1
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107427389.py",
+    "opponent_label": "raw_e107427389",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 28826036,
+    "seat": 0
+  },
+  {
+    "candidate": "feed_experiment.py",
+    "candidate_label": "Feed baseline",
+    "opponent": "raw_e107427389.py",
+    "opponent_label": "raw_e107427389",
+    "sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+    "seed": 28826036,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107423497.py",
+    "opponent_label": "raw_e107423497",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 735781542,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107423497.py",
+    "opponent_label": "raw_e107423497",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 735781542,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107424452.py",
+    "opponent_label": "raw_e107424452",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 1563356901,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107424452.py",
+    "opponent_label": "raw_e107424452",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 1563356901,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 706023377,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 706023377,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107427389.py",
+    "opponent_label": "raw_e107427389",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 28826036,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_2.py",
+    "candidate_label": "Cattle cap 2",
+    "opponent": "raw_e107427389.py",
+    "opponent_label": "raw_e107427389",
+    "sha256": "1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4",
+    "seed": 28826036,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107423497.py",
+    "opponent_label": "raw_e107423497",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 735781542,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107423497.py",
+    "opponent_label": "raw_e107423497",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 735781542,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107424452.py",
+    "opponent_label": "raw_e107424452",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 1563356901,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107424452.py",
+    "opponent_label": "raw_e107424452",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 1563356901,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 706023377,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 706023377,
+    "seat": 1
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107427389.py",
+    "opponent_label": "raw_e107427389",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 28826036,
+    "seat": 0
+  },
+  {
+    "candidate": "cattle_cap_4.py",
+    "candidate_label": "Cattle cap 4",
+    "opponent": "raw_e107427389.py",
+    "opponent_label": "raw_e107427389",
+    "sha256": "d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a",
+    "seed": 28826036,
+    "seat": 1
+  }
+]

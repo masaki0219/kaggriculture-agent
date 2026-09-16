@@ -1,0 +1,12 @@
+{
+  "agent": "v43 Climb-Safe Sparse Shop Hybrid",
+  "main_sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3",
+  "main_bytes": 63309,
+  "archive_sha256": "fb821a9f9867cd413e40323e1e79f1014b74eac7aab3db2bcdbfc6eea5e36a10",
+  "fresh_public_executable": "103 wins / 128 games",
+  "strict_unseen_continuation": "108 wins / 116 games",
+  "common_full_action_through_step": 87,
+  "common_actor_action_through_step": 158,
+  "runtime_identity_features": false,
+  "runtime_lineage_features": false
+}

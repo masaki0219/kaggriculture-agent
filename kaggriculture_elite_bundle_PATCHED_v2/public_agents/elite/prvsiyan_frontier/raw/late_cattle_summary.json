@@ -1,0 +1,115 @@
+{
+  "discovery": {
+    "new": {
+      "games": 14,
+      "wins": 14,
+      "losses": 0,
+      "ties": 0,
+      "mean_margin": 12054.142857142857,
+      "worst_margin": 2473.0
+    },
+    "parent": {
+      "games": 14,
+      "wins": 12,
+      "losses": 2,
+      "ties": 0,
+      "mean_margin": 10165.57142857143,
+      "worst_margin": -4253.0
+    },
+    "cells": 14,
+    "wins_gained": 2,
+    "wins_lost": 0,
+    "all_both_rewards_and_terminal_hashes_equal": false
+  },
+  "new_public_losses": {
+    "new": {
+      "games": 12,
+      "wins": 2,
+      "losses": 10,
+      "ties": 0,
+      "mean_margin": -7556.25,
+      "worst_margin": -27840.0
+    },
+    "parent": {
+      "games": 12,
+      "wins": 2,
+      "losses": 10,
+      "ties": 0,
+      "mean_margin": -8490.75,
+      "worst_margin": -27840.0
+    },
+    "cells": 12,
+    "wins_gained": 0,
+    "wins_lost": 0,
+    "all_both_rewards_and_terminal_hashes_equal": false
+  },
+  "fresh": {
+    "new": {
+      "games": 72,
+      "wins": 60,
+      "losses": 12,
+      "ties": 0,
+      "mean_margin": 28217.305555555555,
+      "worst_margin": -4174.0
+    },
+    "parent": {
+      "games": 72,
+      "wins": 60,
+      "losses": 12,
+      "ties": 0,
+      "mean_margin": 27296.083333333332,
+      "worst_margin": -4174.0
+    },
+    "cells": 72,
+    "wins_gained": 0,
+    "wins_lost": 0,
+    "all_both_rewards_and_terminal_hashes_equal": false
+  },
+  "fresh_strata": {
+    "top10": {
+      "new": {
+        "games": 40,
+        "wins": 34,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 27078.05,
+        "worst_margin": -1731.0
+      },
+      "parent": {
+        "games": 40,
+        "wins": 34,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 26333.55,
+        "worst_margin": -1731.0
+      },
+      "cells": 40,
+      "wins_gained": 0,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": false
+    },
+    "lower": {
+      "new": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 29641.375,
+        "worst_margin": -4174.0
+      },
+      "parent": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 28499.25,
+        "worst_margin": -4174.0
+      },
+      "cells": 32,
+      "wins_gained": 0,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": false
+    }
+  },
+  "source_sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79"
+}

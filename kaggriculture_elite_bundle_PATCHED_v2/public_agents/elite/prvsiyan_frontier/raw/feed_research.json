@@ -1,0 +1,2458 @@
+{
+  "default_source_sha256": "5dfca87ba31f795348f67b07185b9534c3a1ac6d99892029ff285fb43e28a520",
+  "experimental_source_sha256": "656dcd269680b09088f1e712af22dc2e94551bff74f47a9bb5fc282284dca02c",
+  "discovery": {
+    "technical_verification_passed": true,
+    "qualification": "Eight outcome-selected discovery games, not heldout or a public rating. Daily milk increments checked with pinned engine worker/animal functions against captured next-day tiles; milk harvest/sales/discard/remaining balance reconciled.",
+    "versus_c": {
+      "new": {
+        "games": 8,
+        "wins": 2,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 8957.375,
+        "worst_margin": -2566.0
+      },
+      "parent": {
+        "games": 8,
+        "wins": 2,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 6644.875,
+        "worst_margin": -11816.0
+      },
+      "cells": 8,
+      "wins_gained": 0,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": false
+    },
+    "inactive_controls": {
+      "new": {
+        "games": 6,
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "mean_margin": 12798.5,
+        "worst_margin": -1812.0
+      },
+      "parent": {
+        "games": 6,
+        "wins": 2,
+        "losses": 4,
+        "ties": 0,
+        "mean_margin": 12798.5,
+        "worst_margin": -1812.0
+      },
+      "cells": 6,
+      "wins_gained": 0,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": true
+    },
+    "cases": [
+      {
+        "opponent": "fresh_r5_e107212960",
+        "seat": 0,
+        "parent_margin": -11816.0,
+        "margin": -2566.0,
+        "topup_orders": 2,
+        "topup_units": 4,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "fresh_r5_e107212960",
+        "seat": 1,
+        "parent_margin": -11816.0,
+        "margin": -2566.0,
+        "topup_orders": 2,
+        "topup_units": 4,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "raw_e107191723",
+        "seat": 0,
+        "parent_margin": -1615.0,
+        "margin": -1615.0,
+        "topup_orders": 0,
+        "topup_units": 0,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "raw_e107191723",
+        "seat": 1,
+        "parent_margin": -18.0,
+        "margin": -18.0,
+        "topup_orders": 0,
+        "topup_units": 0,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "raw_e107191873",
+        "seat": 0,
+        "parent_margin": -1812.0,
+        "margin": -1812.0,
+        "topup_orders": 0,
+        "topup_units": 0,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "raw_e107191873",
+        "seat": 1,
+        "parent_margin": -1812.0,
+        "margin": -1812.0,
+        "topup_orders": 0,
+        "topup_units": 0,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "raw_e107203143",
+        "seat": 0,
+        "parent_margin": 41024.0,
+        "margin": 41024.0,
+        "topup_orders": 0,
+        "topup_units": 0,
+        "budget_declines": 0
+      },
+      {
+        "opponent": "raw_e107203143",
+        "seat": 1,
+        "parent_margin": 41024.0,
+        "margin": 41024.0,
+        "topup_orders": 0,
+        "topup_units": 0,
+        "budget_declines": 0
+      }
+    ],
+    "rank5_milk": [
+      {
+        "seat": 0,
+        "parent": {
+          "milk_produced_at_dawns": 218,
+          "milk_harvested": 218,
+          "milk_sold": 218,
+          "milk_sale_revenue": 51597.0,
+          "milk_dawn_discard": 0,
+          "milk_drop_discard": 0,
+          "milk_remaining": 0,
+          "cow_escapes": [
+            {
+              "day": 8,
+              "x": 6,
+              "y": 4,
+              "unfed_before": 1
+            }
+          ],
+          "feed_without_wheat": [
+            {
+              "step": 172,
+              "actor": 6,
+              "animal": "COW"
+            },
+            {
+              "step": 188,
+              "actor": 6,
+              "animal": "SHEEP"
+            },
+            {
+              "step": 197,
+              "actor": 8,
+              "animal": "SHEEP"
+            },
+            {
+              "step": 203,
+              "actor": 8,
+              "animal": "COW"
+            }
+          ],
+          "short_wheat_pickups": [
+            {
+              "step": 171,
+              "actor": 6,
+              "requested": 2,
+              "received": 0
+            },
+            {
+              "step": 195,
+              "actor": 8,
+              "requested": 2,
+              "received": 0
+            }
+          ]
+        },
+        "candidate": {
+          "milk_produced_at_dawns": 245,
+          "milk_harvested": 245,
+          "milk_sold": 245,
+          "milk_sale_revenue": 56734.0,
+          "milk_dawn_discard": 0,
+          "milk_drop_discard": 0,
+          "milk_remaining": 0,
+          "cow_escapes": [],
+          "feed_without_wheat": [],
+          "short_wheat_pickups": []
+        }
+      },
+      {
+        "seat": 1,
+        "parent": {
+          "milk_produced_at_dawns": 218,
+          "milk_harvested": 218,
+          "milk_sold": 218,
+          "milk_sale_revenue": 51597.0,
+          "milk_dawn_discard": 0,
+          "milk_drop_discard": 0,
+          "milk_remaining": 0,
+          "cow_escapes": [
+            {
+              "day": 8,
+              "x": 6,
+              "y": 4,
+              "unfed_before": 1
+            }
+          ],
+          "feed_without_wheat": [
+            {
+              "step": 172,
+              "actor": 6,
+              "animal": "COW"
+            },
+            {
+              "step": 188,
+              "actor": 6,
+              "animal": "SHEEP"
+            },
+            {
+              "step": 197,
+              "actor": 8,
+              "animal": "SHEEP"
+            },
+            {
+              "step": 203,
+              "actor": 8,
+              "animal": "COW"
+            }
+          ],
+          "short_wheat_pickups": [
+            {
+              "step": 171,
+              "actor": 6,
+              "requested": 2,
+              "received": 0
+            },
+            {
+              "step": 195,
+              "actor": 8,
+              "requested": 2,
+              "received": 0
+            }
+          ]
+        },
+        "candidate": {
+          "milk_produced_at_dawns": 245,
+          "milk_harvested": 245,
+          "milk_sold": 245,
+          "milk_sale_revenue": 56734.0,
+          "milk_dawn_discard": 0,
+          "milk_drop_discard": 0,
+          "milk_remaining": 0,
+          "cow_escapes": [],
+          "feed_without_wheat": [],
+          "short_wheat_pickups": []
+        }
+      }
+    ]
+  },
+  "full_transfer": {
+    "technical_verification_passed": true,
+    "qualification": "Measured parent transfer plus eight discovery cells. Guarded and fixed public routes are not intact adaptive source or live population win rates.",
+    "panels": {
+      "selected_public": {
+        "new": {
+          "games": 274,
+          "wins": 239,
+          "losses": 35,
+          "ties": 0,
+          "mean_margin": 12152.693430656935,
+          "worst_margin": -8562.0
+        },
+        "parent": {
+          "games": 274,
+          "wins": 237,
+          "losses": 37,
+          "ties": 0,
+          "mean_margin": 12061.916058394161,
+          "worst_margin": -8562.0
+        },
+        "cells": 274,
+        "wins_gained": 2,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "earlier_guarded_rank": {
+        "new": {
+          "games": 128,
+          "wins": 126,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 17962.640625,
+          "worst_margin": -532.0
+        },
+        "parent": {
+          "games": 128,
+          "wins": 126,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 17960.59375,
+          "worst_margin": -532.0
+        },
+        "cells": 128,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "refreshed_guarded_rank": {
+        "new": {
+          "games": 72,
+          "wins": 62,
+          "losses": 10,
+          "ties": 0,
+          "mean_margin": 27602.194444444445,
+          "worst_margin": -4022.0
+        },
+        "parent": {
+          "games": 72,
+          "wins": 62,
+          "losses": 10,
+          "ties": 0,
+          "mean_margin": 27074.63888888889,
+          "worst_margin": -11816.0
+        },
+        "cells": 72,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      }
+    },
+    "inactive_controls": {
+      "new": {
+        "games": 422,
+        "wins": 377,
+        "losses": 45,
+        "ties": 0,
+        "mean_margin": 16603.864928909952,
+        "worst_margin": -8562.0
+      },
+      "parent": {
+        "games": 422,
+        "wins": 377,
+        "losses": 45,
+        "ties": 0,
+        "mean_margin": 16603.864928909952,
+        "worst_margin": -8562.0
+      },
+      "cells": 422,
+      "wins_gained": 0,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": true
+    },
+    "active_cells": [
+      {
+        "opponent": "fresh_r5_e107212960",
+        "seed": "9412600",
+        "seat": 0,
+        "margin": -2566.0,
+        "parent_margin": -11816.0,
+        "delta": 9250.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "fresh_r5_e107212960",
+        "seed": "9412600",
+        "seat": 1,
+        "margin": -2566.0,
+        "parent_margin": -11816.0,
+        "delta": 9250.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "fresh_r5_e106932413",
+        "seed": "3101901",
+        "seat": 0,
+        "margin": 49812.0,
+        "parent_margin": 49615.0,
+        "delta": 197.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "fresh_r5_e106932413",
+        "seed": "3101901",
+        "seat": 1,
+        "margin": 49812.0,
+        "parent_margin": 49615.0,
+        "delta": 197.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "fresh_r5_e107211971",
+        "seed": "9412600",
+        "seat": 0,
+        "margin": 19889.0,
+        "parent_margin": 10147.0,
+        "delta": 9742.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "fresh_r5_e107211971",
+        "seed": "9412600",
+        "seat": 1,
+        "margin": 19889.0,
+        "parent_margin": 10147.0,
+        "delta": 9742.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "fresh_r8_e106936601",
+        "seed": "3102900",
+        "seat": 0,
+        "margin": 26472.0,
+        "parent_margin": 26538.0,
+        "delta": -66.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "fresh_r8_e106936601",
+        "seed": "3102900",
+        "seat": 1,
+        "margin": 26472.0,
+        "parent_margin": 26538.0,
+        "delta": -66.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e106926409",
+        "seed": "48676653",
+        "seat": 0,
+        "margin": 3699.0,
+        "parent_margin": 3740.0,
+        "delta": -41.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e106926409",
+        "seed": "48676653",
+        "seat": 1,
+        "margin": 4310.0,
+        "parent_margin": 4348.0,
+        "delta": -38.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e106942526",
+        "seed": "102881230",
+        "seat": 0,
+        "margin": 14572.0,
+        "parent_margin": 14513.0,
+        "delta": 59.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e106942526",
+        "seed": "102881230",
+        "seat": 1,
+        "margin": 14572.0,
+        "parent_margin": 14513.0,
+        "delta": 59.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e106956976",
+        "seed": "1882818733",
+        "seat": 0,
+        "margin": 3532.0,
+        "parent_margin": 939.0,
+        "delta": 2593.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "raw_e106956976",
+        "seed": "1882818733",
+        "seat": 1,
+        "margin": 3532.0,
+        "parent_margin": 939.0,
+        "delta": 2593.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "raw_e107112246",
+        "seed": "1143085068",
+        "seat": 0,
+        "margin": 44888.0,
+        "parent_margin": 44775.0,
+        "delta": 113.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107112246",
+        "seed": "1143085068",
+        "seat": 1,
+        "margin": 44888.0,
+        "parent_margin": 44775.0,
+        "delta": 113.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107132308",
+        "seed": "1823012832",
+        "seat": 0,
+        "margin": 13547.0,
+        "parent_margin": 13449.0,
+        "delta": 98.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107132308",
+        "seed": "1823012832",
+        "seat": 1,
+        "margin": 13547.0,
+        "parent_margin": 13449.0,
+        "delta": 98.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107139039",
+        "seed": "304280464",
+        "seat": 0,
+        "margin": 11800.0,
+        "parent_margin": 11637.0,
+        "delta": 163.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107139039",
+        "seed": "304280464",
+        "seat": 1,
+        "margin": 11800.0,
+        "parent_margin": 11637.0,
+        "delta": 163.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107142692",
+        "seed": "215063973",
+        "seat": 0,
+        "margin": 6276.0,
+        "parent_margin": 4971.0,
+        "delta": 1305.0,
+        "topup_orders": 2,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107142692",
+        "seed": "215063973",
+        "seat": 1,
+        "margin": 6276.0,
+        "parent_margin": 4971.0,
+        "delta": 1305.0,
+        "topup_orders": 2,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107145936",
+        "seed": "448252299",
+        "seat": 0,
+        "margin": 10191.0,
+        "parent_margin": 10035.0,
+        "delta": 156.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107145936",
+        "seed": "448252299",
+        "seat": 1,
+        "margin": 10191.0,
+        "parent_margin": 10035.0,
+        "delta": 156.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107157671",
+        "seed": "551037914",
+        "seat": 0,
+        "margin": 16109.0,
+        "parent_margin": 15995.0,
+        "delta": 114.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107157671",
+        "seed": "551037914",
+        "seat": 1,
+        "margin": 12315.0,
+        "parent_margin": 12121.0,
+        "delta": 194.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107161636",
+        "seed": "477635443",
+        "seat": 0,
+        "margin": 7535.0,
+        "parent_margin": 7450.0,
+        "delta": 85.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107161636",
+        "seed": "477635443",
+        "seat": 1,
+        "margin": 7535.0,
+        "parent_margin": 7450.0,
+        "delta": 85.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107167744",
+        "seed": "546540431",
+        "seat": 0,
+        "margin": 4651.0,
+        "parent_margin": 4560.0,
+        "delta": 91.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107167744",
+        "seed": "546540431",
+        "seat": 1,
+        "margin": 4651.0,
+        "parent_margin": 4560.0,
+        "delta": 91.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107169583",
+        "seed": "560651897",
+        "seat": 0,
+        "margin": 23413.0,
+        "parent_margin": 23322.0,
+        "delta": 91.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107169583",
+        "seed": "560651897",
+        "seat": 1,
+        "margin": 23413.0,
+        "parent_margin": 23322.0,
+        "delta": 91.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107174328",
+        "seed": "1136614429",
+        "seat": 0,
+        "margin": 5569.0,
+        "parent_margin": 5359.0,
+        "delta": 210.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107174328",
+        "seed": "1136614429",
+        "seat": 1,
+        "margin": 5569.0,
+        "parent_margin": 5359.0,
+        "delta": 210.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107175293",
+        "seed": "425716973",
+        "seat": 0,
+        "margin": 1982.0,
+        "parent_margin": 1565.0,
+        "delta": 417.0,
+        "topup_orders": 1,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107175293",
+        "seed": "425716973",
+        "seat": 1,
+        "margin": 1982.0,
+        "parent_margin": 1565.0,
+        "delta": 417.0,
+        "topup_orders": 1,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107175336",
+        "seed": "706884954",
+        "seat": 0,
+        "margin": 10986.0,
+        "parent_margin": 10833.0,
+        "delta": 153.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107175336",
+        "seed": "706884954",
+        "seat": 1,
+        "margin": 10986.0,
+        "parent_margin": 10833.0,
+        "delta": 153.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107179201",
+        "seed": "1969812780",
+        "seat": 0,
+        "margin": 3058.0,
+        "parent_margin": 2895.0,
+        "delta": 163.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107179201",
+        "seed": "1969812780",
+        "seat": 1,
+        "margin": 3058.0,
+        "parent_margin": 2895.0,
+        "delta": 163.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107184002",
+        "seed": "1777200501",
+        "seat": 0,
+        "margin": 7074.0,
+        "parent_margin": 6978.0,
+        "delta": 96.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107184002",
+        "seed": "1777200501",
+        "seat": 1,
+        "margin": 7074.0,
+        "parent_margin": 6978.0,
+        "delta": 96.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107189790",
+        "seed": "314403306",
+        "seat": 0,
+        "margin": 1832.0,
+        "parent_margin": 1415.0,
+        "delta": 417.0,
+        "topup_orders": 1,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107189790",
+        "seed": "314403306",
+        "seat": 1,
+        "margin": 1832.0,
+        "parent_margin": 1415.0,
+        "delta": 417.0,
+        "topup_orders": 1,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107190518",
+        "seed": "1833953371",
+        "seat": 0,
+        "margin": 9352.0,
+        "parent_margin": 8944.0,
+        "delta": 408.0,
+        "topup_orders": 1,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107190518",
+        "seed": "1833953371",
+        "seat": 1,
+        "margin": 9352.0,
+        "parent_margin": 8944.0,
+        "delta": 408.0,
+        "topup_orders": 1,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107191256",
+        "seed": "396986179",
+        "seat": 0,
+        "margin": 3018.0,
+        "parent_margin": -1158.0,
+        "delta": 4176.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "raw_e107191256",
+        "seed": "396986179",
+        "seat": 1,
+        "margin": 3018.0,
+        "parent_margin": -1158.0,
+        "delta": 4176.0,
+        "topup_orders": 2,
+        "topup_units": 4
+      },
+      {
+        "opponent": "raw_e107194627",
+        "seed": "1381959040",
+        "seat": 0,
+        "margin": 6618.0,
+        "parent_margin": 5274.0,
+        "delta": 1344.0,
+        "topup_orders": 2,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107194627",
+        "seed": "1381959040",
+        "seat": 1,
+        "margin": 6618.0,
+        "parent_margin": 5274.0,
+        "delta": 1344.0,
+        "topup_orders": 2,
+        "topup_units": 2
+      },
+      {
+        "opponent": "raw_e107209000",
+        "seed": "988979597",
+        "seat": 0,
+        "margin": 3074.0,
+        "parent_margin": 2890.0,
+        "delta": 184.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      },
+      {
+        "opponent": "raw_e107209000",
+        "seed": "988979597",
+        "seat": 1,
+        "margin": 3074.0,
+        "parent_margin": 2890.0,
+        "delta": 184.0,
+        "topup_orders": 1,
+        "topup_units": 1
+      }
+    ],
+    "verified_active_tomato_cells": 52,
+    "no_net_win_loss_in_any_panel": true
+  },
+  "gained_public_win": {
+    "technical_verification_passed": true,
+    "comparison": {
+      "new": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "ties": 0,
+        "mean_margin": 3018.0,
+        "worst_margin": 3018.0
+      },
+      "parent": {
+        "games": 2,
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "mean_margin": -1158.0,
+        "worst_margin": -1158.0
+      },
+      "cells": 2,
+      "wins_gained": 2,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": false
+    },
+    "qualification": "One fixed-rival public history, both seats. Executed units and both cash ledgers verified. More milk sold does not imply more milk revenue. Full animal-production tracing was not run on this case, so no new produced-yield claim is made.",
+    "cases": [
+      {
+        "seat": 0,
+        "seed": 396986179,
+        "parent_margin": -1158.0,
+        "margin": 3018.0,
+        "parent_own": 74489.0,
+        "own": 73577.0,
+        "parent_rival": 75647.0,
+        "rival": 70559.0,
+        "own_delta": -912.0,
+        "rival_delta": -5088.0,
+        "telemetry": {
+          "budget_declines": 0,
+          "commitments": 0,
+          "confirmed_harvest_units": 0,
+          "confirmed_plants": 0,
+          "confirmed_workers": 0,
+          "drop_requests": 0,
+          "fertilize_requests": 0,
+          "harvest_requests": 0,
+          "hire_requests": 0,
+          "hire_shortfalls": 0,
+          "lost_plants": 0,
+          "plant_requests": 0,
+          "reordered_market_turns": 125,
+          "tomato_sale_requests": 0,
+          "water_requests": 0,
+          "wheat_topup_budget_declines": 1,
+          "wheat_topup_capacity_declines": 0,
+          "wheat_topup_orders": 2,
+          "wheat_topup_units": 4
+        },
+        "deltas": {
+          "own": {
+            "units": {
+              "BUY_PRODUCT:WHEAT": 4,
+              "SELL:EGG": 6,
+              "SELL:FERTILIZER": 19,
+              "SELL:MILK": 27,
+              "SELL:STRAWBERRY": 12,
+              "SELL:WHEAT": -12,
+              "SELL:WOOL": 8
+            },
+            "cashflows": {
+              "BUY_PRODUCT:FERTILIZER": 48.0,
+              "BUY_PRODUCT:WHEAT": -150.0,
+              "SELL:EGG": 387.0,
+              "SELL:FERTILIZER": 243.0,
+              "SELL:MILK": -1231.0,
+              "SELL:STRAWBERRY": -51.0,
+              "SELL:WHEAT": -560.0,
+              "SELL:WOOL": 402.0
+            }
+          },
+          "rival": {
+            "units": {},
+            "cashflows": {
+              "BUY_PRODUCT:FERTILIZER": 46.0,
+              "BUY_PRODUCT:WHEAT": -16.0,
+              "SELL:EGG": -6.0,
+              "SELL:FERTILIZER": -319.0,
+              "SELL:MILK": -3611.0,
+              "SELL:STRAWBERRY": -732.0,
+              "SELL:WHEAT": 27.0,
+              "SELL:WOOL": -477.0
+            }
+          }
+        }
+      },
+      {
+        "seat": 1,
+        "seed": 396986179,
+        "parent_margin": -1158.0,
+        "margin": 3018.0,
+        "parent_own": 74489.0,
+        "own": 73577.0,
+        "parent_rival": 75647.0,
+        "rival": 70559.0,
+        "own_delta": -912.0,
+        "rival_delta": -5088.0,
+        "telemetry": {
+          "budget_declines": 0,
+          "commitments": 0,
+          "confirmed_harvest_units": 0,
+          "confirmed_plants": 0,
+          "confirmed_workers": 0,
+          "drop_requests": 0,
+          "fertilize_requests": 0,
+          "harvest_requests": 0,
+          "hire_requests": 0,
+          "hire_shortfalls": 0,
+          "lost_plants": 0,
+          "plant_requests": 0,
+          "reordered_market_turns": 125,
+          "tomato_sale_requests": 0,
+          "water_requests": 0,
+          "wheat_topup_budget_declines": 1,
+          "wheat_topup_capacity_declines": 0,
+          "wheat_topup_orders": 2,
+          "wheat_topup_units": 4
+        },
+        "deltas": {
+          "own": {
+            "units": {
+              "BUY_PRODUCT:WHEAT": 4,
+              "SELL:EGG": 6,
+              "SELL:FERTILIZER": 19,
+              "SELL:MILK": 27,
+              "SELL:STRAWBERRY": 12,
+              "SELL:WHEAT": -12,
+              "SELL:WOOL": 8
+            },
+            "cashflows": {
+              "BUY_PRODUCT:FERTILIZER": 48.0,
+              "BUY_PRODUCT:WHEAT": -150.0,
+              "SELL:EGG": 387.0,
+              "SELL:FERTILIZER": 243.0,
+              "SELL:MILK": -1231.0,
+              "SELL:STRAWBERRY": -51.0,
+              "SELL:WHEAT": -560.0,
+              "SELL:WOOL": 402.0
+            }
+          },
+          "rival": {
+            "units": {},
+            "cashflows": {
+              "BUY_PRODUCT:FERTILIZER": 46.0,
+              "BUY_PRODUCT:WHEAT": -16.0,
+              "SELL:EGG": -6.0,
+              "SELL:FERTILIZER": -319.0,
+              "SELL:MILK": -3611.0,
+              "SELL:STRAWBERRY": -732.0,
+              "SELL:WHEAT": 27.0,
+              "SELL:WOOL": -477.0
+            }
+          }
+        }
+      }
+    ]
+  },
+  "rejected_delivery_rule": {
+    "new": {
+      "games": 42,
+      "wins": 31,
+      "losses": 11,
+      "ties": 0,
+      "mean_margin": 3885.8333333333335,
+      "worst_margin": -3495.0
+    },
+    "parent": {
+      "games": 42,
+      "wins": 31,
+      "losses": 11,
+      "ties": 0,
+      "mean_margin": 5240.976190476191,
+      "worst_margin": -2890.0
+    },
+    "cells": 42,
+    "wins_gained": 2,
+    "wins_lost": 2,
+    "all_both_rewards_and_terminal_hashes_equal": false
+  },
+  "predictor_metrics": {
+    "Lag24": {
+      "tn": 43451,
+      "fn": 1156,
+      "abstained": 3023,
+      "fp": 482,
+      "tp": 188,
+      "scored": 45277,
+      "precision": 0.28059701492537314,
+      "recall": 0.13988095238095238,
+      "false_positive_rate": 0.010971251678692555,
+      "event_prevalence": 0.02968394549108819,
+      "accuracy": 0.9638226914327362,
+      "always_no_event_accuracy": 0.9703160545089118,
+      "coverage": 0.9374120082815735
+    },
+    "Visible delivery": {
+      "tn": 80848,
+      "tp": 665,
+      "fn": 2127,
+      "fp": 885,
+      "scored": 84525,
+      "precision": 0.4290322580645161,
+      "recall": 0.23818051575931232,
+      "false_positive_rate": 0.010827939755056097,
+      "event_prevalence": 0.03303164744158533,
+      "accuracy": 0.9643655723158828,
+      "always_no_event_accuracy": 0.9669683525584146,
+      "coverage": 1.0
+    }
+  },
+  "rank5_cash_deltas": [
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "BUY_PRODUCT:FERTILIZER",
+      "delta": 48.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "BUY_PRODUCT:WHEAT",
+      "delta": -150.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "SELL:EGG",
+      "delta": 308.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "SELL:FERTILIZER",
+      "delta": 234.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "SELL:MILK",
+      "delta": 5137.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "SELL:STRAWBERRY",
+      "delta": 1303.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "SELL:WHEAT",
+      "delta": -546.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Own",
+      "cashflow": "SELL:WOOL",
+      "delta": 401.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "BUY_PRODUCT:FERTILIZER",
+      "delta": 46.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "BUY_PRODUCT:WHEAT",
+      "delta": -16.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "SELL:EGG",
+      "delta": -11.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "SELL:FERTILIZER",
+      "delta": -310.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "SELL:MILK",
+      "delta": -1229.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "SELL:STRAWBERRY",
+      "delta": -588.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "SELL:WHEAT",
+      "delta": 44.0
+    },
+    {
+      "candidate_seat": 0,
+      "player": "Rival",
+      "cashflow": "SELL:WOOL",
+      "delta": -451.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "BUY_PRODUCT:FERTILIZER",
+      "delta": 48.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "BUY_PRODUCT:WHEAT",
+      "delta": -150.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "SELL:EGG",
+      "delta": 308.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "SELL:FERTILIZER",
+      "delta": 234.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "SELL:MILK",
+      "delta": 5137.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "SELL:STRAWBERRY",
+      "delta": 1303.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "SELL:WHEAT",
+      "delta": -546.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Own",
+      "cashflow": "SELL:WOOL",
+      "delta": 401.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "BUY_PRODUCT:FERTILIZER",
+      "delta": 46.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "BUY_PRODUCT:WHEAT",
+      "delta": -16.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "SELL:EGG",
+      "delta": -11.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "SELL:FERTILIZER",
+      "delta": -310.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "SELL:MILK",
+      "delta": -1229.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "SELL:STRAWBERRY",
+      "delta": -588.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "SELL:WHEAT",
+      "delta": 44.0
+    },
+    {
+      "candidate_seat": 1,
+      "player": "Rival",
+      "cashflow": "SELL:WOOL",
+      "delta": -451.0
+    }
+  ],
+  "current_rank_population": {
+    "technical_verification_passed": true,
+    "qualification": "Fresh selected rank snapshot, two guarded public action histories per team, one synthetic seed and both seats. These are fixed guarded counterfactual opponents, not recovered private adaptive source, public matches or a population win-rate estimate.",
+    "top10": {
+      "new": {
+        "games": 40,
+        "wins": 34,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 15525.9,
+        "worst_margin": -11816.0
+      },
+      "parent": {
+        "games": 40,
+        "wins": 30,
+        "losses": 10,
+        "ties": 0,
+        "mean_margin": 15376.25,
+        "worst_margin": -11599.0
+      },
+      "cells": 40,
+      "wins_gained": 4,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": false
+    },
+    "lower_ranks": {
+      "new": {
+        "games": 32,
+        "wins": 28,
+        "losses": 4,
+        "ties": 0,
+        "mean_margin": 41510.5625,
+        "worst_margin": -3924.0
+      },
+      "parent": {
+        "games": 32,
+        "wins": 26,
+        "losses": 6,
+        "ties": 0,
+        "mean_margin": 41383.09375,
+        "worst_margin": -3975.0
+      },
+      "cells": 32,
+      "wins_gained": 2,
+      "wins_lost": 0,
+      "all_both_rewards_and_terminal_hashes_equal": false
+    },
+    "by_rank": {
+      "1": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 35497.0,
+          "worst_margin": 21739.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 35988.0,
+          "worst_margin": 22265.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "2": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 2364.0,
+          "worst_margin": 31.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 3142.0,
+          "worst_margin": 405.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "3": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 3406.0,
+          "worst_margin": 287.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 1740.0,
+          "worst_margin": -29.0
+        },
+        "cells": 4,
+        "wins_gained": 2,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "4": {
+        "new": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 11529.5,
+          "worst_margin": -3436.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 10797.0,
+          "worst_margin": -4575.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "5": {
+        "new": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": -834.5,
+          "worst_margin": -11816.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": -645.0,
+          "worst_margin": -11599.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "6": {
+        "new": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 2848.5,
+          "worst_margin": -4022.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 3306.5,
+          "worst_margin": -3767.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "7": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 44963.5,
+          "worst_margin": 44588.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 45438.5,
+          "worst_margin": 45192.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "8": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 20790.0,
+          "worst_margin": 17978.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 21686.0,
+          "worst_margin": 18683.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "9": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 8832.5,
+          "worst_margin": 1870.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 6149.5,
+          "worst_margin": -1553.0
+        },
+        "cells": 4,
+        "wins_gained": 2,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "10": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 25862.5,
+          "worst_margin": 25529.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 26160.0,
+          "worst_margin": 25830.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "50": {
+        "new": {
+          "games": 4,
+          "wins": 0,
+          "losses": 4,
+          "ties": 0,
+          "mean_margin": -3799.5,
+          "worst_margin": -3924.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 0,
+          "losses": 4,
+          "ties": 0,
+          "mean_margin": -3939.5,
+          "worst_margin": -3975.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "150": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 9595.5,
+          "worst_margin": 2375.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 2,
+          "losses": 2,
+          "ties": 0,
+          "mean_margin": 7550.5,
+          "worst_margin": -1138.0
+        },
+        "cells": 4,
+        "wins_gained": 2,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "400": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 16654.0,
+          "worst_margin": 16575.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 14586.0,
+          "worst_margin": 14507.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "700": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 51368.0,
+          "worst_margin": 43721.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 52111.0,
+          "worst_margin": 44754.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "1000": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 15529.5,
+          "worst_margin": 11890.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 16630.5,
+          "worst_margin": 13002.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "1500": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 15340.5,
+          "worst_margin": 14804.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 16073.0,
+          "worst_margin": 15528.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "4000": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 70618.5,
+          "worst_margin": 53375.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 70864.0,
+          "worst_margin": 53551.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      },
+      "7000": {
+        "new": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 156778.0,
+          "worst_margin": 146806.0
+        },
+        "parent": {
+          "games": 4,
+          "wins": 4,
+          "losses": 0,
+          "ties": 0,
+          "mean_margin": 157189.25,
+          "worst_margin": 147101.0
+        },
+        "cells": 4,
+        "wins_gained": 0,
+        "wins_lost": 0,
+        "all_both_rewards_and_terminal_hashes_equal": false
+      }
+    },
+    "changes": [
+      {
+        "rank": 1000,
+        "opponent": "fresh_r1000_e107207556",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 13002.0,
+        "candidate_margin": 11890.0,
+        "margin_delta": -1112.0
+      },
+      {
+        "rank": 1000,
+        "opponent": "fresh_r1000_e107207556",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 13002.0,
+        "candidate_margin": 11890.0,
+        "margin_delta": -1112.0
+      },
+      {
+        "rank": 1000,
+        "opponent": "fresh_r1000_e107208324",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 20259.0,
+        "candidate_margin": 19169.0,
+        "margin_delta": -1090.0
+      },
+      {
+        "rank": 1000,
+        "opponent": "fresh_r1000_e107208324",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 20259.0,
+        "candidate_margin": 19169.0,
+        "margin_delta": -1090.0
+      },
+      {
+        "rank": 10,
+        "opponent": "fresh_r10_e107208184",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 25830.0,
+        "candidate_margin": 25529.0,
+        "margin_delta": -301.0
+      },
+      {
+        "rank": 10,
+        "opponent": "fresh_r10_e107208184",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 25830.0,
+        "candidate_margin": 25529.0,
+        "margin_delta": -301.0
+      },
+      {
+        "rank": 10,
+        "opponent": "fresh_r10_e107209852",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 26490.0,
+        "candidate_margin": 26196.0,
+        "margin_delta": -294.0
+      },
+      {
+        "rank": 10,
+        "opponent": "fresh_r10_e107209852",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 26490.0,
+        "candidate_margin": 26196.0,
+        "margin_delta": -294.0
+      },
+      {
+        "rank": 1500,
+        "opponent": "fresh_r1500_e107205207",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 15528.0,
+        "candidate_margin": 14804.0,
+        "margin_delta": -724.0
+      },
+      {
+        "rank": 1500,
+        "opponent": "fresh_r1500_e107205207",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 15528.0,
+        "candidate_margin": 14804.0,
+        "margin_delta": -724.0
+      },
+      {
+        "rank": 1500,
+        "opponent": "fresh_r1500_e107209721",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 16618.0,
+        "candidate_margin": 15877.0,
+        "margin_delta": -741.0
+      },
+      {
+        "rank": 1500,
+        "opponent": "fresh_r1500_e107209721",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 16618.0,
+        "candidate_margin": 15877.0,
+        "margin_delta": -741.0
+      },
+      {
+        "rank": 150,
+        "opponent": "fresh_r150_e107211602",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 16239.0,
+        "candidate_margin": 16816.0,
+        "margin_delta": 577.0
+      },
+      {
+        "rank": 150,
+        "opponent": "fresh_r150_e107211602",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 16239.0,
+        "candidate_margin": 16816.0,
+        "margin_delta": 577.0
+      },
+      {
+        "rank": 150,
+        "opponent": "fresh_r150_e107212648",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -1138.0,
+        "candidate_margin": 2375.0,
+        "margin_delta": 3513.0
+      },
+      {
+        "rank": 150,
+        "opponent": "fresh_r150_e107212648",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -1138.0,
+        "candidate_margin": 2375.0,
+        "margin_delta": 3513.0
+      },
+      {
+        "rank": 1,
+        "opponent": "fresh_r1_e107208317",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 49711.0,
+        "candidate_margin": 49255.0,
+        "margin_delta": -456.0
+      },
+      {
+        "rank": 1,
+        "opponent": "fresh_r1_e107208317",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 49711.0,
+        "candidate_margin": 49255.0,
+        "margin_delta": -456.0
+      },
+      {
+        "rank": 1,
+        "opponent": "fresh_r1_e107210826",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 22265.0,
+        "candidate_margin": 21739.0,
+        "margin_delta": -526.0
+      },
+      {
+        "rank": 1,
+        "opponent": "fresh_r1_e107210826",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 22265.0,
+        "candidate_margin": 21739.0,
+        "margin_delta": -526.0
+      },
+      {
+        "rank": 2,
+        "opponent": "fresh_r2_e107211127",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 5879.0,
+        "candidate_margin": 4697.0,
+        "margin_delta": -1182.0
+      },
+      {
+        "rank": 2,
+        "opponent": "fresh_r2_e107211127",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 5879.0,
+        "candidate_margin": 4697.0,
+        "margin_delta": -1182.0
+      },
+      {
+        "rank": 2,
+        "opponent": "fresh_r2_e107213024",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 405.0,
+        "candidate_margin": 31.0,
+        "margin_delta": -374.0
+      },
+      {
+        "rank": 2,
+        "opponent": "fresh_r2_e107213024",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 405.0,
+        "candidate_margin": 31.0,
+        "margin_delta": -374.0
+      },
+      {
+        "rank": 3,
+        "opponent": "fresh_r3_e107204390",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -29.0,
+        "candidate_margin": 287.0,
+        "margin_delta": 316.0
+      },
+      {
+        "rank": 3,
+        "opponent": "fresh_r3_e107204390",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -29.0,
+        "candidate_margin": 287.0,
+        "margin_delta": 316.0
+      },
+      {
+        "rank": 3,
+        "opponent": "fresh_r3_e107211127",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 3509.0,
+        "candidate_margin": 6525.0,
+        "margin_delta": 3016.0
+      },
+      {
+        "rank": 3,
+        "opponent": "fresh_r3_e107211127",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 3509.0,
+        "candidate_margin": 6525.0,
+        "margin_delta": 3016.0
+      },
+      {
+        "rank": 4000,
+        "opponent": "fresh_r4000_e107143065",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 53551.0,
+        "candidate_margin": 53375.0,
+        "margin_delta": -176.0
+      },
+      {
+        "rank": 4000,
+        "opponent": "fresh_r4000_e107143065",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 53551.0,
+        "candidate_margin": 53375.0,
+        "margin_delta": -176.0
+      },
+      {
+        "rank": 4000,
+        "opponent": "fresh_r4000_e107187566",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 88177.0,
+        "candidate_margin": 87862.0,
+        "margin_delta": -315.0
+      },
+      {
+        "rank": 4000,
+        "opponent": "fresh_r4000_e107187566",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 88177.0,
+        "candidate_margin": 87862.0,
+        "margin_delta": -315.0
+      },
+      {
+        "rank": 400,
+        "opponent": "fresh_r400_e107212504",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 14507.0,
+        "candidate_margin": 16575.0,
+        "margin_delta": 2068.0
+      },
+      {
+        "rank": 400,
+        "opponent": "fresh_r400_e107212504",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 14507.0,
+        "candidate_margin": 16575.0,
+        "margin_delta": 2068.0
+      },
+      {
+        "rank": 400,
+        "opponent": "fresh_r400_e107212883",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 14665.0,
+        "candidate_margin": 16733.0,
+        "margin_delta": 2068.0
+      },
+      {
+        "rank": 400,
+        "opponent": "fresh_r400_e107212883",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 14665.0,
+        "candidate_margin": 16733.0,
+        "margin_delta": 2068.0
+      },
+      {
+        "rank": 4,
+        "opponent": "fresh_r4_e107203528",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 26169.0,
+        "candidate_margin": 26495.0,
+        "margin_delta": 326.0
+      },
+      {
+        "rank": 4,
+        "opponent": "fresh_r4_e107203528",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 26169.0,
+        "candidate_margin": 26495.0,
+        "margin_delta": 326.0
+      },
+      {
+        "rank": 4,
+        "opponent": "fresh_r4_e107210238",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -4575.0,
+        "candidate_margin": -3436.0,
+        "margin_delta": 1139.0
+      },
+      {
+        "rank": 4,
+        "opponent": "fresh_r4_e107210238",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -4575.0,
+        "candidate_margin": -3436.0,
+        "margin_delta": 1139.0
+      },
+      {
+        "rank": 50,
+        "opponent": "fresh_r50_e107211661",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -3975.0,
+        "candidate_margin": -3924.0,
+        "margin_delta": 51.0
+      },
+      {
+        "rank": 50,
+        "opponent": "fresh_r50_e107211661",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -3975.0,
+        "candidate_margin": -3924.0,
+        "margin_delta": 51.0
+      },
+      {
+        "rank": 50,
+        "opponent": "fresh_r50_e107212643",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -3904.0,
+        "candidate_margin": -3675.0,
+        "margin_delta": 229.0
+      },
+      {
+        "rank": 50,
+        "opponent": "fresh_r50_e107212643",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -3904.0,
+        "candidate_margin": -3675.0,
+        "margin_delta": 229.0
+      },
+      {
+        "rank": 5,
+        "opponent": "fresh_r5_e107211971",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 10309.0,
+        "candidate_margin": 10147.0,
+        "margin_delta": -162.0
+      },
+      {
+        "rank": 5,
+        "opponent": "fresh_r5_e107211971",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 10309.0,
+        "candidate_margin": 10147.0,
+        "margin_delta": -162.0
+      },
+      {
+        "rank": 5,
+        "opponent": "fresh_r5_e107212960",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -11599.0,
+        "candidate_margin": -11816.0,
+        "margin_delta": -217.0
+      },
+      {
+        "rank": 5,
+        "opponent": "fresh_r5_e107212960",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -11599.0,
+        "candidate_margin": -11816.0,
+        "margin_delta": -217.0
+      },
+      {
+        "rank": 6,
+        "opponent": "fresh_r6_e107212753",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 10380.0,
+        "candidate_margin": 9719.0,
+        "margin_delta": -661.0
+      },
+      {
+        "rank": 6,
+        "opponent": "fresh_r6_e107212753",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 10380.0,
+        "candidate_margin": 9719.0,
+        "margin_delta": -661.0
+      },
+      {
+        "rank": 6,
+        "opponent": "fresh_r6_e107213024",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -3767.0,
+        "candidate_margin": -4022.0,
+        "margin_delta": -255.0
+      },
+      {
+        "rank": 6,
+        "opponent": "fresh_r6_e107213024",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -3767.0,
+        "candidate_margin": -4022.0,
+        "margin_delta": -255.0
+      },
+      {
+        "rank": 7000,
+        "opponent": "fresh_r7000_e107122549",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 148221.0,
+        "candidate_margin": 147904.0,
+        "margin_delta": -317.0
+      },
+      {
+        "rank": 7000,
+        "opponent": "fresh_r7000_e107122549",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 147101.0,
+        "candidate_margin": 146806.0,
+        "margin_delta": -295.0
+      },
+      {
+        "rank": 7000,
+        "opponent": "fresh_r7000_e107200496",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 164924.0,
+        "candidate_margin": 164412.0,
+        "margin_delta": -512.0
+      },
+      {
+        "rank": 7000,
+        "opponent": "fresh_r7000_e107200496",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 168511.0,
+        "candidate_margin": 167990.0,
+        "margin_delta": -521.0
+      },
+      {
+        "rank": 700,
+        "opponent": "fresh_r700_e107207691",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 59468.0,
+        "candidate_margin": 59015.0,
+        "margin_delta": -453.0
+      },
+      {
+        "rank": 700,
+        "opponent": "fresh_r700_e107207691",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 59468.0,
+        "candidate_margin": 59015.0,
+        "margin_delta": -453.0
+      },
+      {
+        "rank": 700,
+        "opponent": "fresh_r700_e107209860",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 44754.0,
+        "candidate_margin": 43721.0,
+        "margin_delta": -1033.0
+      },
+      {
+        "rank": 700,
+        "opponent": "fresh_r700_e107209860",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 44754.0,
+        "candidate_margin": 43721.0,
+        "margin_delta": -1033.0
+      },
+      {
+        "rank": 7,
+        "opponent": "fresh_r7_e107211971",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 45192.0,
+        "candidate_margin": 44588.0,
+        "margin_delta": -604.0
+      },
+      {
+        "rank": 7,
+        "opponent": "fresh_r7_e107211971",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 45192.0,
+        "candidate_margin": 44588.0,
+        "margin_delta": -604.0
+      },
+      {
+        "rank": 7,
+        "opponent": "fresh_r7_e107212126",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 45685.0,
+        "candidate_margin": 45339.0,
+        "margin_delta": -346.0
+      },
+      {
+        "rank": 7,
+        "opponent": "fresh_r7_e107212126",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 45685.0,
+        "candidate_margin": 45339.0,
+        "margin_delta": -346.0
+      },
+      {
+        "rank": 8,
+        "opponent": "fresh_r8_e107209987",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 18683.0,
+        "candidate_margin": 17978.0,
+        "margin_delta": -705.0
+      },
+      {
+        "rank": 8,
+        "opponent": "fresh_r8_e107209987",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 18683.0,
+        "candidate_margin": 17978.0,
+        "margin_delta": -705.0
+      },
+      {
+        "rank": 8,
+        "opponent": "fresh_r8_e107212960",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 24689.0,
+        "candidate_margin": 23602.0,
+        "margin_delta": -1087.0
+      },
+      {
+        "rank": 8,
+        "opponent": "fresh_r8_e107212960",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 24689.0,
+        "candidate_margin": 23602.0,
+        "margin_delta": -1087.0
+      },
+      {
+        "rank": 9,
+        "opponent": "fresh_r9_e107206401",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": 13852.0,
+        "candidate_margin": 15795.0,
+        "margin_delta": 1943.0
+      },
+      {
+        "rank": 9,
+        "opponent": "fresh_r9_e107206401",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": 13852.0,
+        "candidate_margin": 15795.0,
+        "margin_delta": 1943.0
+      },
+      {
+        "rank": 9,
+        "opponent": "fresh_r9_e107213028",
+        "seed": "9412600",
+        "seat": "0",
+        "parent_margin": -1553.0,
+        "candidate_margin": 1870.0,
+        "margin_delta": 3423.0
+      },
+      {
+        "rank": 9,
+        "opponent": "fresh_r9_e107213028",
+        "seed": "9412600",
+        "seat": "1",
+        "parent_margin": -1553.0,
+        "candidate_margin": 1870.0,
+        "margin_delta": 3423.0
+      }
+    ],
+    "reference_sha256": "34da40e7c8063f131cdf7bdfe02c2fd398833b33afdead6f860c7f316cbd36b3",
+    "executed_tomato_sales": [],
+    "production_verification_scope": "This market-only run recorded executed unit sales and cash, not per-step farm captures or crop telemetry. No independent planting/harvest-count claim is made from this panel."
+  },
+  "source_duplicates": {
+    "passed": true,
+    "extraction_manifest_sha256": "4539c6fdf0ddd167a5deabe0aa547893262e073d0e6c953f55bb640adcad67f5",
+    "excluded_duplicates": {
+      "dynamic_route_v226_public_refresh": "Exact main.py and actions.json duplicate of Aurax v2; excluded.",
+      "powerfull_route_v226_public_refresh": "All Python, notices and route bytes exact SevenTurnWide duplicate. Parsed settings identical; only JSON whitespace differs. Excluded."
+    },
+    "reviewed_new_source": {
+      "label": "evgen_v226_public_refresh",
+      "source_sha256": "9d04afe20b6658fca77bd583b8f2894702e41de1f2106216eac3e7e3295a3933",
+      "imports": [
+        "__future__",
+        "base64",
+        "copy",
+        "json",
+        "zlib"
+      ],
+      "route_count": 13,
+      "exact_shop0909_plan_matches": {
+        "0": [
+          0
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7
+        ],
+        "8": [
+          8
+        ],
+        "9": [
+          9
+        ],
+        "10": [
+          10
+        ],
+        "11": [
+          11
+        ],
+        "12": [
+          12
+        ]
+      },
+      "review": "Read all runtime definitions, including Chassis methods. Literal data decompression only, no network/process/filesystem access. Public shop-pair routing at144 and fixed terminal route at648, own-state weed repair and one-turn sale advance; final own-cargo DROP and sale. No opponent identity or seed routing. Existing opponent_plan hook is disabled and no opponent plan is supplied.",
+      "qualification": "Different chassis, still related to Shop0909 plans. Not an independent strategy family or a recovered private opponent. No benchmark outcomes observed yet."
+    }
+  },
+  "qualification": "Frozen September9 research update. Feed repair remains experimental, with discovery and complete474-cell transfer shown separately. No public rating is attached to this source. Fresh reacting confirmation remains separate work. Published V224C remains default."
+}

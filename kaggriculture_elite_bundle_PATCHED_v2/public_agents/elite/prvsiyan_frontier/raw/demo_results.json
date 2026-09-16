@@ -1,0 +1,80 @@
+[
+  {
+    "seat": 0,
+    "seed": 9413601,
+    "reward": 135245.0,
+    "opponent_reward": 132765.0,
+    "margin": 2480.0,
+    "states": 720,
+    "candidate_calls": 719,
+    "opponent_calls": 719,
+    "runtime_errors": 0,
+    "max_candidate_seconds": 1.507705,
+    "timeline": []
+  },
+  {
+    "seat": 1,
+    "seed": 9413601,
+    "reward": 135245.0,
+    "opponent_reward": 132765.0,
+    "margin": 2480.0,
+    "states": 720,
+    "candidate_calls": 719,
+    "opponent_calls": 719,
+    "runtime_errors": 0,
+    "max_candidate_seconds": 1.526529,
+    "timeline": []
+  },
+  {
+    "seat": 0,
+    "seed": 706023377,
+    "reward": 113893.0,
+    "opponent_reward": 110562.0,
+    "margin": 3331.0,
+    "states": 720,
+    "candidate_calls": 719,
+    "opponent_calls": 719,
+    "runtime_errors": 0,
+    "max_candidate_seconds": 1.360208,
+    "timeline": []
+  },
+  {
+    "seat": 1,
+    "seed": 706023377,
+    "reward": 113893.0,
+    "opponent_reward": 110562.0,
+    "margin": 3331.0,
+    "states": 720,
+    "candidate_calls": 719,
+    "opponent_calls": 719,
+    "runtime_errors": 0,
+    "max_candidate_seconds": 1.315111,
+    "timeline": []
+  },
+  {
+    "seat": 0,
+    "seed": 1527162614,
+    "reward": 110826.0,
+    "opponent_reward": 133806.0,
+    "margin": -22980.0,
+    "states": 720,
+    "candidate_calls": 719,
+    "opponent_calls": 719,
+    "runtime_errors": 0,
+    "max_candidate_seconds": 1.285543,
+    "timeline": []
+  },
+  {
+    "seat": 1,
+    "seed": 1527162614,
+    "reward": 110521.0,
+    "opponent_reward": 138361.0,
+    "margin": -27840.0,
+    "states": 720,
+    "candidate_calls": 719,
+    "opponent_calls": 719,
+    "runtime_errors": 0,
+    "max_candidate_seconds": 1.248011,
+    "timeline": []
+  }
+]

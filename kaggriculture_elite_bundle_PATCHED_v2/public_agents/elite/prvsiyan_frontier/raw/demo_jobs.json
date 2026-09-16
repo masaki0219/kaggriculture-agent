@@ -1,0 +1,68 @@
+[
+  {
+    "candidate": "main.py",
+    "candidate_label": "V232Late",
+    "opponent": "reacting_aurax7_v2_public_refresh/main.py",
+    "opponent_label": "aurax7_v2_public_refresh",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "seed": 9413601,
+    "seat": 0,
+    "expected_own": 135245.0,
+    "expected_opponent": 132765.0
+  },
+  {
+    "candidate": "main.py",
+    "candidate_label": "V232Late",
+    "opponent": "reacting_aurax7_v2_public_refresh/main.py",
+    "opponent_label": "aurax7_v2_public_refresh",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "seed": 9413601,
+    "seat": 1,
+    "expected_own": 135245.0,
+    "expected_opponent": 132765.0
+  },
+  {
+    "candidate": "main.py",
+    "candidate_label": "V232Late",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "seed": 706023377,
+    "seat": 0,
+    "expected_own": 113893.0,
+    "expected_opponent": 110562.0
+  },
+  {
+    "candidate": "main.py",
+    "candidate_label": "V232Late",
+    "opponent": "raw_e107426389.py",
+    "opponent_label": "raw_e107426389",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "seed": 706023377,
+    "seat": 1,
+    "expected_own": 113893.0,
+    "expected_opponent": 110562.0
+  },
+  {
+    "candidate": "main.py",
+    "candidate_label": "V232Late",
+    "opponent": "raw_e107442173.py",
+    "opponent_label": "raw_e107442173",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "seed": 1527162614,
+    "seat": 0,
+    "expected_own": 110826.0,
+    "expected_opponent": 133806.0
+  },
+  {
+    "candidate": "main.py",
+    "candidate_label": "V232Late",
+    "opponent": "raw_e107442173.py",
+    "opponent_label": "raw_e107442173",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+    "seed": 1527162614,
+    "seat": 1,
+    "expected_own": 110521.0,
+    "expected_opponent": 138361.0
+  }
+]

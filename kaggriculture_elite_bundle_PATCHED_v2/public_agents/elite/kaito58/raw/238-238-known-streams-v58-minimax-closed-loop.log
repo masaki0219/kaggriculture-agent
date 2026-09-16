@@ -1,0 +1,64 @@
+[{"stream_name":"stderr","time":15.375902635,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":15.3759889,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":15.375994296,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":15.375997654,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":16.457278968,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":16.457357593,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":16.457366427,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":16.457372021,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":21.648180169,"data":"{\n"}
+,{"stream_name":"stdout","time":21.64826267,"data":"  \"agent\": \"v58 Public-State Known-Floor Minimax Control\",\n"}
+,{"stream_name":"stdout","time":21.652158425,"data":"  \"main_sha256\": \"b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9\",\n"}
+,{"stream_name":"stdout","time":21.652212752,"data":"  \"main_bytes\": 315484,\n"}
+,{"stream_name":"stdout","time":21.652220796,"data":"  \"archive_sha256\": \"90c679e02e78cb436128a6029d39c70a9f345912a1c9ff35956c5ee166b2061c\",\n"}
+,{"stream_name":"stdout","time":21.652227245,"data":"  \"known_frozen_both_seats\": \"238/238\",\n"}
+,{"stream_name":"stdout","time":21.652232863000002,"data":"  \"latest_v57_streams\": \"58/58\",\n"}
+,{"stream_name":"stdout","time":21.652238686,"data":"  \"worst_known_margin\": 10,\n"}
+,{"stream_name":"stdout","time":21.652244726,"data":"  \"runtime_features\": \"public state only\",\n"}
+,{"stream_name":"stdout","time":21.652250779,"data":"  \"runtime_identity_features\": false,\n"}
+,{"stream_name":"stdout","time":21.652256667,"data":"  \"runtime_lineage_features\": false,\n"}
+,{"stream_name":"stdout","time":21.652262563,"data":"  \"runtime_seed_feature\": false,\n"}
+,{"stream_name":"stdout","time":21.652268226,"data":"  \"future_opponent_actions\": false\n"}
+,{"stream_name":"stdout","time":21.652274462,"data":"}\n"}
+,{"stream_name":"stderr","time":57.344971087,"data":"\u001b[92m07:16:27 - LiteLLM:WARNING\u001b[0m: get_model_cost_map.py:271 - LiteLLM: Failed to fetch remote model cost map from https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: [Errno -3] Temporary failure in name resolution. Falling back to local backup.\n"}
+,{"stream_name":"stderr","time":57.345010169,"data":"\n"}
+,{"stream_name":"stderr","time":57.345015085,"data":"\u001b[92m07:16:27 - LiteLLM:WARNING\u001b[0m: get_model_cost_map.py:271 - LiteLLM: Failed to fetch remote model cost map from https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: [Errno -3] Temporary failure in name resolution. Falling back to local backup.\n"}
+,{"stream_name":"stdout","time":69.461747501,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO: Successfully loaded OpenSpiel environments: 24.\n"}
+,{"stream_name":"stdout","time":69.463017865,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_amazons\n"}
+,{"stream_name":"stdout","time":69.464390332,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_backgammon\n"}
+,{"stream_name":"stdout","time":69.466278009,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_checkers\n"}
+,{"stream_name":"stdout","time":69.467448115,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_chess\n"}
+,{"stream_name":"stdout","time":69.46849673,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_clobber\n"}
+,{"stream_name":"stdout","time":69.469460335,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_coin_game\n"}
+,{"stream_name":"stdout","time":69.471496902,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_coin_game_arena\n"}
+,{"stream_name":"stdout","time":69.473019847,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_connect_four\n"}
+,{"stream_name":"stdout","time":69.474083899,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_dark_hex\n"}
+,{"stream_name":"stdout","time":69.475578977,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_gin_rummy\n"}
+,{"stream_name":"stdout","time":69.477083343,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_go\n"}
+,{"stream_name":"stdout","time":69.478371994,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_goofspiel\n"}
+,{"stream_name":"stdout","time":69.480926377,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_hearts\n"}
+,{"stream_name":"stdout","time":69.482751253,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_hex\n"}
+,{"stream_name":"stdout","time":69.485055318,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_lines_of_action\n"}
+,{"stream_name":"stdout","time":69.487097614,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_matching_pennies_3p\n"}
+,{"stream_name":"stdout","time":69.488430129,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_oshi_zumo\n"}
+,{"stream_name":"stdout","time":69.489539822,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_othello\n"}
+,{"stream_name":"stdout","time":69.490437776,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_repeated_game\n"}
+,{"stream_name":"stdout","time":69.492365744,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_tic_tac_toe\n"}
+,{"stream_name":"stdout","time":69.493881964,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_y\n"}
+,{"stream_name":"stdout","time":69.495957277,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_universal_poker\n"}
+,{"stream_name":"stdout","time":69.497063787,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_repeated_poker\n"}
+,{"stream_name":"stdout","time":69.50003973,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    open_spiel_python_repeated_pokerkit\n"}
+,{"stream_name":"stdout","time":69.502254874,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO: OpenSpiel games skipped: 1.\n"}
+,{"stream_name":"stdout","time":69.503709773,"data":"[kaggle_environments.envs.open_spiel_env.open_spiel_env] INFO:    snake\n"}
+,{"stream_name":"stdout","time":72.363836919,"data":"{'python': '3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]', 'kaggle_environments': '1.29.3', 'selected_callable': 'kaggle_agent_v58', 'source_load_seconds': 2.427332594999939, 'first_action_seconds': 0.12059240699989004, 'first_action_keys': ['farmer', 'hands', 'market'], 'full_both_seat_default_timeout_smoke': 'verified in frozen manifest'}\n"}
+,{"stream_name":"stderr","time":80.196457649,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":80.196570631,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":80.616127918,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":80.61616971,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":82.046455712,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":82.582638267,"data":"[NbConvertApp] Writing 424356 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":86.655785722,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":88.323307324,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":88.323348228,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":88.323829624,"data":"[NbConvertApp] Writing 830012 bytes to __results__.html\n"}
+]

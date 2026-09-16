@@ -1,0 +1,114 @@
+[{"stream_name":"stderr","time":10.060608729,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.060777436,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.060792281,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.060800156,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.931526373,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.931593883,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.931600949,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.931605937,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":68.64691066500001,"data":"Engine: 1.32.7\n"}
+,{"stream_name":"stdout","time":68.778214449,"data":"Loaded original policy: True\n"}
+,{"stream_name":"stdout","time":69.692552569,"data":"13 plans; [719, 719, 719, 719, 719, 719, 719, 719, 719, 719, 719, 719, 719] turns each\n"}
+,{"stream_name":"stdout","time":70.264674345,"data":"Source bytes: 89193 SHA256: 02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79\n"}
+,{"stream_name":"stdout","time":70.264719715,"data":"Unmodified published baseline: True\n"}
+,{"stream_name":"stdout","time":70.438401359,"data":"Fresh paired outcomes: {'new': {'games': 48, 'wins': 48, 'losses': 0, 'ties': 0, 'mean_margin': 5420.083333333333, 'worst_margin': 889.0}, 'parent': {'games': 48, 'wins': 22, 'losses': 26, 'ties': 0, 'mean_margin': 2419.1666666666665, 'worst_margin': -2976.0}, 'cells': 48, 'wins_gained': 26, 'wins_lost': 0, 'all_both_rewards_and_terminal_hashes_equal': False}\n"}
+,{"stream_name":"stdout","time":71.134927376,"data":"The left axis is cropped for readability; complete values, including extreme margins, are in the CSV.\n"}
+,{"stream_name":"stdout","time":71.227262047,"data":"{'qualification': 'Observed old trajectories only. Reconstruct market-impacting net supply, excluding rival $1 disposal sales. Inference inputs are consecutive public market inventories, newly public shops, own private shed and previous own worker action; no rival actions, private inventory, future observation, identity or hidden seed. Dawn transitions excluded; own sales abstain if a conservative public-inventory bound could reach the $1 floor. This validates reconstruction, not prediction or a strategy win rate.', 'games': 24, 'product_transitions': 86268, 'nonzero_rival_flows': 2994, 'floor_ambiguous_product_transitions_excluded': 2940, 'mismatch_count': 0, 'passed': True}\n"}
+,{"stream_name":"stdout","time":112.488808734,"data":"{\n"}
+,{"stream_name":"stdout","time":112.488856914,"data":"  \"source_sha256\": \"02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79\",\n"}
+,{"stream_name":"stdout","time":112.488865894,"data":"  \"source_bytes\": 89193,\n"}
+,{"stream_name":"stdout","time":112.488871573,"data":"  \"archive_sha256\": \"f0e698738d95ad3822d3128c814aeb8548d8b58e2e156bd1a3865a376ccdc1ad\",\n"}
+,{"stream_name":"stdout","time":112.488878005,"data":"  \"archive_members\": [\n"}
+,{"stream_name":"stdout","time":112.488884314,"data":"    \"main.py\"\n"}
+,{"stream_name":"stdout","time":112.488890072,"data":"  ],\n"}
+,{"stream_name":"stdout","time":112.488896167,"data":"  \"engine\": \"1.32.7\",\n"}
+,{"stream_name":"stdout","time":112.488902466,"data":"  \"demo_games\": 6\n"}
+,{"stream_name":"stdout","time":112.488908627,"data":"}\n"}
+,{"stream_name":"stdout","time":113.094973649,"data":"feed_experiment.py is a complete editable agent. This independent feed baseline lets you compare the livestock rule with its parent.\n"}
+,{"stream_name":"stdout","time":113.095015775,"data":"_V226_PARENT=agent\n"}
+,{"stream_name":"stdout","time":113.095020134,"data":"del agent\n"}
+,{"stream_name":"stdout","time":113.095023395,"data":"_V226_DAY={}\n"}
+,{"stream_name":"stdout","time":113.095026548,"data":"_V226_REPORT=dict(_V224_REPORT, wheat_topup_orders=0, wheat_topup_units=0,\n"}
+,{"stream_name":"stdout","time":113.095029703,"data":"    wheat_topup_budget_declines=0, wheat_topup_capacity_declines=0)\n"}
+,{"stream_name":"stdout","time":113.09503289,"data":"\n"}
+,{"stream_name":"stdout","time":113.095035963,"data":"\n"}
+,{"stream_name":"stdout","time":113.095039001,"data":"def _v226_topup(obs,action,state,configuration=None):\n"}
+,{"stream_name":"stdout","time":113.095042111,"data":"    step=int(obs['step']);player=int(obs['player'])\n"}
+,{"stream_name":"stdout","time":113.09504516,"data":"    if configuration is not None and any(configuration.get(k,v)!=v for k,v in\n"}
+,{"stream_name":"stdout","time":113.095048433,"data":"        (('boardSize',10),('turnsPerDay',24),('shedCapacity',100),('maxMarketOrdersPerTurn',10))):return action\n"}
+,{"stream_name":"stdout","time":113.095051674,"data":"    if not 24\u003c=step\u003c696 or step%24==23 or (step+1)%72==0:return action\n"}
+,{"stream_name":"stdout","time":113.095055523,"data":"    market=action.get('market',[])[:MAX_ORDERS]\n"}
+,{"stream_name":"stdout","time":113.095058563,"data":"    if len(market)\u003e=MAX_ORDERS:return action\n"}
+,{"stream_name":"stdout","time":113.095061769,"data":"    purchases={'HIRE','BUY_LAND','BUY_PRODUCT','BUY_ANIMAL','BUY_SEED'}\n"}
+,{"stream_name":"stdout","time":113.095064905,"data":"    if any(o and (o[0] in purchases or (len(o)\u003e1 and o[1]=='WHEAT')) for o in market):return action\n"}
+,{"stream_name":"stdout","time":113.095068432,"data":"    tape=_POLICY.tapes[state.plan]\n"}
+,{"stream_name":"stdout","time":113.095071573,"data":"    nxt=tape[step+1]\n"}
+,{"stream_name":"stdout","time":113.095074578,"data":"    if any(o and o[0] in purchases for o in nxt.get('market',[])):return action\n"}
+,{"stream_name":"stdout","time":113.095077748,"data":"    view=FarmView(obs);commands=[action.get('farmer') or ['PASS'],*(action.get('hands') or [])]\n"}
+,{"stream_name":"stdout","time":113.095080955,"data":"    future=[nxt.get('farmer') or ['PASS'],*(nxt.get('hands') or [])]\n"}
+,{"stream_name":"stdout","time":113.095084021,"data":"    demand=0\n"}
+,{"stream_name":"stdout","time":113.095087055,"data":"    for actor,pos in enumerate(view.positions):\n"}
+,{"stream_name":"stdout","time":113.095090183,"data":"        current=commands[actor] if actor\u003clen(commands) else ['PASS']\n"}
+,{"stream_name":"stdout","time":113.095093375,"data":"        x,y=pos\n"}
+,{"stream_name":"stdout","time":113.095096347,"data":"        if current and current[0] in _V217_MOVES:\n"}
+,{"stream_name":"stdout","time":113.095099523,"data":"            dx,dy=_V217_MOVES[current[0]];nx,ny=x+dx,y+dy\n"}
+,{"stream_name":"stdout","time":113.095102551,"data":"            if 0\u003c=nx\u003c10 and 0\u003c=ny\u003c10:x,y=nx,ny\n"}
+,{"stream_name":"stdout","time":113.095105875,"data":"        if not view.beside_shed((x,y)):continue\n"}
+,{"stream_name":"stdout","time":113.095108892,"data":"        pending=state.queues.get(actor)\n"}
+,{"stream_name":"stdout","time":113.095111948,"data":"        command=pending[0] if pending else (future[actor] if actor\u003clen(future) else ['PASS'])\n"}
+,{"stream_name":"stdout","time":113.09511515,"data":"        task=vars(state).get('v217_task') if actor==0 else None\n"}
+,{"stream_name":"stdout","time":113.095136233,"data":"        if task:\n"}
+,{"stream_name":"stdout","time":113.095139351,"data":"            offset=step+1-task['step']\n"}
+,{"stream_name":"stdout","time":113.095142314,"data":"            if 0\u003c=offset\u003clen(task['commands']):command=task['commands'][offset]\n"}
+,{"stream_name":"stdout","time":113.095145517,"data":"        if len(command)\u003e=2 and command[:2]==['PICKUP','WHEAT']:\n"}
+,{"stream_name":"stdout","time":113.095149713,"data":"            demand+=max(0,int(command[2]) if len(command)\u003e2 else 1)\n"}
+,{"stream_name":"stdout","time":113.09515286,"data":"    stock=projected_shed(action,view)\n"}
+,{"stream_name":"stdout","time":113.095155835,"data":"    shortage=demand-stock.get('WHEAT',0)\n"}
+,{"stream_name":"stdout","time":113.095158807,"data":"    if not 0\u003cshortage\u003c=4:return action\n"}
+,{"stream_name":"stdout","time":113.095161985,"data":"    day=step//24\n"}
+,{"stream_name":"stdout","time":113.095164913,"data":"    previous=_V226_DAY.get(player)\n"}
+,{"stream_name":"stdout","time":113.095167852,"data":"    if previous is None or previous['day']!=day:\n"}
+,{"stream_name":"stdout","time":113.095170814,"data":"        previous=_V226_DAY[player]={'day':day,'units':0}\n"}
+,{"stream_name":"stdout","time":113.095173861,"data":"    if previous['units']+shortage\u003e8:return action\n"}
+,{"stream_name":"stdout","time":113.095176904,"data":"    if sum(stock.values())+shortage\u003e100:\n"}
+,{"stream_name":"stdout","time":113.09517998,"data":"        _V226_REPORT['wheat_topup_capacity_declines']+=1;return action\n"}
+,{"stream_name":"stdout","time":113.095183113,"data":"    quote=int(obs['market']['prices']['WHEAT'])\n"}
+,{"stream_name":"stdout","time":113.095186107,"data":"    if quote\u003c1 or obs['farms'][player]['money']\u003c100+shortage*(quote+10):\n"}
+,{"stream_name":"stdout","time":113.095189296,"data":"        _V226_REPORT['wheat_topup_budget_declines']+=1;return action\n"}
+,{"stream_name":"stdout","time":113.095192419,"data":"    result=copy.deepcopy(action)\n"}
+,{"stream_name":"stdout","time":113.09519537,"data":"    result['market']=market+[['BUY_PRODUCT','WHEAT',shortage]]\n"}
+,{"stream_name":"stdout","time":113.095198403,"data":"    previous['units']+=shortage\n"}
+,{"stream_name":"stdout","time":113.095201449,"data":"    _V226_REPORT['wheat_topup_orders']+=1;_V226_REPORT['wheat_topup_units']+=shortage\n"}
+,{"stream_name":"stdout","time":113.095204583,"data":"    return result\n"}
+,{"stream_name":"stdout","time":113.095207564,"data":"\n"}
+,{"stream_name":"stdout","time":113.0952105,"data":"\n"}
+,{"stream_name":"stdout","time":113.095213458,"data":"def agent(observation,configuration=None):\n"}
+,{"stream_name":"stdout","time":113.09521651,"data":"    if int(observation['step'])==0:_V226_DAY.pop(int(observation['player']),None)\n"}
+,{"stream_name":"stdout","time":113.095219569,"data":"    action=_V226_PARENT(observation,configuration)\n"}
+,{"stream_name":"stdout","time":113.095222554,"data":"    state=_POLICY.players[int(observation['player'])]\n"}
+,{"stream_name":"stdout","time":113.095225552,"data":"    action=_v226_topup(observation,action,state,configuration)\n"}
+,{"stream_name":"stdout","time":113.095228578,"data":"    _V226_REPORT.update(_V224_REPORT)\n"}
+,{"stream_name":"stdout","time":113.095231579,"data":"    return action\n"}
+,{"stream_name":"stdout","time":113.095234523,"data":"\n"}
+,{"stream_name":"stdout","time":113.095237394,"data":"agent.telemetry=_V226_REPORT\n"}
+,{"stream_name":"stdout","time":113.095240412,"data":"\n"}
+,{"stream_name":"stdout","time":113.149147289,"data":"Discovery evidence is above; optional paired reruns are disabled.\n"}
+,{"stream_name":"stdout","time":113.297409108,"data":"Complete retained comparisons as of September10 local time. Public histories are diagnostically selected; ranked controls are guarded actions; the three intact implementations share13 plans. No source-specific public rating yet.\n"}
+,{"stream_name":"stdout","time":113.965370674,"data":"The example above is ready to inspect. Set PUBLIC_REPLAY_PATH to audit another public episode.\n"}
+,{"stream_name":"stdout","time":114.166248538,"data":"cattle_cap_2.py: 89175 bytes; SHA-256 1c001ee53b1ddd73b55c473a8bd0e2f85a11379732b699acfb903171c7926ac4\n"}
+,{"stream_name":"stdout","time":114.166278588,"data":"cattle_cap_4.py: 89175 bytes; SHA-256 d8f6829d70a50a27d34a8591d179642fc4ad52f49988780386a338429178a25a\n"}
+,{"stream_name":"stdout","time":114.168475664,"data":"Edit a cattle policy file before enabling the paired benchmark. These files do not change packaged main.py.\n"}
+,{"stream_name":"stdout","time":114.22701644,"data":"24 optional full games are disabled. Review the policy files, then set RUN_CATTLE_DISCOVERY=True.\n"}
+,{"stream_name":"stderr","time":118.786338048,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":118.786453835,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":118.991890509,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":118.991923429,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":119.836798859,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":120.293222265,"data":"[NbConvertApp] Writing 1405599 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":123.574290475,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":124.879103866,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":124.879164282,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":124.879778315,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":124.881823935,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":124.881844905,"data":"[NbConvertApp] Writing 1654984 bytes to __results__.html\n"}
+]

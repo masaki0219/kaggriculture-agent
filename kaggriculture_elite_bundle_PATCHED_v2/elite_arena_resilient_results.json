@@ -1,0 +1,129 @@
+{
+  "seed_start": 1000,
+  "seeds": 8,
+  "healthy": [
+    "e2_boatlee29",
+    "e6_boatlee29_guard",
+    "e10_kaito27_current",
+    "e11_prvsiyan_frontier",
+    "e12_kaito43_current",
+    "e13_kaito27_guard"
+  ],
+  "failed_pairs": [
+    [
+      "e12_kaito43_current",
+      "qeinstein_portfolio",
+      "ModuleNotFoundError: No module named 'scripts.candidate5_entry'"
+    ]
+  ],
+  "ranking": [
+    {
+      "candidate": "e11_prvsiyan_frontier",
+      "bt": 2689.1713136779804,
+      "all": {
+        "W": 144,
+        "D": 0,
+        "L": 0,
+        "score": 1.0,
+        "margin": 22135.972222222223
+      },
+      "holdout": {
+        "W": 64,
+        "D": 0,
+        "L": 0,
+        "score": 1.0,
+        "margin": 16354.09375
+      }
+    },
+    {
+      "candidate": "e2_boatlee29",
+      "bt": 1613.0812104650017,
+      "all": {
+        "W": 80,
+        "D": 0,
+        "L": 64,
+        "score": 0.5555555555555556,
+        "margin": 3046.8055555555557
+      },
+      "holdout": {
+        "W": 18,
+        "D": 0,
+        "L": 46,
+        "score": 0.28125,
+        "margin": -3979.9375
+      }
+    },
+    {
+      "candidate": "e6_boatlee29_guard",
+      "bt": 1419.4042337421463,
+      "all": {
+        "W": 60,
+        "D": 0,
+        "L": 84,
+        "score": 0.4166666666666667,
+        "margin": 2599.652777777778
+      },
+      "holdout": {
+        "W": 16,
+        "D": 0,
+        "L": 48,
+        "score": 0.25,
+        "margin": -4282.3125
+      }
+    },
+    {
+      "candidate": "e12_kaito43_current",
+      "bt": 1230.5414186833696,
+      "all": {
+        "W": 42,
+        "D": 0,
+        "L": 86,
+        "score": 0.328125,
+        "margin": -4737.0625
+      },
+      "holdout": {
+        "W": 4,
+        "D": 0,
+        "L": 44,
+        "score": 0.08333333333333333,
+        "margin": -7677.958333333333
+      }
+    },
+    {
+      "candidate": "e10_kaito27_current",
+      "bt": 542.4850031271296,
+      "all": {
+        "W": 11,
+        "D": 0,
+        "L": 133,
+        "score": 0.0763888888888889,
+        "margin": -21855.3125
+      },
+      "holdout": {
+        "W": 0,
+        "D": 0,
+        "L": 64,
+        "score": 0.0,
+        "margin": -23952.015625
+      }
+    },
+    {
+      "candidate": "e13_kaito27_guard",
+      "bt": 414.2928608203756,
+      "all": {
+        "W": 5,
+        "D": 0,
+        "L": 139,
+        "score": 0.034722222222222224,
+        "margin": -22021.368055555555
+      },
+      "holdout": {
+        "W": 0,
+        "D": 0,
+        "L": 64,
+        "score": 0.0,
+        "margin": -24067.546875
+      }
+    }
+  ]
+}

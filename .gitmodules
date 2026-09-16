@@ -7,3 +7,15 @@
 [submodule "public_agents/seyamalam"]
 	path = public_agents/seyamalam
 	url = https://github.com/Seyamalam/Kaggriculture.git
+[submodule "public_agents/hbharath"]
+	path = public_agents/hbharath
+	url = https://github.com/hbharath327/kaggriculture.git
+[submodule "public_agents/ian_turner"]
+	path = public_agents/ian_turner
+	url = https://github.com/ian-turner/kaggriculture.git
+[submodule "public_agents/qeinstein"]
+	path = public_agents/qeinstein
+	url = https://github.com/qeinstein/kaggriculture.git
+[submodule "public_agents/straf10"]
+	path = public_agents/straf10
+	url = https://github.com/straf10/Kaggriculture.git

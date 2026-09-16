@@ -1,0 +1,10 @@
+{
+  "source_sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79",
+  "source_bytes": 89193,
+  "archive_sha256": "f0e698738d95ad3822d3128c814aeb8548d8b58e2e156bd1a3865a376ccdc1ad",
+  "archive_members": [
+    "main.py"
+  ],
+  "engine": "1.32.7",
+  "demo_games": 6
+}

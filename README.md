@@ -14,31 +14,21 @@ README / 最新コードと会話メモリが食い違う場合は、GitHub を�
 
 残り期間で Kaggriculture エージェントをできるだけ強くする。
 
-単にコードを書くことではなく、
+最終目的は Leaderboard 上の Bradley-Terry 評価を最大化すること。単純な reward の大きさや、特定 opponent への平均 margin ではなく、強く多様な未知 opponent に勝つ確率を優先する。
+
+開発サイクルは次を基本とする。
 
 仮説を立てる
 
 変更を実装する
 
-ローカル対戦で旧版と比較する
+ローカル対戦で Current Best と比較する
 
-勝率を確認する
+W / D / L と holdout 勝率を確認する
 
 良い変更だけ残す
 
 結果と判断理由を README に残す
-
-というサイクルを高速で回す。
-
-実装は ChatGPT / AI を積極的に利用するが、
-
-何を変えたか
-
-なぜ変えたか
-
-本当に強くなったか
-
-を常に追跡できる状態にする。
 
 2. 競技について重要なこと
 
@@ -46,789 +36,350 @@ Competition: Kaggriculture
 
 提出締切: 2026-10-01
 
-2026-09-16 時点で残り約2週間
+最終評価は Bradley-Terry
 
-最終評価では Bradley-Terry による評価が使われる
+reward magnitude より勝率を重視
 
-Leaderboard の reward の大きさだけではなく、対戦相手に勝つ確率を重視する
+重要判断の前には Kaggle 公式ルール・evaluation・submission条件を再確認する
 
-競技ルール・評価方式・submission条件などは変更される可能性があるため、重要な判断の前には Kaggle 公式情報を再確認する
+3. Current Best
 
-参考:
+E11 = Prvsiyan Frontier exact
 
-https://www.kaggle.com/competitions/kaggriculture/overview
+2026-09-17 時点のローカル Current Best。
 
-https://www.kaggle.com/competitions/kaggriculture/overview/evaluation
+E11 は ChatGPT がゼロから作った戦略ではない。公開されている Prvsiyan Frontier / Kaggriculture Frontier | The Moon Counts Melons の現行公開エージェントを、そのままローカル benchmark で使用できるよう wrapper 化したもの。
 
-3. 現在のファイル
+戦略本体: Prvsiyan の公開 agent
 
-agent_v12.py
+E11 というローカル名、wrapper、benchmark: ChatGPT 側
 
-現在の基準エージェント / Current Best。
+E14/E15/E16: E11 に独自差分を重ねた派生。すべて不採用
 
-2026-09-16 に、これまでの自作系列から方針転換し、公開強豪
-Seyamalam/Kaggriculture の現行 main.py をローカルでそのまま呼び出す
-wrapper を agent_v12.py として採用した。
+Kaggle 提出
 
-現時点の agent_v12.py は独自戦略ではなく、公開強豪を凍結 baseline として採用したもの。
+2026-09-17 に submission_e11.tar.gz として提出。
 
-目的は、今後の独自改善をこの強い baseline から 1 変更ずつ検証し、
-「公開agentに追いつく」段階ではなく「公開agentを超える」段階へ進むこと。
+Status: Complete
 
-compare_v12.py
+Description: E11 Prvsiyan Frontier exact
 
-agent_v12.py を旧版・公開agentと比較するローカル benchmark。
+Kaggle displayed Score: 600.0
 
-現在の標準:
+この 600.0 は Kaggle の Submissions ページに表示された提出スコアであり、ローカル benchmark の勝率や BT-like rating と同じ尺度ではない。
 
-seed 0〜9
+4. E11 を Current Best とした根拠
 
-同じ seed で席順を交換
+Elite round robin
 
-20 games / opponent
+seed 1000 から 8 seeds、両席 = 16 games / pair。
 
-W / D / L
+Matchup
 
-score
+E11 W-D-L
 
-mean reward
+Mean margin
 
-mean margin
+vs Boatlee v29
 
-min / max reward
+16-0-0
 
-旧自作系列
++18,729
 
-これまでの主な candidate:
+vs Kaito v43 current
 
-v4: stable melon baseline
+16-0-0
 
-v7: simple crop diversification
++20,093
 
-v8: first livestock rewrite
+vs Kaito v27 current
 
-v9: stabilized livestock economy
+16-0-0
 
-v10: livestock scale-up
++37,721
 
-v11: market-aware selling
+vs Kaito v27 + guard
 
-v4〜v11 は、Kaggriculture の主要メカニズムを理解し、
-何が効くかを切り分けるために重要だった。
+16-0-0
 
-一方で、公開上位agentとの差が大きかったため、
-今後はこれらを主戦力として継続改良するのではなく、
-agent12 を強い固定 baseline として、その上に独自改善を重ねる。
++37,795
 
-公開比較agent
+vs v15 / Kaito v48
 
-ローカル benchmark で主に使用:
+16-0-0
 
-public_agents/gzmcr/main.py
++20,034
 
-public_agents/lonespear/main.py
+vs qeinstein champion
 
-public_agents/seyamalam/main.py
+16-0-0
 
-公開agentは比較対象であると同時に、ライセンス条件の範囲で
-戦略・実装研究の参考にもする。
++17,522
 
-4. 現在の戦略
+vs qeinstein candidate7
 
-現在の Current Best は agent12。
+16-0-0
 
-agent12 は Seyamalam の現行公開agentを baseline としているため、
-固定 MELON 専業ではなく、複数の高度な仕組みを統合している。
++8,557
 
-確認できている主な特徴:
+vs qeinstein portfolio
 
-land expansion
+16-0-0
 
-大規模な hired hands
++19,303
 
-COW / SHEEP を中心とする livestock economy
+この arena では 144-0-0。
 
-WHEAT / MELON / STRAWBERRY 等を組み合わせた複合作物
+Fresh holdout: seeds 10000-10011
 
-feed logistics
-
-shed capacity management
-
-market order scheduling
-
-late-game liquidation
-
-opponent / state-aware adaptation
-
-fixed / learned expert route
-
-market timing adaptation
-
-公開元の標準設定には概ね、
-
-hands = 13
-cows = 8
-sheep = 6
-strawberries = 34
-opening_wheat = 10
-opening_melons = 9
-
-などが含まれている。
-
-重要なのは、今後これをそのまま使い続けることではなく、
-この baseline がまだ負ける局面を特定し、独自差分で改善すること。
-
-したがって今後の開発単位は、
-
-agent12
-  ↓
-1つの仮説だけ変更
-  ↓
-agent13 candidate
-  ↓
-paired benchmark
-  ↓
-勝敗で採否
-
-とする。
-
-5. 既知の論点・未検証点
-
-ここは「バグと確定したもの」だけではなく、
-Current Best を超えるために優先して検証すべき問題を記録する。
-
-A. Midgame production scale
-
-Seyamalam 自身の公開 loss analysis では、
-ある敗戦で相手が中盤により多くの hands と animal を持ち、
-最終的に premium product の生産量差で負けている。
-
-したがって、
-
-相手の hands 数
-
-相手の animal 数
-
-自分との bank 差
-
-land 差
-
-を見て、中盤の追加投資を早める適応戦略は有力候補。
-
-B. Sheep / WOOL throughput
-
-別の公開敗戦では、相手が sheep を 1 頭多く保持し、
-WOOL を 30 units 多く売ったことが最終差の大部分を説明している。
-
-固定 8 cows + 6 sheep が常に最適とは限らない。
-
-候補:
-
-opponent sheep count を見る
-
-WOOL price / opponent pipeline を見る
-
-必要なら sheep 7頭目以降を許可する
-
-C. Opponent-aware portfolio
-
-最終的には、
-
-opponent farm
-market prices
-market inventory
-town demand
-bank lead / deficit
-remaining horizon
-
-から、
-
-COW / SHEEP 比率
-
-crop mix
-
-hands 数
-
-land investment
-
-sell timing
-
-を変える agent を目指す。
-
-D. Public-baseline overfitting
-
-agent12 は非常に強いが、1つの公開agentをそのまま基準にしている。
-
-そのため、
-
-GzmCR
-
-lonespear
-
-別タイプの公開agent
-
-未知 holdout
-
-に対して継続評価し、
-Seyamalam mirror 専用の変更にならないよう注意する。
-
-E. Submission self-contained 化
-
-現在の agent_v12.py はローカル wrapper。
-
-Kaggle submission 時には public_agents/seyamalam/main.py を外部参照できないため、
-最終提出候補は self-contained single file にする必要がある。
-
-元コードの copyright / license / attribution は維持する。
-
-6. 残り期間の開発方針
-
-残り約2週間なので、
-
-ゼロから公開上位agentを再実装して追いつく開発はしない。
-
-強い公開baselineを固定し、
-その未解決弱点を狙って 1 変更ずつ改善する。
-
-P0: Current Best の固定
-
-agent_v12.py を frozen baseline とする。
-
-agent12 自体を直接いじらず、
-次の candidate は別ファイルとして作る。
-
-P1: agent13 — adaptive production scale
-
-最優先候補:
-
-opponent hands が多い
-
-opponent animals が多い
-
-bank で負けている
-
-day がまだ中盤
-
-という条件で、
-
-hands を早めに増やす
-
-COW / SHEEP の追加購入を許可する
-
-P2: Sheep / WOOL adaptation
-
-相手の sheep / WOOL exposure が高い場合に、
-標準 6 sheep を超える candidate を試す。
-
-P3: Portfolio adaptation
-
-その後、
-
-livestock mix
-
-crop mix
-
-market timing
-
-land timing
-
-を opponent state に応じて変える。
-
-P4: Strong holdout
-
-旧版に勝つことは promotion 条件にしない。
-
-最低でも、
-
-agent12
-
-GzmCR
-
-lonespear
-
-Seyamalam
-
-可能なら別の公開上位agent
-
-で paired benchmark を行う。
-
-7. 実験方法
-
-基本ルール
-
-可能な限り、
-
-1回の比較で変更点を限定する。
-
-ただし、残り期間が短いため、大幅な戦略変更そのものをcandidateとして試すことは許容する。
-
-推奨フロー
-
-Current Best
-     ↓
-仮説
-     ↓
-Candidate
-     ↓
-20〜40 games
-     ↓
-明確に弱い
-     ├─ Yes → 捨てる
-     └─ No
-          ↓
-      100〜500 games
-          ↓
-      採用 / 不採用
-          ↓
-      README更新
-
-8. 実験ログ
-
-失敗した実験も削除しない。
-
-同じ戦略を別チャットで再度試すことを防ぐため。
-
-Date
-
-Baseline
-
-Candidate
-
-Games
-
-Result
-
-Change
-
-Decision
-
-2026-09-16
-
-v3
-
-v4
-
-100
-
-v4 100勝0敗
-
-smarter MELON watering
-
-採用
-
-2026-09-16
-
-v4
-
-v5
-
-100
-
-4勝80敗16分
-
-seed prefetch
-
-不採用
-
-2026-09-16
-
-v4
-
-v6
-
-100
-
-1勝99敗
-
-dynamic MELON target 8/10/12
-
-不採用
-
-2026-09-16
-
-v4
-
-v7
-
-100
-
-1勝99敗
-
-10 MELON + 4 WHEAT
-
-不採用
-
-2026-09-16
-
-v4
-
-v8
-
-20
-
-0勝20敗
-
-livestock rewrite
-
-不採用。seed依存で経済崩壊
-
-2026-09-16
-
-v8
-
-v9
-
-20
-
-13勝7敗
-
-staged livestock / cash reserve
-
-安定化に成功
-
-2026-09-16
-
-v9
-
-v10
-
-20
-
-20勝0敗
-
-8 cows + 6 sheep + 8 hands
-
-採用
-
-2026-09-16
-
-v10
-
-v11
-
-20
-
-16勝4敗
-
-market-aware premium selling
-
-採用
-
-2026-09-16
-
-v11
-
-agent12
-
-20
-
-20勝0敗
-
-Seyamalam public strong baseline
-
-Current Best に昇格
-
-2026-09-16
-
-GzmCR
-
-agent12
-
-20
-
-agent12 20勝0敗
-
-public holdout
-
-baseline確認
-
-2026-09-16
-
-lonespear
-
-agent12
-
-20
-
-agent12 20勝0敗
-
-public holdout
-
-baseline確認
-
-2026-09-16
-
-Seyamalam
-
-agent12
-
-20
-
-10勝10敗
-
-exact same base policy mirror
-
-expected
-
-agent12 benchmark summary
-
-10 seeds × seat swap = 20 games / opponent。
+24 games / opponent。
 
 Opponent
 
-agent12 W-D-L
+E11 W-D-L
 
-Mean agent12 reward
+Mean margin
 
-Mean opponent reward
+Boatlee v29
 
-v11
+24-0-0
 
-20-0-0
++24,984
 
-141,008.0
+v15 / Kaito v48
 
-20,987.6
+24-0-0
 
-v10
++24,301
 
-20-0-0
+qeinstein champion
 
-142,193.8
+24-0-0
 
-22,009.3
++23,727
 
-v4
+qeinstein candidate7
 
-20-0-0
+24-0-0
 
-140,077.3
++9,210
 
-11,783.9
+合計 96-0-0。
 
-starter
+Final confirmation: seeds 20000-20039
 
-20-0-0
+40 fresh seeds × 両席 × 6 opponents = 480 games。
 
-155,534.5
+Opponent
 
-3,540.1
+E11 W-D-L
 
-GzmCR
+Score
 
-20-0-0
+Mean margin
 
-96,074.9
+Boatlee v29
 
-67,660.6
+80-0-0
 
-lonespear
+100.0%
 
-20-0-0
++21,400
 
-91,010.4
+Kaito v43 current
 
-56,612.7
+80-0-0
 
-Seyamalam
+100.0%
 
-10-0-10
++19,991
 
-69,860.9
+v15 / Kaito v48
 
-69,860.9
+80-0-0
 
-Total:
+100.0%
 
-W-D-L = 130-0-10
-score = 92.9%
++20,174
 
-ただし Seyamalam 戦は同一policy mirrorであり、
-この 92.9% をそのまま「独自agentの強さ」と解釈しない。
+qeinstein champion
 
-agent12 は 強い frozen baseline。
+80-0-0
 
-9. Current Best
+100.0%
 
-Current Best: agent_v12.py
-Status: Frozen public-strong baseline
-Base: Seyamalam/Kaggriculture current main.py
-Last verified: 2026-09-16
++21,297
 
-根拠
+qeinstein candidate7
 
-ローカル paired benchmark で、
+80-0-0
 
-v11: 20-0
+100.0%
 
-v10: 20-0
++10,649
 
-v4: 20-0
+qeinstein portfolio
 
-starter: 20-0
+76-0-4
 
-GzmCR: 20-0
+95.0%
 
-lonespear: 20-0
++20,414
 
-Seyamalam: 10-10 mirror
+Total: 476-0-4, score 99.2%, mean margin +18,988。
 
-を確認。
+5. E11 派生実験
 
-解釈上の注意
+E14: MILK guard
 
-agent12 は現時点で独自agentではなく、
-Seyamalam 公開agentを wrapper で呼んでいる baseline。
+E11 vs E14 = 19-0-5。不採用。
 
-したがって今後の目標は、
+E15: FERTILIZER guard
 
-agent12 を超える agent13
+E11 vs E15 = 22-0-2。不採用。
 
-を作ること。
+E16: anti-clone guard
 
-Current Best が変わったら、必ずここを更新する。
+E11 vs E16 = 22-0-2。不採用。
+
+結論: 現時点では E11 exact を触らない方が強い。
+
+6. 主要候補の整理
+
+E2 Boatlee v29: 強いが E11 に 0-16、final confirmation でも 0-80
+
+E6 Boatlee + collision guard: E2 に 0-16。不採用
+
+E9 Boatlee + tomato approximation: Kaito v58 相手に 4-12。不採用
+
+E10 Kaito v27 current: E11 に 0-16。不採用
+
+E12 Kaito v43 current: E11 に 0-16、final confirmation でも 0-80
+
+E13 Kaito v27 + guard: E11 に 0-16。不採用
+
+7. 旧自作系列
+
+v4: stable melon baseline
+
+v5: seed prefetch → 4-80-16 vs v4、不採用
+
+v6: dynamic melon → 1-99、不採用
+
+v7: simple diversification → 1-99、不採用
+
+v8: first livestock rewrite → 0-20、崩壊
+
+v9: stabilized livestock → 13-7 vs v8
+
+v10: 8 cows + 6 sheep + 8 hands → 20-0 vs v9
+
+v11: market-aware selling → 16-4 vs v10
+
+v12: Seyamalam public strong baseline → 20-0 vs v11
+
+v15: Kaito v48 wrapper 系統
+
+h-series
+
+h1: overhiring で崩壊
+
+h2: capital allocation 問題
+
+h3: v11 に 9-0-1、v15 に 0-10
+
+h4: h3 に 0-10、v15 に 0-10
+
+Decision: h-series は主経路として停止。
+
+8. 重要な戦略知見
+
+Common-pool market
+
+Kaggriculture は単独 farm 最適化だけではなく、2人が同じ market inventory / price dynamics を共有する common-pool game。
+
+同じ premium item を同時刻に大量 sell すると自己衝突が起きる。したがって将来的な frontier は
+
+strong farm program + opponent-aware market timing
+
+になる可能性が高い。
+
+ただし E11 exact に単純な sell-delay overlay を重ねた E14-E16 はすべて悪化した。
+
+Crop demand substitution
+
+公開実験では strawberry oversupply と tomato undersupply を使った置換が有効なケースがある。ただし独自近似 E9 は悪化したため、元実装を正確に再現しない限り採用しない。
+
+9. 現在の実験ルール
+
+旧版への勝利だけでは promotion しない
+
+同じ seed、両席で比較
+
+tuning に使った seed は holdout として再利用しない
+
+まず 20-40 games で screening
+
+通過候補のみ 100-500 games で確認
+
+W / D / L を最優先
+
+mean reward / mean margin は補助指標
+
+broken candidate は勝敗に混ぜない
 
 10. 次にやること
 
-現在の優先順位:
+P0: E11 exact を凍結
 
-agent12 を frozen baseline として維持
+現時点では E11 exact が最強。浅い overlay は追加しない。
 
-Seyamalam の現行コード内の adaptive mechanism を正確に読む
+P1: Kaggle 実スコア確認
 
-agent13 candidate を作る
+submission_e11.tar.gz は提出済み。displayed score は 600.0。
 
-最初の仮説は midgame production scale または +1 sheep / WOOL adaptation
+ローカル 99.2% と Kaggle 上の score / 実対戦分布の差を確認する。
 
-agent12 と paired comparison
+P2: 公開 frontier の継続探索
 
-GzmCR / lonespear / Seyamalam holdout で regression check
+締切まで、E11 より新しい / 強い公開 agent が出ていないか監視する。
 
-明確に勝率改善した変更だけ採用
+P3: E11 を超える独自差分
 
-promotion したら README を更新
+live leaderboard や再現可能な losses に共通弱点が見えた場合だけ targeted に修正する。
 
-Kaggle提出候補は self-contained single file 化
+11. Current Best summary
 
-attribution / license を保持した状態で submission smoke test
+Current Best: E11 / Prvsiyan Frontier exact
 
-次の agent13 で重要なのは、
-「機能をたくさん足す」ことではなく、
+Status: Frozen public-frontier baseline / submitted
 
-公開baselineの既知の敗因を1つだけ狙うこと。
+Local evidence:
 
-11. ChatGPTとの運用ルール
+elite arena: 144-0-0
 
-新しいチャットを開始したら
+fresh holdout: 96-0-0
 
-Kaggriculture agent の開発について話し始めた場合、ChatGPT は最初に、
+final confirmation: 476-0-4
 
-README.md を読む
+final confirmation score: 99.2%
 
-GitHub の最新ファイル一覧を見る
+mean margin: +18,988
 
-必要な最新コードを読む
+Kaggle submission:
 
-Current Best を確認する
+file: submission_e11.tar.gz
 
-Experiment Log を確認する
+status: Complete
 
-Next Actions を確認する
+displayed score: 600.0
 
-agent_v12.py が frozen baseline であることを確認する
+submitted: 2026-09-17
 
-その上で提案する。
+原則
 
-過去チャットの記憶だけで現在の状態を判断しない。
+ここから先も最終目的を忘れないこと。
 
-GitHubと記憶が矛盾した場合
+「自作であること」ではなく、Kaggriculture の最終 Bradley-Terry を最大化することが目的。
 
-優先順位:
-
-最新コード
-↓
-README
-↓
-過去チャット / ChatGPTメモリ
-
-コードを変更するとき
-
-最低限、以下を説明する。
-
-何を変更するか
-
-なぜ強くなる可能性があるか
-
-デメリット / リスク
-
-どう比較するか
-
-実験後
-
-重要な結果が出たら、
-
-Experiment Log
-
-Current Best
-
-Known Issues
-
-Next Actions
-
-を更新する。
-
-12. READMEに残すべき情報
-
-最低限、以下をGitHubに残す。
-
-Current Best agent
-
-Current Bestを決定した実験
-
-Leaderboard上の重要な観測
-
-観測した日付
-
-競技ルール・評価方式の重要な更新
-
-実験結果
-
-失敗した戦略
-
-失敗した理由
-
-既知のバグ
-
-怪しい挙動
-
-次に試す仮説
-
-締切までの優先順位
-
-各ファイルの役割
-
-特に、
-
-失敗した戦略を記録すること。
-
-成功例だけ残すと、別チャットで同じ失敗を繰り返す可能性がある。
-
-13. README更新の基準
-
-常に、
-
-次のチャットのChatGPTが、過去チャットを読まなくても開発を再開できるか
-
-を基準にする。
-
-最低限、
-
-今どこまで進んでいるか
-何が一番強いか
-何を試したか
-何が失敗したか
-何を次にやるか
-
-が分かる状態を維持する。
-
-Last updated: 2026-09-16 (agent12 baseline adoption)
+ただし、公開 artifact を使う場合はライセンス・provenance・submission conditions を確認する。

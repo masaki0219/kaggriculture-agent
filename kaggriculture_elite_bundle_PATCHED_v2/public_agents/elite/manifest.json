@@ -1,0 +1,53 @@
+{
+  "kaito27_current": {
+    "kernel": "kaitofukami/44-46-strict-future-top-30-v22-price-impact",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "expected_main_sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8"
+  },
+  "prvsiyan_frontier": {
+    "kernel": "prvsiyan/kaggriculture-frontier-the-moon-counts-melons",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79"
+  },
+  "kaito43_current": {
+    "kernel": "kaitofukami/103-128-fresh-public-v43-sparse-shop-hybrid",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "69f06a802b62aa08f28705dab5728eb924bb6a7c23ffe0164f65b104cc3dadf3"
+  },
+  "kaito58": {
+    "kernel": "kaitofukami/238-238-known-streams-v58-minimax-closed-loop",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "expected_main_sha256": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "b041058ec187a8d0a01edc0eab8de068b53deca3e6c1973faf74ace6916ddcb9"
+  },
+  "boatlee29": {
+    "kernel": "boatlee/v29-r1-adaptive-market-hysteresis",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "c4a6964cec3c1c99207c32bb1fd91e53c3ec01e6890da5734331cbeab1cc1267"
+  },
+  "shape_top10": {
+    "kernel": "indarkarhana/shape-the-shop-work-the-pasture-top-10",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "0cc2a88594f82b6c8d3cb15fcd4aa2df2bdd2a0a7fb0133d95a3204dd2d6ba38"
+  },
+  "adaptive_route_v2": {
+    "kernel": "reyhanksatria/adaptive-route-agent-v2",
+    "license": "Apache-2.0",
+    "status": "submit-safe subject to Kaggle competition rules / attribution",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "23b0d0c93bcf3dfecaabfecd950ec4ab3b4c46000c0c481bddcf0a63ce019f02"
+  }
+}
