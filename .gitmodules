@@ -1,0 +1,9 @@
+[submodule "public_agents/gzmcr"]
+	path = public_agents/gzmcr
+	url = https://github.com/GzmCR/Kaggriculture.git
+[submodule "public_agents/lonespear"]
+	path = public_agents/lonespear
+	url = https://github.com/lonespear/kaggriculture.git
+[submodule "public_agents/seyamalam"]
+	path = public_agents/seyamalam
+	url = https://github.com/Seyamalam/Kaggriculture.git
