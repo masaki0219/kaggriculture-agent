@@ -1,949 +1,1137 @@
-Kaggriculture Agent
+# Kaggriculture Agent
 
-Kaggle の Featured Simulation Competition Kaggriculture 用エージェントを改善していくリポジトリです。
+Kaggle Featured Simulation Competition **Kaggriculture** のエージェントを、残り期間でできるだけ強くするための研究・実験リポジトリ。
 
 Competition: https://www.kaggle.com/competitions/kaggriculture
 
-この README は単なるプロジェクト紹介ではなく、ChatGPT との複数チャットにまたがる 共有メモ・実験記録・引き継ぎ書 として使用します。
+この README は単なる紹介ではなく、**プロジェクトの目的、現在の判断原則、重要な実験結果、ChatGPT/Codex への引き継ぎ規約**をまとめる canonical document として使う。
 
-重要
+---
 
-新しいチャットを始めたら、ChatGPT は過去チャットの記憶より先に、この README と GitHub 上の最新コードを確認すること。
+## 0. 最初に読むこと
 
-README / 最新コードと会話メモリが食い違う場合は、GitHub を優先する。
+新しいチャット・新しい Codex セッション・新しい作業者は、過去チャットの断片的な記憶より先に次を確認する。
 
-ただし、README 更新後にこのチャット内で新しい実験結果が出た場合は、その最新結果を README に反映すること。
+1. この `README.md`
+2. `docs/repository_layout.md`
+3. `docs/experiment_index.md`
+4. GitHub 上の最新コード・最新 commit
+5. 必要なら各 experiment の `NOTES.md` / cache / results
 
-1. 目的
+**GitHub / README / 現在のコードと会話メモリが食い違う場合、原則として GitHub の最新状態を優先する。**
 
-残り期間で Kaggriculture エージェントをできるだけ強くする。
+ただし README 更新後に新しい実験結果や重要な方針修正が出た場合、その最新情報を次の README 更新時に反映する。
 
-最終目的は Leaderboard 上の Bradley-Terry 評価を最大化すること。
+### この README を継続更新するルール
 
-単純な reward の大きさ、平均 margin、特定 opponent への圧勝、自作度の高さは最終目的ではない。
-強く多様な未知 opponent に勝つ確率を高めることを優先する。
+ユーザーが今後、
 
-開発サイクルは以下を基本とする。
+- 「それは本来の目的と違う」
+- 「その評価に何の意味があるのか」
+- 「それを追加して本当に強くなるのか」
+- 「既知の1体に勝つことと未知相手に勝つことは別ではないか」
+- 「毎回同じことを指摘させないで」
+- その他、探索方針・評価方針・実験管理について重要な修正
 
-仮説を立てる
+を指摘した場合、その指摘が一時的な感情ではなく**再発防止に有用な一般原則**だと判断できるなら、README の「開発原則」または関連節へ反映する。
 
-変更を実装する
+同じ指摘をユーザーに何度も言わせないこと。
 
-Current Best と同一 seed・両席で比較する
+一度しか指摘されていなくても、本来の目的から見て重要な原則なら残す。
 
-W / D / L と holdout 勝率を確認する
+README は「過去の判断を消して最新意見だけを書く」のではなく、
 
-良い変更だけ残す
+- 当時どう判断したか
+- 後で何が分かって判断基準がどう変わったか
 
-結果と判断理由を README に残す
+を区別して記録する。
 
-2. 競技について重要なこと
+---
 
-Competition: Kaggriculture
+# 1. 最終目的
 
-提出締切: 2026-10-01
+## 1.1 本来の目的
 
-最終評価: Bradley-Terry 系の pairwise 評価
+**Kaggriculture の最終 Leaderboard における Bradley-Terry 評価を最大化すること。**
 
-reward magnitude より勝敗を重視
+これだけが最終目的。
 
-shared market があるため matchup effect / non-transitivity を前提にする
+以下は目的ではない。
 
-重要判断の前には Kaggle 公式ルール・evaluation・submission 条件を再確認する
+- raw reward / coin の最大化
+- mean margin の最大化
+- 特定の1 opponent への圧勝
+- E11 に勝つこと
+- E11 と違うこと
+- 自作度を高めること
+- adaptive にすること
+- RL を使うこと
+- 評価器を高度化すること
+- コード量を増やすこと
+- 新規性の高い仕組みを入れること
+- 1つの replay の弱点を全部消すこと
 
-ローカル対戦はあくまで proxy。未知の leaderboard population に対する強さが最終対象
+これらは、**未知 leaderboard population に対する W/D/L を改善する場合にのみ価値がある。**
 
-3. Current Best
+## 1.2 何を最適化するか
 
-E11 = Prvsiyan Frontier exact
+Kaggriculture は shared market を持つ対戦ゲームなので、agent の価値は単独 farm score では決まらない。
 
-2026-09-17 時点のローカル Current Best。
+重要なのは opponent ごとの matchup vector。
 
-E11 は ChatGPT がゼロから作った戦略ではない。公開されている Prvsiyan Frontier / Kaggriculture Frontier | The Moon Counts Melons の公開エージェントを、そのままローカル benchmark で使用できるよう wrapper 化したもの。
+例:
 
-戦略本体: Prvsiyan の公開 agent
+```text
+A > B
+B > C
+C > A
+```
 
-ローカル名 E11 / wrapper / benchmark: このプロジェクト側
+のような non-transitivity は普通にあり得る。
 
-exact source SHA256: 02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79
+したがって、
 
-source bytes: 89193
+```text
+1体の baseline に勝てるか
+```
 
-submission archive: submission_e11.tar.gz
+だけで候補を決めない。
 
-archive SHA256: f0e698738d95ad3822d3128c814aeb8548d8b58e2e156bd1a3865a376ccdc1ad
+目標は概念的には、
 
-engine: 1.32.7
+```text
+P(win | unknown active leaderboard population)
+```
 
-E11 自体は 凍結 baseline として扱う。新しい変更は別 candidate として作成し、E11 exact を上書きしない。
+を高めること。
 
-Kaggle 提出
+最終的には、特定 opponent への最大 margin ではなく、**強く多様な active opponent に対する勝率の広さと matchup coverage**を見る。
 
-2026-09-17 に submission_e11.tar.gz として提出。
+---
 
-Status: Complete
+# 2. 公式 competition 条件
 
-Description: E11 Prvsiyan Frontier exact
+2026-09-18 時点で Kaggle 公式ページ / Staff clarification から確認している内容。
 
-提出直後に Submissions ページで 600.0 と表示された
+- Final Submission Deadline: **2026-09-30 23:59 UTC**
+  - 日本時間では **2026-10-01 08:59 JST**
+- 1日最大 5 submissions
+- 最新 2 submissions が active
+- 最新 2 submissions が final evaluation 対象
+- 勝敗は 720 turns 終了時の bank coins で決まる
+- rating 変動に coin margin 自体は使われず、win / loss / tie が重要
+- deadline 後も約2週間 games が続き、最終 Bradley-Terry tournament が行われる
+- Staff clarification:
+  - team score は active 2 submissions のうち**良い方**
+  - 2本目は hedge として使える
+  - tie は各 side 0.5 win として扱う
+  - final BT で使われる過去 episode は、**その episode の両 agent が final 時点でも active である必要がある**
 
-その後 leaderboard 上では 1687.3 / rank 2095 を確認した時点がある
+Sources:
 
-600.0 は初期の表示状態で、E11 の固定的な最終実力値ではない。Leaderboard rating は対戦の蓄積で動くため、ローカル勝率や mean margin と同じ尺度として扱わない。
+- Overview / Evaluation: https://www.kaggle.com/competitions/kaggriculture/overview
+- Final BT active-agent clarification: https://www.kaggle.com/competitions/kaggriculture/discussion/732931
+- Two active submissions / tie clarification: https://www.kaggle.com/competitions/kaggriculture/discussion/739410
 
-4. E11 を Current Best とした根拠
+公式条件は変更される可能性がある。
 
-Elite round robin
+**最終提出・submission slot・evaluation に関する重要判断の直前には再確認する。**
 
-seed 1000 から 8 seeds、両席 = 16 games / pair。
+---
 
-Matchup
+# 3. Repository structure
 
-E11 W-D-L
+整理後の canonical layout:
 
-Mean margin
+| Path | Responsibility |
+| --- | --- |
+| `experiments/` | immutable な numbered experiments と legacy v/h series |
+| `evaluation/` | experiment-independent arena / screen / evaluation |
+| `analysis/` | diagnostics / replay / economy / one-off analysis |
+| `public_agents/` | external Git submodules |
+| `artifacts/` | canonical current bundle と submission artifacts |
+| `archive/` | superseded bundle / duplicate / historical package |
+| `data/` | meta cache / downloaded data |
+| `tools/` | acquisition / setup / maintenance utilities |
+| `docs/` | repository / experiment / reorganization documentation |
 
-Boatlee v29
+Active elite runtime:
 
-16-0-0
+```text
+artifacts/bundles/current/
+```
 
-+18,729
+詳細:
 
-Kaito v43 current
+- `docs/repository_layout.md`
+- `docs/reorganization_manifest.md`
+- `docs/experiment_index.md`
+- `docs/reorganization_verification.md`
 
-16-0-0
+---
 
-+20,093
+# 4. Experiment 管理の絶対ルール
 
-Kaito v27 current
+## 4.1 E番号は immutable
 
-16-0-0
+一度使った E番号の agent logic を後から別ロジックに変更しない。
 
-+37,721
+新しい logic は必ず新しい番号。
 
-Kaito v27 + guard
+```text
+E18 -> E18 のまま保存
+E19 -> E19 のまま保存
+E20 -> E20 のまま保存
+新ロジック -> E21, E22, ...
+```
 
-16-0-0
+番号を綺麗に詰め直さない。
 
-+37,795
+既存番号を再利用しない。
 
-v15 / Kaito v48
+同じ名前の agent を中身だけ差し替えない。
 
-16-0-0
+## 4.2 cache / results は研究履歴
 
-+20,034
+cache や result は「邪魔な一時ファイル」ではなく experiment history。
 
-qeinstein champion
+原則:
 
-16-0-0
+- 削除しない
+- clear しない
+- 別experimentと共有しない
+- 結果が悪くても残す
+- 新experimentには新しい cache/result を使う
 
-+17,522
+cache clear を routine に行わない。
 
-qeinstein candidate7
+壊れていることが確認できた場合だけ、理由を明記して対処する。
 
-16-0-0
+## 4.3 mechanism が発動しない実験
 
-+8,557
+A/B で behavior が変わらなかった場合、
 
-qeinstein portfolio
+```text
+仮説がダメだった
+```
 
-16-0-0
+と即断しない。
 
-+19,303
+まず、
 
-この arena では 144-0-0。
+```text
+実装した mechanism が本当に発動したか
+```
 
-Fresh holdout: seeds 10000-10011
+を確認する。
 
-24 games / opponent。
+mechanism が 0 回なら「効果なし」ではなく**仮説未検証**。
 
-Opponent
+---
 
-E11 W-D-L
+# 5. 現在の baseline / strategy families
 
-Mean margin
+## 5.1 E11 — Prvsiyan Frontier exact
 
-Boatlee v29
+E11 は重要な frozen baseline。
 
-24-0-0
+ただし**最終目的そのものでも、永続的 Current Best でもない。**
 
-+24,984
+役割:
 
-v15 / Kaito v48
+- 強い固定/tape 系 strategy family の代表
+- regression を見る基準の1つ
+- fallback
+- 最終提出候補になり得る1本
 
-24-0-0
+E11 exact source:
 
-+24,301
+```text
+SHA256:
+02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79
+```
 
-qeinstein champion
+canonical wrapper:
 
-24-0-0
+```text
+artifacts/bundles/current/agent_e11_prvsiyan_frontier.py
+```
 
-+23,727
+engine:
 
-qeinstein candidate7
+```text
+1.32.7
+```
 
-24-0-0
+2026-09-17 に submission 済み。
 
-+9,210
+### E11 のローカル evidence
 
-合計 96-0-0。
+過去の known panel では非常に強かった。
 
-Final confirmation: seeds 20000-20039
+- elite arena: 144-0-0
+- fresh holdout: 96-0-0
+- final confirmation:
+  - 40 fresh seeds
+  - both seats
+  - 6 opponents
+  - 480 games
+  - 476-0-4
+  - 99.2%
 
-40 fresh seeds × 両席 × 6 opponents = 480 games。
+これは重要な evidence。
 
-Opponent
+しかし、
 
-E11 W-D-L
+**この panel が現在の leaderboard population を十分表している証拠ではない。**
 
-Score
+特に複数 opponent に 100% 勝っている panel は candidate 間の W/D/L を分離できない。
 
-Mean margin
+その場合の margin 差を BT strength の証明として扱わない。
 
-Boatlee v29
+### E11 Kaggle replay evidence
 
-80-0-0
+確認済み 3 replay:
 
-100.0%
+- vs Ankit Hemant Lade: 100,272 - 110,997
+- vs Farmula One: 105,153 - 108,068
+- vs woldy: 76,205 - 63,896
 
-+21,400
+1W2L。
 
-Kaito v43 current
+観測:
 
-80-0-0
+- 2区画目: D6H7
+- 3区画目: D11H2
+- crop mix が shop 差に対して比較的固定
+- PASS 約7.2%
+- SELL-turn 約34-36%
 
-100.0%
+これは E11 の「弱点候補」を示すが、3試合だけで普遍的弱点と断定しない。
 
-+19,991
+**losses だけでなく wins も control として比較し、複数 opponent family で再現する structural weakness かを見る。**
 
-v15 / Kaito v48
+## 5.2 E11 の内部構造
 
-80-0-0
+E11 は単純な rule agent ではない。
 
-100.0%
+- 13 action tapes
+- 各 tape 約719 turns
+- step 144 付近で初期 shop に基づき plan 選択
+- movement / land / planting / worker / inventory trajectory が coordinated
+- late overlay として weed repair / sales-first / topup / late investment 等
 
-+20,174
+したがって、
 
-qeinstein champion
+```text
+BUY_LAND だけ早める
+SELLだけ遅らせる
+worker 1人だけ適当に仕事させる
+```
 
-80-0-0
+のような shallow patch は coordinated state を壊し得る。
 
-100.0%
+E18-E20 はその難しさを確認するための重要な履歴として残す。
 
-+21,297
+---
 
-qeinstein candidate7
+# 6. Kaito27 から得た重要な教訓
 
-80-0-0
+## 6.1 historical strength と current strength は別
 
-100.0%
+Kaito27 exact は過去 leaderboard で非常に高い rating を持った frontier agent。
 
-+10,649
+しかし 2026-09-18 に再提出した live trajectory は、おおむね 900 前後へ向かう挙動が観測された。
 
-qeinstein portfolio
+live rating は暫定であり final BT そのものではない。
 
-76-0-4
+それでも、
 
-95.0%
+**「一度 frontier だった固定routeを永久の正解とみなしてはいけない」**
 
-+20,414
+という実例として重要。
 
-Total: 476-0-4 / 99.2% / mean margin +18,988。
+Kaito27 raw source:
 
-5. Kaggle 公開リプレイから見えたこと
+```text
+SHA256:
+f48c21166eac68d1b05a401f04f94a2eb6154e65415af64893672365ff33c7b8
+```
 
-5.1 上位層 6リプレイ / 12 player-runs
+## 6.2 Kaito27 live replay 3試合
 
-上位公開リプレイから見えた最重要パターンは、opening はかなり固定しつつ、midgame の crop / livestock / sales を town shop 構成に応じて変えていること。
+このチャットで解析した3試合:
 
-観測した Majkel1337 / DSM では、
+| Opponent | Kaito27 | Opponent | Margin |
+| --- | ---: | ---: | ---: |
+| Focus | 64,950 | 69,331 | -4,381 |
+| Ztr0 | 76,884 | 68,411 | +8,473 |
+| Trip Meiners | 54,421 | 54,897 | -476 |
 
-12/12 が最終的に 3 quadrants
+Kaito27 自身は3試合で unit trajectory がほぼ完全固定。
 
-2区画目は D6H6 前後
+共通:
 
-3区画目は D9H6 前後
+- land: step 161 / 241
+- WHEAT seed: 148
+- STRAWBERRY: 37
+- MELON: 19
+- final livestock: 9 cow / 4 sheep
 
-MELON はおおむね固定
+Focus と Trip Meiners は互いに unit action が **716/720 turns 一致**。
 
-CARROT / STRAWBERRY / TOMATO は seed / shop 構成ごとに大きく変動
+Kaito27 とも約 500/720 turns が一致し、最初の大きな分岐は step 125 付近。
 
-DSM はほぼ毎turn SELL
+一方 Ztr0 はほぼ別系統で、Kaito27 が +8,473 で勝った。
 
-Majkel は SELL するturnが約 37-41%
+重要な示唆:
 
-SELL方法は一意ではない
+- Kaito27 が全体として完全に弱い、と3試合からは言えない
+- 同系統 opening / route family の新しい continuation に競り負けている可能性がある
+- shared market 上で似た agent 同士が同じ商品を同時に売ることで matchup が変わる
+- strategy lineage と population composition が strength に大きく影響する
 
-early cash は積極的に再投資
+したがって、
 
-したがって「DSM の SELL 方法だけコピーする」のような単独移植は根拠が弱い。
+```text
+昔強かったagentを捨てる
+```
 
-公開リプレイは少数の selected games なので、傾向をそのまま一般化せず、ローカル A/B で因果確認する。
+でも、
 
-5.2 E11 の Kaggle 公開リプレイ 3試合
+```text
+昔強かったから守り続ける
+```
 
-結果:
+でもない。
 
-Episode
+**現在 population における matchup vector を再評価する。**
 
-Opponent
+---
 
-E11
+# 7. 最新 top meta から見えること
 
-Opponent
+`public_agents/lonespear/daily_meta.py --top 10` による 2026-09-16 snapshot:
 
-Margin
+```text
+top Elo:    3172
+median Elo: 3039
+```
 
-109935536
+top 10 episodes = 20 player-games の aggregate:
 
-Ankit Hemant Lade
+```text
+productive %  53.1%
+movement %    43.8%
+PASS %         3.1%
 
-100,272
+avg seeds/player:
+WHEAT       154
+CARROT       46
+STRAWBERRY   37
+MELON        15
+TOMATO       15
 
-110,997
+ending money median:
+123,149
+```
 
--10,725
+final farm は 3-4 quadrants、crop / livestock mix がかなり多様。
 
-109955997
+この selected top episode sample から、
 
-Farmula One
+```text
+唯一の固定 farm composition が正解
+```
 
-105,153
+とは言えない。
 
-108,068
+一方、過去に解析した Majkel1337 / DSM top replays では、
 
--2,915
+- opening backbone は比較的固定
+- 3Q を D9H6 前後までに完成
+- MELON は backbone 的
+- CARROT / STRAWBERRY / TOMATO は shop により大きく変化
+- sales style は agent によりかなり異なる
 
-109948968
+という構造が見えた。
 
-woldy
+これは有力な structural clue だが、selected replay sample なので universal rule としてハードコードしない。
 
-76,205
+---
 
-63,896
+# 8. 過去 experiment と現在の解釈
 
-+12,309
+詳細な E1-E20 一覧は:
 
-合計 1W2L。mean margin は約 -444。
+```text
+docs/experiment_index.md
+```
 
-共通パターン:
+ここでは今後の判断に重要なものだけ書く。
 
-2区画目: 3試合とも D6H7
+## E14-E16 — simple selling guards
 
-3区画目: 3試合とも D11H2
+- E14 MILK guard
+- E15 FERTILIZER guard
+- E16 anti-clone guard
 
-3試合すべて MELON 12
+E11 に simple overlay を足したが悪化。
 
-WHEAT 163
+教訓:
 
-STRAWBERRY 33
+**selling は production / inventory / demand と切り離して単独最適化しない。**
 
-CARROT 31
+## E17 — idle-hand rescue
 
-TOMATO は 0 / 0 / 10
+E11 の PASS を活用する WATER rescue。
 
-PASS 比率: 約 6-8%、平均約 7.2%
+direct / holdout が完全一致。
 
-SELL-turn 比率: 約 34-36%
+実質 no-op。
 
-最終 hands: 約 11-13
+教訓:
 
-shop 構成は大きく違うのに、植付け構成がほぼ同じ。
+```text
+PASS が多い
+=> 何か作業を足せば強い
+```
 
-したがって E11 の opening 自体が弱いというより、固定 script を midgame まで引っ張りすぎている可能性が高い。
+ではない。
 
-5.3 現在の優先仮説
+## E18 — late-shop tape switch
 
-第3区画が上位観測例より約44 turns 遅い
-
-D9-D11 の資本投入・土地利用が遅い
-
-worker routing / PASS が多い
-
-post-Day9 の生産が shop demand に十分適応していない
-
-SELL logic は production と分離して単独最適化しない
-
-4th quadrant は優先度低。まず 3Q の使い切り
-
-6. E11 の内部構造について分かったこと
-
-E11 は単純な「if 文で Day11 に BUY_LAND」ではない。
-
-内部では _POLICY.tapes[state.plan] のような runtime policy tape / precomputed action tape を使用している。
-
-確認済み事項:
-
-13本の action tape がある
-
-各 tape は約719 turns の coordinated action sequence
-
-shop 情報に応じて plan を選択する
-
-core plan の選択は主に step 144 時点で最初の2店舗を使う
-
-native の土地購入・移動・植付け・worker 行動が tape 内で一体化している
-
-raw Python 上の BUY_LAND 文字列だけを変更しても native D6 / D11 land schedule は変わらない
-
-第3区画購入付近は HIRE / BUY_LAND / livestock / fertilizer / strawberry 系の処理と結びついた開発ブロック
-
-late overlay として weed repair、sales-first、topup、late investment などが存在する
-
-重要な意味:
-
-BUY_LAND だけ前倒しする浅い patch は危険。
-
-土地を早く開けても、worker の移動・植付け・watering が D11 前提のままなら、資本だけ寝かせる可能性がある。
-
-一方、公式 engine 上では farmer / hands は日単位でリセットされるため、既存 tape の worker index を壊さずに「その日だけ extra hand を追加して補助作業をさせる」方向には検証価値がある。
-
-7. E11 派生実験
-
-E14: MILK guard
-
-E11 vs E14 = 19-0-5。
-
-不採用。
-
-E15: FERTILIZER guard
-
-E11 vs E15 = 22-0-2。
-
-不採用。
-
-E16: anti-clone guard
-
-E11 vs E16 = 22-0-2。
-
-不採用。
-
-E17: idle-hand crop rescue
-
-目的:
-
-E11 の PASS が多いという観測から、native tape を崩さず、PASS 中の hand に短い WATER rescue をさせる。
-
-設計:
-
-Day6-17
-
-16-21時
-
-hand のみ
-
-E11 の final action が PASS
-
-native tape も往復期間ずっと PASS
-
-weed repair queue がない
-
-inventory を持っていない
-
-consecutive_unwatered >= 1
-
-最大7 commands
-
-元の位置へ戻る
-
-1日最大2回
-
-screening:
-
-E17 vs E11: 0-10-0 meanMargin=+0
-
-Holdouts:
-
-e2_boatlee29         E11=10-0-0 +21554   E17=10-0-0 +21554
-v15_kaito48          E11=10-0-0 +18462   E17=10-0-0 +18462
-qeinstein_champion   E11=10-0-0 +21690   E17=10-0-0 +21690
-qeinstein_candidate7 E11=10-0-0 +14600   E17=10-0-0 +14600
-
-判断: 不採用 / no-op。
-
-理由:
-
-direct も holdout も完全一致
-
-今回の条件では実質的に terminal outcome を変えない
-
-「PASS が多い = 任意の補助作業を足せば強くなる」という仮説は弱い
-
-20 seeds への拡大はしない。
-
-E18: late-shop tape switch
-
-目的:
-
-後発 shop の出現後に、別 plan の tape へ安全に切り替えることで、E11 の固定 midgame を改善できないか検証。
-
-実行:
-
-python experiments/e018_late_shop/arena.py --seeds 8 --seed-start 31000
-
-結果:
-
-E18 vs E11: 0-14-2 meanMargin=-117
+late shop を見て既存 E11 tape へ途中switch。
 
 telemetry:
+
+```text
 new_shop_events=86
 route_candidates=46
 safe_switches=2
 unsafe_rejects=40
 same_plan=4
 no_supported_pair=40
+```
 
-Strong holdouts:
+既存 coordinated tape 間の途中switchは state mismatch が大きい。
 
-Opponent
+この方式は新しい根拠なく再試行しない。
 
-E11
+## E19 — early SW prebuild
 
-E18
+E11 の予定している SW strawberry cells を早く使う狙い。
 
-備考
+初期版は mechanism が発動しなかった。
 
-e2_boatlee29
+後の版では early land は発動したが、strawberry seed がなく preplant が動かないなど、仮説と実装が一致していなかった。
 
-16-0-0 / +23194
+E番号の immutable rule が確立する前に同番号内で変更が入った歴史がある。
 
-16-0-0 / +23194
+**今後は絶対に繰り返さない。**
 
-switches=0
+## E20 — early 3Q + native strawberry seed prefetch
 
-v15_kaito48
+mechanism は明確に発動。
 
-16-0-0 / +21965
+主な telemetry:
 
-16-0-0 / +21961
+```text
+early_land_activated=16
+seed_prefetch_activated=32
+preplants=28
+waters=72
+```
 
-switches=2
+E11 direct:
 
-qeinstein_champion
+```text
+0-0-16
+```
 
-16-0-0 / +22109
+旧 strong holdouts では E11/E20 とも全勝する opponent が多かった。
 
-16-0-0 / +22109
+過去には「E11に16敗」「margin低下」を理由に reject とした。
 
-switches=0
+### 現在の再解釈
 
-qeinstein_candidate7
-
-16-0-0 / +17504
-
-16-0-0 / +17663
-
-switches=2
-
-判断: 即不採用。
+E20 が**未知 leaderboard population でも弱いことは、この結果だけでは証明されていない。**
 
 理由:
 
-E11 直接比較で 2敗
+- E11 direct は1 matchup
+- holdout panel が saturated
+- margin は BT objective ではない
+- E20 は明確に別behaviorを発動している
 
-46 route candidates に対し safe switch は 2回だけ
+したがって historical status は残すが、
 
-後発 shop への適応という発想より、「途中で既存 tape を別 plan に差し替える」という実装方式がほぼ成立しない
+```text
+E11に負けた = globalに弱い
+```
 
-plan ごとに worker position / farm geometry / inventory trajectory が既に分岐しているため、late switch は state mismatch を起こしやすい
+という一般則には使わない。
 
-この方向は再試行しない。
-次に shop-aware adaptation を行うなら、tape switch ではない方式を使う。
+明確に崩壊した agent と、単に E11 matchup が悪かった candidate は区別する。
 
-8. E19: early SW prebuild
+---
 
-Status: 次の A/B 候補。未 promotion。
+# 9. 現在の開発原則
 
-Files:
+ここは最重要。
 
-experiments/e019_early_sw/agent.py
+## 9.1 E11 direct H2H を gate にしない
 
-experiments/e019_early_sw/arena.py
+以前:
 
-狙い
+```text
+candidate
+  ↓
+E11に負ける
+  ↓
+reject
+```
 
-E11 が D11 前後に行う第3区画 SW 開発を、D9-D10 に部分的に先行させる。
+としていた。
 
-E18 のように plan 全体を切り替えず、現在選ばれている E11 tape を維持したまま、その tape が後で使う予定の SW strawberry cell を先行利用する。
+これは現在の方針ではない。
 
-基本設計
+E11 は opponent family の1つ。
 
-E11 exact を parent とする
+candidate が E11 に負けても、他の active population に広く勝てれば最終 BT が高い可能性がある。
 
-選択中 tape を解析
+逆に E11 に勝っても、他familyに崩壊すれば価値は低い。
 
-D11 に E11 自身が SW へ STRAWBERRY を植える予定の target cell を最大2個取得
+## 9.2 mean margin を目的化しない
 
-cash / seed / market slot が安全なら D9-D10 に第3区画を前倒し購入
+coin difference は diagnostic。
 
-extra daily hand 1人で target cell へ移動・PLANT・WATER
+特に、
 
-E11 の既存 hand の index / command は変更しない
+```text
+E11 16-0
+candidate 16-0
+```
 
-D11 以降は native E11 へ戻す
+の opponent に対して、
 
-既に3区画なら、重複する pre-D18 native BUY_LAND のみ抑制
+```text
++20k vs +15k
+```
 
-late 4th-land logic は触らない
+だから E11 の方が BT で強い、とは言わない。
 
-追加の STRAWBERRY seed は原則買わず、既存 seed を先に使う
+W/D/L が飽和している panel は discriminator として弱い。
 
-E11 自身が後で使う予定の cell だけを触る
+## 9.3 評価は目的ではない
 
-初期 screening
+何回も、
 
-python experiments/e019_early_sw/arena.py --seeds 8 --seed-start 32000
+```text
+評価する
+→ panelが弱い
+→ 評価器を直す
+→ また評価する
+```
 
-見る telemetry:
+だけを繰り返さない。
 
-eligible_games
+evaluation framework は agent を強くするための道具。
 
-early_land_requests
+十分な評価原則が分かったら、実際の strategy exploration へ戻る。
 
-early_land_activated
+## 9.4 Adaptivity 自体を目的にしない
 
-activation_failures
+```text
+adaptiveにした
+```
 
-extra_hires
+には価値がない。
 
-preplants
+adaptive behavior が unknown population への勝率を上げる場合だけ価値がある。
 
-waters
+固定routeがまだ強い領域もあり得る。
 
-native_land_suppressed
+## 9.5 「E11の負け条件を全部消す」ことも目的ではない
 
-no_targets
+E11 の known losses を全部 patch すると known opponents に overfit する可能性がある。
 
-no_seed
+見るべきなのは、
 
-cash_waits
+**複数 opponent families / market states で再現する structural weakness。**
 
-market_full
+loss だけでなく win replay も control として解析する。
 
-Promotion 条件
+## 9.6 micro-patch 無限ループを避ける
 
-E11 direct で W/D/L regression がない
+以前のように、
 
-mechanism が実際に発動している
+```text
+1箇所変更
+→ 16 games
+→ また1箇所変更
+→ 16 games
+...
+```
 
-strong holdouts でも非劣化
+を主経路にしない。
 
-その後 fresh seeds / opponent panel を拡大
+diagnostic が十分集まったら、意味の違う complete strategy family を**batchで複数作る**。
 
-mean margin の改善だけでは promotion しない
+目安:
 
-9. 主要候補の整理
+```text
+3-8 candidates
+```
 
-E2 Boatlee v29: 強いが E11 に 0-16、final confirmation でも 0-80
+を同じ条件で screen し、悪い branch をまとめて落とす。
 
-E6 Boatlee + collision guard: E2 に 0-16。不採用
+survivor 1-2 family だけを深掘りする。
 
-E9 Boatlee + tomato approximation: Kaito v58 相手に 4-12。不採用
+## 9.7 feature ではなく strategy system を見る
 
-E10 Kaito v27 current: E11 に 0-16。不採用
+top replay から、
 
-E12 Kaito v43 current: E11 に 0-16、final confirmation でも 0-80
+```text
+3Qが早い
+SELLが多い
+TOMATOが多い
+```
 
-E13 Kaito v27 + guard: E11 に 0-16。不採用
+という feature 1個だけをコピーしない。
 
-10. 旧自作系列
+重要なのは、
 
-v4: stable melon baseline
+```text
+opening
+capital allocation
+land timing
+worker routing
+crop mix
+livestock
+production
+inventory
+selling
+market pressure
+```
 
-v5: seed prefetch → 4-80-16 vs v4。不採用
+がどう連動しているか。
 
-v6: dynamic melon → 1-99。不採用
+強い agent から盗むべきなのは isolated trick より**system**。
 
-v7: simple diversification → 1-99。不採用
+## 9.8 baseline を神格化しない
 
-v8: first livestock rewrite → 0-20。崩壊
+E11 も Kaito27 も strategy family の1本。
 
-v9: stabilized livestock → 13-7 vs v8
+新しい public frontier / current leaderboard behavior が明らかに強いなら baseline を更新してよい。
 
-v10: 8 cows + 6 sheep + 8 hands → 20-0 vs v9
+ただし historical baseline は消さない。
 
-v11: market-aware selling → 16-4 vs v10
+## 9.9 local evaluation と leaderboard evidence を役割分担する
 
-v12: Seyamalam public strong baseline → 20-0 vs v11
+local:
 
-v15: Kaito v48 wrapper 系統
+- same seeds
+- both seats
+- controlled counterfactual
+- reproducibility
+- crash detection
+- mechanism verification
 
-h-series:
+leaderboard:
 
-h1: overhiring で崩壊
+- actual unknown population
+- real shared-market interactions
+- current meta
+- final objective に最も近い evidence
 
-h2: capital allocation 問題
+local だけで真の population strength を証明しようとしない。
 
-h3: v11 に 9-0-1、v15 に 0-10
+leaderboard だけで noisy な score chase もしない。
 
-h4: h3 に 0-10、v15 に 0-10
+---
 
-Decision: h-series は主経路として停止。
+# 10. 推奨 evaluation protocol
 
-11. Arena / 評価設計についての注意
+candidate 間の比較では、可能な限り以下を守る。
 
-過去の arena v1 では discovery / screening 設計に問題があった。
+1. same seeds
+2. both seats
+3. strong + diverse opponent families
+4. W/D/L を primary
+5. matchup ごとに見る
+6. margin は diagnostic
+7. tuning seeds を holdout に再利用しない
+8. broken/error candidate を win-loss aggregate に混ぜない
+9. mechanism telemetry を取る
+10. panel が全員 100% なら、その panel で ranking を続けない
 
-162 unique agents を見つけた
+local BT を計算する場合も、panel composition が偏っていれば結果も偏る。
 
-duplicate 103
+数字が出ることと、意味のある推定であることは別。
 
-panel は E11 + reacting aurax / evgen / market smart + sub-009-moev2
+---
 
-非panel候補 157体が screen で全て 0%
+# 11. Strategy portfolio の考え方
 
-top4 選択が実質 discovery order 依存になった
+Kaggle Staff clarification では、final team score は active 2 submissions のうち良い方。
 
-Kaito58 / ShapeTop10 など重要候補を正しく比較できていなかった
+したがって final pair は、単純に同じ agent の微差2本にする必要はない。
 
-したがって arena v1 の「E11 が 162候補すべてより最強」という解釈はしない。
+理想:
 
-E11 がその stage2 の 8 opponent に 100% だった事実は使えるが、全候補に対する優越性の証明ではない。
+```text
+Agent A:
+broad generalist / robust
 
-以後:
+Agent B:
+Aと failure mode が相関しにくい complement / hedge
+```
 
-opponent discovery と ranking を分離する
+A/B がほぼ同じ lineage なら、同じ opponent に両方負ける可能性が高い。
 
-broken / duplicate を除外
+2本目は「弱い奇策」ではなく、**十分強く、matchup coverage が異なる戦略**を狙う。
 
-diverse strong panel を明示的に作る
+final直前は新feature開発より、
 
-fresh seeds を使う
+- crash
+- package integrity
+- import
+- runtime
+- validation episode
+- exact artifact hash
 
-both seats を使う
+を優先する。
 
-tuning seeds を holdout に再利用しない
+---
 
-12. 重要な戦略知見
+# 12. 現在考えるべき strategy families
 
-Common-pool market
+これは固定された正解ではなく、現在の探索方向。
 
-Kaggriculture は単独 farm 最適化だけではなく、2人が同じ market inventory / price dynamics を共有する common-pool game。
+## Family A — robust backbone
 
-同じ premium item を同時刻に大量 sell すると自己衝突が起きるため、将来的な frontier は
+- 強い opening
+- 早い資本回転
+- 3Q を適切な時期に使用
+- market/shop state に応じた midgame allocation
+- fragile な opponent-specific tricks を減らす
 
-strong farm program + opponent-aware market timing
+## Family B — market aggressive
 
-になる可能性がある。
+- 生産自体も強い
+- shared market の timing / inventory pressure を強く利用
+- DSM 的な高頻度 small sells も参考にするが、そのままコピーしない
+- opponent lineage / seat / collision への耐性を見る
 
-ただし E11 exact に単純な sell-delay overlay を重ねた E14-E16 はすべて悪化した。
+## Family C — hedge / different production mix
 
-Crop demand substitution
+- Family A と failure mode を共有しにくい
+- crop / livestock / sale mix が意味のあるレベルで異なる
+- 同じ fixed continuation の clone を2本作らない
 
-公開実験では strawberry oversupply と tomato undersupply を利用した置換が有効なケースがある。
+この3 family は「adaptive / non-adaptive」の分類ではない。
 
-ただし独自近似 E9 は悪化したため、「方向性が正しそう」というだけで再実装しない。元実装・game dynamics・counterfactual を確認する。
+**unknown population に異なる勝ち筋を持つか**で分類する。
 
-Fixed opening + adaptive midgame
+---
 
-上位公開リプレイから現在もっとも有力な構造仮説。
+# 13. Current meta を見る方法
 
-opening は安定した backbone を持つ
+新しい agent を作る前に、定期的に frontier を再確認する。
 
-midgame から shop / market / inventory に応じて資源配分を変える
+見るもの:
 
-E11 は opening が弱いというより、適応へ切り替わるタイミングが遅い、または適応幅が小さい可能性がある。
+- current top episodes
+- public notebooks / public agents
+- recent discussions
+- latest strong source code
+- replay action fingerprints
+- strategy lineage
+- shop/crop/livestock/sell patterns
+- active population の clone / copy 増加
 
-SELL は production とセットで考える
+特に、
 
-上位例でも DSM と Majkel1337 の SELL 方針は大きく違う。
+```text
+昔 strong だった public route
+```
 
-したがって、
+が大量コピーされると、同系統 continuation 同士の競争や shared-market collision により value が変わり得る。
 
-SELL 頻度だけ
+frontier scan は「新しいものを見つけること」自体が目的ではない。
 
-SELL delay だけ
+**今どの strategy region が active population で有効か把握するために行う。**
 
-threshold だけ
+---
 
-を独立にコピーしない。
+# 14. 次にやること
 
-production / inventory / shop demand とセットで評価する。
+## Immediate
 
-13. Learned policy / RL を使う場合
+**Focus / Trip Meiners 系の lineage を特定する。**
 
-720-turn end-to-end PPO をいきなりやるより、E11 を low-level executor として残し、macro decision だけ学習させる方向を優先する。
+やること:
+
+1. Kaito27 vs Focus / Trip の action fingerprint を保存
+2. 手元の Kaito48 / Rayk / Boatlee / Prvsiyan / その他 public agents と照合
+3. exact match / nearest lineage を特定
+4. Kaito27 から何が変わった continuation なのか差分解析
+5. 2026-09-16 current top episodes に同系統が存在するか確認
+6. E11 family と比較し、strategy systems の違いを整理
+
+## その次
+
+frontier map ができたら、
+
+**新しい complete candidate を複数まとめて作る。**
+
+E番号は新規番号を使う。
+
+注意:
+
+`evaluation/population_arena_v1/arena.py` に E21 参照が残っているが、現時点では実体 E21 は存在しない。
+
+この stale reference を「E21が既にある」と解釈しない。
+
+実際に新しい agent を作った時点で、その experiment number を確定する。
+
+## その後
+
+同じ discriminating population panel で batch evaluation。
+
+E11 H2H は diagnostic の1つに留める。
+
+survivor を leaderboard に出し、actual active population evidence を取る。
+
+締切前に generalist + complement の2本へ収束させる。
+
+---
+
+# 15. ChatGPT / Codex 作業規約
+
+## 15.1 毎回ゴールから逆算する
+
+チャットが長くなると、直前の局所課題を目的だと誤認しやすい。
+
+各 major decision で一度、
+
+```text
+これは最終 BT を上げるために何を確認しているのか？
+```
+
+を確認する。
+
+説明できない作業は止めるか優先度を下げる。
+
+## 15.2 ユーザーに「次は？」と聞かせない
+
+Kaggriculture の分析結果を返すときは、基本的に最後に以下を含める。
+
+```text
+今回わかったこと
+判断
+次にやること
+```
+
+ユーザーが毎回「次は？」と聞かなくてよい状態にする。
+
+## 15.3 同じ指摘を繰り返させない
+
+ユーザーから受けた重要な correction は、その場だけで謝って終わらない。
+
+一般化できるなら README の原則へ昇格する。
+
+例:
+
+- E11 direct を gate にしない
+- cache をroutine clearしない
+- E番号を使い回さない
+- 評価を目的化しない
+- adaptivityを目的化しない
+- micro-patchを延々繰り返さない
+- final objective から外れたらメタに戻る
+
+## 15.4 不要な確認質問をしない
+
+repo / README / current conversation に答えがあることを再質問しない。
+
+重いtaskでも、必要情報が十分なら best effort で進める。
+
+## 15.5 GitHub
+
+この ChatGPT プロジェクトでは GitHub を**読み取り用**として扱う。
+
+勝手に GitHub へ write / commit / push しようとしない。
+
+変更ファイルが必要な場合はローカル artifact を作り、ユーザーが確認・commit/pushする。
+
+Codex がユーザーのローカル repo 上で明示的に作業している場合は、その task の指示に従う。
+
+---
+
+# 16. Historical agent series
+
+詳細は `docs/experiment_index.md` を正とする。
+
+## Legacy v-series
+
+主な流れ:
+
+- v4 stable melon baseline
+- v5 seed prefetch: rejected
+- v6 dynamic melon: rejected
+- v7 simple diversification: rejected
+- v8 livestock rewrite: collapse
+- v9 livestock stabilization
+- v10 8 cows + 6 sheep + 8 hands
+- v11 market-aware selling
+- v12 Seyamalam public strong baseline
+- v15 Kaito48 family
+
+## h-series
+
+- h1 overhiring collapse
+- h2 capital allocation
+- h3 strong vs v11 but weak vs v15
+- h4 weak vs h3 / v15
+
+重要な教訓:
+
+**非推移性は古い自作seriesでも既に観測されている。**
+
+1本の baseline に対する改善を general strength と同一視しない。
+
+---
+
+# 17. Learned policy / RL の位置づけ
+
+RL / learned policy を使うこと自体は目的ではない。
+
+もし使うなら、720-turn end-to-end PPO にいきなり飛ばず、
+
+- strong low-level executor
+- macro decision
+- counterfactual rollouts
+- state-conditioned choice
+
+のように、改善理由を追いやすい構造を優先する。
 
 候補 state:
 
-day / hour
-
-cash / cash difference
-
-unlocked shops
-
-market prices / inventory / trends
-
-own seeds / crops / inventory
-
-livestock
-
-land count
-
-worker count
-
-opponent visible crop / livestock / land
+- day / hour
+- cash / cash diff
+- shops
+- market price / inventory / trend
+- own crops / seeds / inventory
+- livestock
+- land
+- workers
+- opponent visible state
 
 候補 macro actions:
 
-land timing
+- land timing
+- crop emphasis
+- livestock allocation
+- worker allocation
+- sell / hold mode
 
-crop emphasis
+学習 objective も最終的には W/D/L と population performance に結びつける。
 
-livestock allocation
+---
 
-worker target
+# 18. 判断を変えるときのルール
 
-sell / hold mode
+過去READMEに書いた方針だからという理由で守り続けない。
 
-まずは discrete counterfactual rollout を作り、
+新しい evidence が出たら判断を更新する。
 
-Q(s,a) = P(win | s,a)
+ただし過去の結果を消さない。
 
-を LightGBM / XGBoost 等で学習する方が検証しやすい。
+例:
 
-最終 reward は W/D/L を基準とする。
+```text
+Past:
+E20はE11に0-16なのでreject
 
-end-to-end PPO / hierarchical PPO は、macro action の明確なシグナルが出てから。
+Current interpretation:
+E11 direct lossだけではglobal rejectを証明しない
+```
 
-14. 現在の実験ルール
+このように、
 
-旧版への勝利だけでは promotion しない
+**historical decision と current policy を両方残す。**
 
-同じ seed、両席で比較
+これにより後で、
 
-tuning に使った seed は holdout として再利用しない
+```text
+なぜ当時そう判断したか
+何が分かって方針が変わったか
+```
 
-まず少数 seed で screening
+を追えるようにする。
 
-direct E11 comparison で敗北が出る改造は原則即 reject
+---
 
-通過候補だけ 100-500 games に拡大
+# 19. README 更新チェックリスト
 
-W / D / L を最優先
+重要な作業区切りで README 更新を検討する。
 
-mean reward / mean margin は補助指標
+更新対象:
 
-broken candidate は勝敗に混ぜない
+- 新experimentを実行した
+- candidateのstatusが変わった
+- current frontierの理解が変わった
+- Kaggle公式evaluation条件が変わった
+- baselineの位置づけが変わった
+- ユーザーから再発防止すべき重要な指摘があった
+- 「次の道筋」が変わった
+- 過去の判断を覆す evidence が出た
 
-mechanism が発動していない A/B は「効果なし」ではなく「仮説未検証」と扱う
+更新しないもの:
 
-一度明確に reject した方向を理由なく再試行しない
+- 一時的な思いつき
+- まだ mechanism 未確認の仮説を確定事項として
+- 1 replay だけの現象を普遍則として
+- live leaderboard の瞬間値を恒久的な strength として
 
-E11 exact を直接上書きしない
+---
 
-15. 次にやること
+# 20. 現在の要約
 
-P0: E11 exact を Current Best として維持
+2026-09-18 時点。
 
-E19 が明確に勝つまでは E11 を差し替えない。
+- 最終目的: unknown active population に対する Bradley-Terry 最大化
+- E11: strong frozen baseline / strategy family の1本。神格化しない
+- Kaito27: historical frontier。current populationでは価値が変化した可能性
+- shared market / non-transitivity / strategy lineage を重視
+- margin は補助
+- E11 direct は gate ではない
+- saturated panel で margin ranking しない
+- evaluation framework を目的化しない
+- adaptivityを目的化しない
+- known loss patchingを universal robustness と同一視しない
+- wins も control として structural weakness を確認する
+- micro-patch loop より complete strategy families を batch探索
+- E番号 immutable
+- cache/results preserve
+- final 2 submissions は generalist + complement を狙う
+- 直近の仕事は Focus / Trip lineage identification と current frontier map
+- その後、意味の違う complete candidates をまとめて実装する
 
-P1: E19 early SW prebuild を screening
+---
 
-python experiments/e019_early_sw/arena.py --seeds 8 --seed-start 32000
+## 最後の原則
 
-まず mechanism 発動と direct W/D/L を見る。
+**本来の目的を忘れないこと。**
 
-early_land_activated == 0
-→ trigger / implementation の問題。仮説未検証。
+局所的には正しそうな作業でも、最終 Bradley-Terry を上げる道筋に接続していなければ優先しない。
 
-activation あり + direct loss
-→ E19 reject。
+「E11を改善すること」も「adaptive agentを作ること」も「最新topを真似ること」も目的ではない。
 
-activation あり + non-regression
-→ strong holdouts、fresh seeds へ拡大。
+目的は、
 
-P2: Kaggle 実リプレイを増やす
+> **最終時点で active な未知・多様な相手群に対して勝つ確率を最大化し、Kaggriculture の最終 Bradley-Terry 評価を最大化すること。**
 
-E11 の live opponent に対する losses / close games を集める。
-
-特に確認するもの:
-
-3rd land timing
-
-shop composition と crop allocation
-
-PASS / routing
-
-market sell timing
-
-opponent-specific failure mode
-
-P3: post-Day9 adaptive allocation
-
-E19 の land hypothesis が通るか否かを確認した後、shop-aware crop allocation を tape switch ではない方式で試す。
-
-候補:
-
-current tape を維持した局所 production override
-
-macro policy
-
-counterfactual rollout による action choice
-
-P4: 公開 frontier の継続探索
-
-締切まで E11 より新しい / 強い公開 agent が出ていないか監視する。
-
-16. Current Best summary
-
-Current Best: E11 / Prvsiyan Frontier exact
-
-Status: Frozen public-frontier baseline / submitted
-
-Local evidence:
-
-elite arena: 144-0-0
-
-fresh holdout: 96-0-0
-
-final confirmation: 476-0-4
-
-final confirmation score: 99.2%
-
-mean margin: +18,988
-
-Kaggle submission:
-
-file: submission_e11.tar.gz
-
-status: Complete
-
-initial displayed score: 600.0
-
-later observed leaderboard rating: 1687.3
-
-later observed rank: 2095
-
-submitted: 2026-09-17
-
-Latest experiments:
-
-E14 MILK guard: REJECT
-
-E15 FERTILIZER guard: REJECT
-
-E16 anti-clone guard: REJECT
-
-E17 idle-hand rescue: REJECT / no-op
-
-E18 late-shop switch: REJECT (0-14-2 vs E11)
-
-E19 early SW prebuild: NEXT TEST / not promoted
-
-原則
-
-ここから先も本来の目的を忘れないこと。
-
-「自作であること」「変更量が多いこと」「平均 reward が高いこと」「E11 と違うこと」ではなく、
-
-Kaggriculture の最終 Bradley-Terry を最大化することが目的。
-
-E11 を壊してまで独自性を足さない。
-
-公開 artifact を使う場合はライセンス・provenance・submission conditions を確認する。
-
-新しい変更は必ず E11 exact に対する再現可能な W/D/L 改善で正当化する。
-
-githubに書き込もうとするな。
+そのために baseline、public frontier、replay analysis、local arena、leaderboard、複数 strategy families を使う。
