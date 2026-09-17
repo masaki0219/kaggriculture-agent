@@ -480,7 +480,7 @@ E18: late-shop tape switch
 
 実行:
 
-python e18_ab_arena.py --seeds 8 --seed-start 31000
+python experiments/e018_late_shop/arena.py --seeds 8 --seed-start 31000
 
 結果:
 
@@ -557,9 +557,9 @@ Status: 次の A/B 候補。未 promotion。
 
 Files:
 
-agent_e19_prvsiyan_early_sw.py
+experiments/e019_early_sw/agent.py
 
-e19_ab_arena.py
+experiments/e019_early_sw/arena.py
 
 狙い
 
@@ -593,7 +593,7 @@ E11 自身が後で使う予定の cell だけを触る
 
 初期 screening
 
-python e19_ab_arena.py --seeds 8 --seed-start 32000
+python experiments/e019_early_sw/arena.py --seeds 8 --seed-start 32000
 
 見る telemetry:
 
@@ -841,7 +841,7 @@ E19 が明確に勝つまでは E11 を差し替えない。
 
 P1: E19 early SW prebuild を screening
 
-python e19_ab_arena.py --seeds 8 --seed-start 32000
+python experiments/e019_early_sw/arena.py --seeds 8 --seed-start 32000
 
 まず mechanism 発動と direct W/D/L を見る。
 
