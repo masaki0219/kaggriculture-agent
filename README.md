@@ -945,3 +945,5 @@ E11 を壊してまで独自性を足さない。
 公開 artifact を使う場合はライセンス・provenance・submission conditions を確認する。
 
 新しい変更は必ず E11 exact に対する再現可能な W/D/L 改善で正当化する。
+
+githubに書き込もうとするな。
