@@ -1,0 +1,2146 @@
+{
+  "candidate|e18_late_shop|candidate|e11|31000|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31000,
+    "swap": false,
+    "a": 73657.0,
+    "b": 73657.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31000|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31000,
+    "swap": true,
+    "a": 73657.0,
+    "b": 73657.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31001|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31001,
+    "swap": false,
+    "a": 87809.0,
+    "b": 87809.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31001|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31001,
+    "swap": true,
+    "a": 87809.0,
+    "b": 87809.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31002|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31002,
+    "swap": false,
+    "a": 85055.0,
+    "b": 85055.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 6,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31002|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31002,
+    "swap": true,
+    "a": 85055.0,
+    "b": 85055.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 6,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31003|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31003,
+    "swap": false,
+    "a": 119935.0,
+    "b": 119935.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31003|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31003,
+    "swap": true,
+    "a": 119935.0,
+    "b": 119935.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31004|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31004,
+    "swap": false,
+    "a": 82798.0,
+    "b": 82798.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 4,
+      "same_plan": 2,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31004|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31004,
+    "swap": true,
+    "a": 82798.0,
+    "b": 82798.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 4,
+      "same_plan": 2,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31005|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31005,
+    "swap": false,
+    "a": 134658.0,
+    "b": 134658.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31005|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31005,
+    "swap": true,
+    "a": 134658.0,
+    "b": 134658.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31006|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31006,
+    "swap": false,
+    "a": 88805.0,
+    "b": 88805.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31006|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31006,
+    "swap": true,
+    "a": 88805.0,
+    "b": 88805.0,
+    "r": "D",
+    "m": 0.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31007|0": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31007,
+    "swap": false,
+    "a": 96682.0,
+    "b": 97621.0,
+    "r": "L",
+    "m": -939.0,
+    "telemetry": {
+      "new_shop_events": 1,
+      "route_candidates": 1,
+      "safe_switches": 1,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|candidate|e11|31007|1": {
+    "left": "e18_late_shop",
+    "right": "e11",
+    "seed": 31007,
+    "swap": true,
+    "a": 96682.0,
+    "b": 97621.0,
+    "r": "L",
+    "m": -939.0,
+    "telemetry": {
+      "new_shop_events": 1,
+      "route_candidates": 1,
+      "safe_switches": 1,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e11|opponent|e2_boatlee29|31000|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31000,
+    "swap": false,
+    "a": 139590.0,
+    "b": 125161.0,
+    "r": "W",
+    "m": 14429.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31000|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31000,
+    "swap": true,
+    "a": 139590.0,
+    "b": 125161.0,
+    "r": "W",
+    "m": 14429.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31001|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31001,
+    "swap": false,
+    "a": 105173.0,
+    "b": 73476.0,
+    "r": "W",
+    "m": 31697.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31001|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31001,
+    "swap": true,
+    "a": 105173.0,
+    "b": 73476.0,
+    "r": "W",
+    "m": 31697.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31002|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31002,
+    "swap": false,
+    "a": 101770.0,
+    "b": 69654.0,
+    "r": "W",
+    "m": 32116.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31002|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31002,
+    "swap": true,
+    "a": 101770.0,
+    "b": 69654.0,
+    "r": "W",
+    "m": 32116.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31003|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31003,
+    "swap": false,
+    "a": 113791.0,
+    "b": 97428.0,
+    "r": "W",
+    "m": 16363.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31003|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31003,
+    "swap": true,
+    "a": 113791.0,
+    "b": 97428.0,
+    "r": "W",
+    "m": 16363.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31004|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31004,
+    "swap": false,
+    "a": 127353.0,
+    "b": 91615.0,
+    "r": "W",
+    "m": 35738.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31004|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31004,
+    "swap": true,
+    "a": 127353.0,
+    "b": 91615.0,
+    "r": "W",
+    "m": 35738.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31005|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31005,
+    "swap": false,
+    "a": 157813.0,
+    "b": 138078.0,
+    "r": "W",
+    "m": 19735.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31005|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31005,
+    "swap": true,
+    "a": 145908.0,
+    "b": 129599.0,
+    "r": "W",
+    "m": 16309.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31006|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31006,
+    "swap": false,
+    "a": 58084.0,
+    "b": 40230.0,
+    "r": "W",
+    "m": 17854.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31006|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31006,
+    "swap": true,
+    "a": 58084.0,
+    "b": 40230.0,
+    "r": "W",
+    "m": 17854.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31007|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31007,
+    "swap": false,
+    "a": 77858.0,
+    "b": 58522.0,
+    "r": "W",
+    "m": 19336.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|e2_boatlee29|31007|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 31007,
+    "swap": true,
+    "a": 77858.0,
+    "b": 58522.0,
+    "r": "W",
+    "m": 19336.0,
+    "telemetry": {}
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31000|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31000,
+    "swap": false,
+    "a": 139590.0,
+    "b": 125161.0,
+    "r": "W",
+    "m": 14429.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31000|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31000,
+    "swap": true,
+    "a": 139590.0,
+    "b": 125161.0,
+    "r": "W",
+    "m": 14429.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31001|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31001,
+    "swap": false,
+    "a": 105173.0,
+    "b": 73476.0,
+    "r": "W",
+    "m": 31697.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 4,
+      "same_plan": 2,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31001|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31001,
+    "swap": true,
+    "a": 105173.0,
+    "b": 73476.0,
+    "r": "W",
+    "m": 31697.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 4,
+      "same_plan": 2,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31002|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31002,
+    "swap": false,
+    "a": 101770.0,
+    "b": 69654.0,
+    "r": "W",
+    "m": 32116.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 1,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31002|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31002,
+    "swap": true,
+    "a": 101770.0,
+    "b": 69654.0,
+    "r": "W",
+    "m": 32116.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 1,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31003|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31003,
+    "swap": false,
+    "a": 113791.0,
+    "b": 97428.0,
+    "r": "W",
+    "m": 16363.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31003|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31003,
+    "swap": true,
+    "a": 113791.0,
+    "b": 97428.0,
+    "r": "W",
+    "m": 16363.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31004|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31004,
+    "swap": false,
+    "a": 127353.0,
+    "b": 91615.0,
+    "r": "W",
+    "m": 35738.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31004|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31004,
+    "swap": true,
+    "a": 127353.0,
+    "b": 91615.0,
+    "r": "W",
+    "m": 35738.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31005|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31005,
+    "swap": false,
+    "a": 157813.0,
+    "b": 138078.0,
+    "r": "W",
+    "m": 19735.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 3,
+      "safe_switches": 0,
+      "unsafe_rejects": 3,
+      "same_plan": 0,
+      "no_supported_pair": 3
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31005|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31005,
+    "swap": true,
+    "a": 145908.0,
+    "b": 129599.0,
+    "r": "W",
+    "m": 16309.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31006|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31006,
+    "swap": false,
+    "a": 58084.0,
+    "b": 40230.0,
+    "r": "W",
+    "m": 17854.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31006|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31006,
+    "swap": true,
+    "a": 58084.0,
+    "b": 40230.0,
+    "r": "W",
+    "m": 17854.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31007|0": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31007,
+    "swap": false,
+    "a": 77858.0,
+    "b": 58522.0,
+    "r": "W",
+    "m": 19336.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|e2_boatlee29|31007|1": {
+    "left": "e18_late_shop",
+    "right": "e2_boatlee29",
+    "seed": 31007,
+    "swap": true,
+    "a": 77858.0,
+    "b": 58522.0,
+    "r": "W",
+    "m": 19336.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e11|opponent|v15_kaito48|31000|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31000,
+    "swap": false,
+    "a": 78373.0,
+    "b": 58439.0,
+    "r": "W",
+    "m": 19934.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31000|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31000,
+    "swap": true,
+    "a": 78373.0,
+    "b": 58439.0,
+    "r": "W",
+    "m": 19934.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31001|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31001,
+    "swap": false,
+    "a": 62400.0,
+    "b": 36994.0,
+    "r": "W",
+    "m": 25406.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31001|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31001,
+    "swap": true,
+    "a": 62400.0,
+    "b": 36994.0,
+    "r": "W",
+    "m": 25406.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31002|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31002,
+    "swap": false,
+    "a": 73600.0,
+    "b": 60452.0,
+    "r": "W",
+    "m": 13148.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31002|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31002,
+    "swap": true,
+    "a": 73600.0,
+    "b": 60452.0,
+    "r": "W",
+    "m": 13148.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31003|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31003,
+    "swap": false,
+    "a": 150644.0,
+    "b": 148023.0,
+    "r": "W",
+    "m": 2621.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31003|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31003,
+    "swap": true,
+    "a": 150644.0,
+    "b": 148023.0,
+    "r": "W",
+    "m": 2621.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31004|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31004,
+    "swap": false,
+    "a": 57582.0,
+    "b": 34694.0,
+    "r": "W",
+    "m": 22888.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31004|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31004,
+    "swap": true,
+    "a": 57582.0,
+    "b": 34694.0,
+    "r": "W",
+    "m": 22888.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31005|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31005,
+    "swap": false,
+    "a": 141643.0,
+    "b": 87522.0,
+    "r": "W",
+    "m": 54121.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31005|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31005,
+    "swap": true,
+    "a": 141643.0,
+    "b": 87522.0,
+    "r": "W",
+    "m": 54121.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31006|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31006,
+    "swap": false,
+    "a": 80058.0,
+    "b": 62950.0,
+    "r": "W",
+    "m": 17108.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31006|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31006,
+    "swap": true,
+    "a": 80058.0,
+    "b": 62950.0,
+    "r": "W",
+    "m": 17108.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31007|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31007,
+    "swap": false,
+    "a": 123681.0,
+    "b": 103188.0,
+    "r": "W",
+    "m": 20493.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|v15_kaito48|31007|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 31007,
+    "swap": true,
+    "a": 123681.0,
+    "b": 103188.0,
+    "r": "W",
+    "m": 20493.0,
+    "telemetry": {}
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31000|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31000,
+    "swap": false,
+    "a": 78373.0,
+    "b": 58439.0,
+    "r": "W",
+    "m": 19934.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31000|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31000,
+    "swap": true,
+    "a": 78373.0,
+    "b": 58439.0,
+    "r": "W",
+    "m": 19934.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31001|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31001,
+    "swap": false,
+    "a": 62400.0,
+    "b": 36994.0,
+    "r": "W",
+    "m": 25406.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31001|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31001,
+    "swap": true,
+    "a": 62400.0,
+    "b": 36994.0,
+    "r": "W",
+    "m": 25406.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31002|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31002,
+    "swap": false,
+    "a": 73600.0,
+    "b": 60452.0,
+    "r": "W",
+    "m": 13148.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 6,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31002|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31002,
+    "swap": true,
+    "a": 73600.0,
+    "b": 60452.0,
+    "r": "W",
+    "m": 13148.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 6,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31003|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31003,
+    "swap": false,
+    "a": 150644.0,
+    "b": 148023.0,
+    "r": "W",
+    "m": 2621.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31003|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31003,
+    "swap": true,
+    "a": 150644.0,
+    "b": 148023.0,
+    "r": "W",
+    "m": 2621.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31004|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31004,
+    "swap": false,
+    "a": 57582.0,
+    "b": 34694.0,
+    "r": "W",
+    "m": 22888.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 3,
+      "safe_switches": 0,
+      "unsafe_rejects": 3,
+      "same_plan": 0,
+      "no_supported_pair": 3
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31004|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31004,
+    "swap": true,
+    "a": 57582.0,
+    "b": 34694.0,
+    "r": "W",
+    "m": 22888.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 3,
+      "safe_switches": 0,
+      "unsafe_rejects": 3,
+      "same_plan": 0,
+      "no_supported_pair": 3
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31005|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31005,
+    "swap": false,
+    "a": 141643.0,
+    "b": 87522.0,
+    "r": "W",
+    "m": 54121.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31005|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31005,
+    "swap": true,
+    "a": 141643.0,
+    "b": 87522.0,
+    "r": "W",
+    "m": 54121.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31006|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31006,
+    "swap": false,
+    "a": 80058.0,
+    "b": 62950.0,
+    "r": "W",
+    "m": 17108.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31006|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31006,
+    "swap": true,
+    "a": 80058.0,
+    "b": 62950.0,
+    "r": "W",
+    "m": 17108.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31007|0": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31007,
+    "swap": false,
+    "a": 123654.0,
+    "b": 103192.0,
+    "r": "W",
+    "m": 20462.0,
+    "telemetry": {
+      "new_shop_events": 1,
+      "route_candidates": 1,
+      "safe_switches": 1,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|v15_kaito48|31007|1": {
+    "left": "e18_late_shop",
+    "right": "v15_kaito48",
+    "seed": 31007,
+    "swap": true,
+    "a": 123654.0,
+    "b": 103192.0,
+    "r": "W",
+    "m": 20462.0,
+    "telemetry": {
+      "new_shop_events": 1,
+      "route_candidates": 1,
+      "safe_switches": 1,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e11|opponent|qeinstein_champion|31000|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31000,
+    "swap": false,
+    "a": 139530.0,
+    "b": 124775.0,
+    "r": "W",
+    "m": 14755.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31000|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31000,
+    "swap": true,
+    "a": 139530.0,
+    "b": 124775.0,
+    "r": "W",
+    "m": 14755.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31001|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31001,
+    "swap": false,
+    "a": 105379.0,
+    "b": 75748.0,
+    "r": "W",
+    "m": 29631.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31001|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31001,
+    "swap": true,
+    "a": 105379.0,
+    "b": 75748.0,
+    "r": "W",
+    "m": 29631.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31002|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31002,
+    "swap": false,
+    "a": 101886.0,
+    "b": 71867.0,
+    "r": "W",
+    "m": 30019.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31002|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31002,
+    "swap": true,
+    "a": 101886.0,
+    "b": 71867.0,
+    "r": "W",
+    "m": 30019.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31003|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31003,
+    "swap": false,
+    "a": 113704.0,
+    "b": 97359.0,
+    "r": "W",
+    "m": 16345.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31003|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31003,
+    "swap": true,
+    "a": 113704.0,
+    "b": 97359.0,
+    "r": "W",
+    "m": 16345.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31004|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31004,
+    "swap": false,
+    "a": 127246.0,
+    "b": 92399.0,
+    "r": "W",
+    "m": 34847.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31004|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31004,
+    "swap": true,
+    "a": 127246.0,
+    "b": 92399.0,
+    "r": "W",
+    "m": 34847.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31005|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31005,
+    "swap": false,
+    "a": 157753.0,
+    "b": 138205.0,
+    "r": "W",
+    "m": 19548.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31005|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31005,
+    "swap": true,
+    "a": 145831.0,
+    "b": 129263.0,
+    "r": "W",
+    "m": 16568.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31006|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31006,
+    "swap": false,
+    "a": 57988.0,
+    "b": 42812.0,
+    "r": "W",
+    "m": 15176.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31006|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31006,
+    "swap": true,
+    "a": 57988.0,
+    "b": 42812.0,
+    "r": "W",
+    "m": 15176.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31007|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31007,
+    "swap": false,
+    "a": 77929.0,
+    "b": 59886.0,
+    "r": "W",
+    "m": 18043.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_champion|31007|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 31007,
+    "swap": true,
+    "a": 77929.0,
+    "b": 59886.0,
+    "r": "W",
+    "m": 18043.0,
+    "telemetry": {}
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31000|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31000,
+    "swap": false,
+    "a": 139530.0,
+    "b": 124775.0,
+    "r": "W",
+    "m": 14755.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31000|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31000,
+    "swap": true,
+    "a": 139530.0,
+    "b": 124775.0,
+    "r": "W",
+    "m": 14755.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31001|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31001,
+    "swap": false,
+    "a": 105379.0,
+    "b": 75748.0,
+    "r": "W",
+    "m": 29631.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 4,
+      "same_plan": 2,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31001|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31001,
+    "swap": true,
+    "a": 105379.0,
+    "b": 75748.0,
+    "r": "W",
+    "m": 29631.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 4,
+      "same_plan": 2,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31002|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31002,
+    "swap": false,
+    "a": 101886.0,
+    "b": 71867.0,
+    "r": "W",
+    "m": 30019.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 1,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31002|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31002,
+    "swap": true,
+    "a": 101886.0,
+    "b": 71867.0,
+    "r": "W",
+    "m": 30019.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 1,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31003|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31003,
+    "swap": false,
+    "a": 113704.0,
+    "b": 97359.0,
+    "r": "W",
+    "m": 16345.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31003|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31003,
+    "swap": true,
+    "a": 113704.0,
+    "b": 97359.0,
+    "r": "W",
+    "m": 16345.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31004|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31004,
+    "swap": false,
+    "a": 127246.0,
+    "b": 92399.0,
+    "r": "W",
+    "m": 34847.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31004|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31004,
+    "swap": true,
+    "a": 127246.0,
+    "b": 92399.0,
+    "r": "W",
+    "m": 34847.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31005|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31005,
+    "swap": false,
+    "a": 157753.0,
+    "b": 138205.0,
+    "r": "W",
+    "m": 19548.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 3,
+      "safe_switches": 0,
+      "unsafe_rejects": 3,
+      "same_plan": 0,
+      "no_supported_pair": 3
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31005|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31005,
+    "swap": true,
+    "a": 145831.0,
+    "b": 129263.0,
+    "r": "W",
+    "m": 16568.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31006|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31006,
+    "swap": false,
+    "a": 57988.0,
+    "b": 42812.0,
+    "r": "W",
+    "m": 15176.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31006|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31006,
+    "swap": true,
+    "a": 57988.0,
+    "b": 42812.0,
+    "r": "W",
+    "m": 15176.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31007|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31007,
+    "swap": false,
+    "a": 77929.0,
+    "b": 59886.0,
+    "r": "W",
+    "m": 18043.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_champion|31007|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_champion",
+    "seed": 31007,
+    "swap": true,
+    "a": 77929.0,
+    "b": 59886.0,
+    "r": "W",
+    "m": 18043.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31000|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31000,
+    "swap": false,
+    "a": 155026.0,
+    "b": 128305.0,
+    "r": "W",
+    "m": 26721.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31000|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31000,
+    "swap": true,
+    "a": 155026.0,
+    "b": 128305.0,
+    "r": "W",
+    "m": 26721.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31001|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31001,
+    "swap": false,
+    "a": 112974.0,
+    "b": 103886.0,
+    "r": "W",
+    "m": 9088.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31001|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31001,
+    "swap": true,
+    "a": 112974.0,
+    "b": 103886.0,
+    "r": "W",
+    "m": 9088.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31002|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31002,
+    "swap": false,
+    "a": 126385.0,
+    "b": 77620.0,
+    "r": "W",
+    "m": 48765.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31002|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31002,
+    "swap": true,
+    "a": 126385.0,
+    "b": 77620.0,
+    "r": "W",
+    "m": 48765.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31003|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31003,
+    "swap": false,
+    "a": 122913.0,
+    "b": 103650.0,
+    "r": "W",
+    "m": 19263.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31003|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31003,
+    "swap": true,
+    "a": 122913.0,
+    "b": 103650.0,
+    "r": "W",
+    "m": 19263.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31004|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31004,
+    "swap": false,
+    "a": 94682.0,
+    "b": 80608.0,
+    "r": "W",
+    "m": 14074.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31004|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31004,
+    "swap": true,
+    "a": 94682.0,
+    "b": 80608.0,
+    "r": "W",
+    "m": 14074.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31005|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31005,
+    "swap": false,
+    "a": 124012.0,
+    "b": 117514.0,
+    "r": "W",
+    "m": 6498.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31005|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31005,
+    "swap": true,
+    "a": 124012.0,
+    "b": 117514.0,
+    "r": "W",
+    "m": 6498.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31006|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31006,
+    "swap": false,
+    "a": 121385.0,
+    "b": 112639.0,
+    "r": "W",
+    "m": 8746.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31006|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31006,
+    "swap": true,
+    "a": 121385.0,
+    "b": 112639.0,
+    "r": "W",
+    "m": 8746.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31007|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31007,
+    "swap": false,
+    "a": 78635.0,
+    "b": 71755.0,
+    "r": "W",
+    "m": 6880.0,
+    "telemetry": {}
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|31007|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 31007,
+    "swap": true,
+    "a": 78635.0,
+    "b": 71755.0,
+    "r": "W",
+    "m": 6880.0,
+    "telemetry": {}
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31000|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31000,
+    "swap": false,
+    "a": 155026.0,
+    "b": 128305.0,
+    "r": "W",
+    "m": 26721.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 6,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31000|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31000,
+    "swap": true,
+    "a": 155026.0,
+    "b": 128305.0,
+    "r": "W",
+    "m": 26721.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 6,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31001|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31001,
+    "swap": false,
+    "a": 112974.0,
+    "b": 103886.0,
+    "r": "W",
+    "m": 9088.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31001|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31001,
+    "swap": true,
+    "a": 112974.0,
+    "b": 103886.0,
+    "r": "W",
+    "m": 9088.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31002|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31002,
+    "swap": false,
+    "a": 126385.0,
+    "b": 77620.0,
+    "r": "W",
+    "m": 48765.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31002|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31002,
+    "swap": true,
+    "a": 126385.0,
+    "b": 77620.0,
+    "r": "W",
+    "m": 48765.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31003|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31003,
+    "swap": false,
+    "a": 122913.0,
+    "b": 103650.0,
+    "r": "W",
+    "m": 19263.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31003|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31003,
+    "swap": true,
+    "a": 122913.0,
+    "b": 103650.0,
+    "r": "W",
+    "m": 19263.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 5,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 0,
+      "no_supported_pair": 1
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31004|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31004,
+    "swap": false,
+    "a": 94682.0,
+    "b": 80608.0,
+    "r": "W",
+    "m": 14074.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 1,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31004|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31004,
+    "swap": true,
+    "a": 94682.0,
+    "b": 80608.0,
+    "r": "W",
+    "m": 14074.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 6,
+      "safe_switches": 0,
+      "unsafe_rejects": 5,
+      "same_plan": 1,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31005|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31005,
+    "swap": false,
+    "a": 124012.0,
+    "b": 117514.0,
+    "r": "W",
+    "m": 6498.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31005|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31005,
+    "swap": true,
+    "a": 124012.0,
+    "b": 117514.0,
+    "r": "W",
+    "m": 6498.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31006|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31006,
+    "swap": false,
+    "a": 121385.0,
+    "b": 112639.0,
+    "r": "W",
+    "m": 8746.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31006|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31006,
+    "swap": true,
+    "a": 121385.0,
+    "b": 112639.0,
+    "r": "W",
+    "m": 8746.0,
+    "telemetry": {
+      "new_shop_events": 6,
+      "route_candidates": 0,
+      "safe_switches": 0,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 6
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31007|0": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31007,
+    "swap": false,
+    "a": 78274.0,
+    "b": 70122.0,
+    "r": "W",
+    "m": 8152.0,
+    "telemetry": {
+      "new_shop_events": 1,
+      "route_candidates": 1,
+      "safe_switches": 1,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  },
+  "candidate|e18_late_shop|opponent|qeinstein_candidate7|31007|1": {
+    "left": "e18_late_shop",
+    "right": "qeinstein_candidate7",
+    "seed": 31007,
+    "swap": true,
+    "a": 78274.0,
+    "b": 70122.0,
+    "r": "W",
+    "m": 8152.0,
+    "telemetry": {
+      "new_shop_events": 1,
+      "route_candidates": 1,
+      "safe_switches": 1,
+      "unsafe_rejects": 0,
+      "same_plan": 0,
+      "no_supported_pair": 0
+    }
+  }
+}

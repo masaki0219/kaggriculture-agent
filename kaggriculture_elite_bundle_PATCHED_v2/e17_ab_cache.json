@@ -1,0 +1,902 @@
+{
+  "candidate|e17_idle_water|candidate|e11|30000|0": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30000,
+    "swap": false,
+    "a": 115528.0,
+    "b": 115528.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30000|1": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30000,
+    "swap": true,
+    "a": 115528.0,
+    "b": 115528.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30001|0": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30001,
+    "swap": false,
+    "a": 99590.0,
+    "b": 99590.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30001|1": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30001,
+    "swap": true,
+    "a": 99590.0,
+    "b": 99590.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30002|0": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30002,
+    "swap": false,
+    "a": 101079.0,
+    "b": 101079.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30002|1": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30002,
+    "swap": true,
+    "a": 101079.0,
+    "b": 101079.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30003|0": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30003,
+    "swap": false,
+    "a": 99054.0,
+    "b": 99054.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30003|1": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30003,
+    "swap": true,
+    "a": 99054.0,
+    "b": 99054.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30004|0": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30004,
+    "swap": false,
+    "a": 83725.0,
+    "b": 83725.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e17_idle_water|candidate|e11|30004|1": {
+    "left": "e17_idle_water",
+    "right": "e11",
+    "seed": 30004,
+    "swap": true,
+    "a": 83725.0,
+    "b": 83725.0,
+    "r": "D",
+    "m": 0.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30000|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30000,
+    "swap": false,
+    "a": 94643.0,
+    "b": 58122.0,
+    "r": "W",
+    "m": 36521.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30000|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30000,
+    "swap": true,
+    "a": 94643.0,
+    "b": 58122.0,
+    "r": "W",
+    "m": 36521.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30001|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30001,
+    "swap": false,
+    "a": 159178.0,
+    "b": 140372.0,
+    "r": "W",
+    "m": 18806.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30001|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30001,
+    "swap": true,
+    "a": 159178.0,
+    "b": 140372.0,
+    "r": "W",
+    "m": 18806.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30002|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30002,
+    "swap": false,
+    "a": 95283.0,
+    "b": 81983.0,
+    "r": "W",
+    "m": 13300.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30002|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30002,
+    "swap": true,
+    "a": 95283.0,
+    "b": 81983.0,
+    "r": "W",
+    "m": 13300.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30003|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30003,
+    "swap": false,
+    "a": 108545.0,
+    "b": 92550.0,
+    "r": "W",
+    "m": 15995.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30003|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30003,
+    "swap": true,
+    "a": 108545.0,
+    "b": 92550.0,
+    "r": "W",
+    "m": 15995.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30004|0": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30004,
+    "swap": false,
+    "a": 135130.0,
+    "b": 111981.0,
+    "r": "W",
+    "m": 23149.0
+  },
+  "candidate|e11|opponent|e2_boatlee29|30004|1": {
+    "left": "e11",
+    "right": "e2_boatlee29",
+    "seed": 30004,
+    "swap": true,
+    "a": 135130.0,
+    "b": 111981.0,
+    "r": "W",
+    "m": 23149.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30000|0": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30000,
+    "swap": false,
+    "a": 94643.0,
+    "b": 58122.0,
+    "r": "W",
+    "m": 36521.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30000|1": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30000,
+    "swap": true,
+    "a": 94643.0,
+    "b": 58122.0,
+    "r": "W",
+    "m": 36521.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30001|0": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30001,
+    "swap": false,
+    "a": 159178.0,
+    "b": 140372.0,
+    "r": "W",
+    "m": 18806.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30001|1": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30001,
+    "swap": true,
+    "a": 159178.0,
+    "b": 140372.0,
+    "r": "W",
+    "m": 18806.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30002|0": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30002,
+    "swap": false,
+    "a": 95283.0,
+    "b": 81983.0,
+    "r": "W",
+    "m": 13300.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30002|1": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30002,
+    "swap": true,
+    "a": 95283.0,
+    "b": 81983.0,
+    "r": "W",
+    "m": 13300.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30003|0": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30003,
+    "swap": false,
+    "a": 108545.0,
+    "b": 92550.0,
+    "r": "W",
+    "m": 15995.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30003|1": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30003,
+    "swap": true,
+    "a": 108545.0,
+    "b": 92550.0,
+    "r": "W",
+    "m": 15995.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30004|0": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30004,
+    "swap": false,
+    "a": 135130.0,
+    "b": 111981.0,
+    "r": "W",
+    "m": 23149.0
+  },
+  "candidate|e17_idle_water|opponent|e2_boatlee29|30004|1": {
+    "left": "e17_idle_water",
+    "right": "e2_boatlee29",
+    "seed": 30004,
+    "swap": true,
+    "a": 135130.0,
+    "b": 111981.0,
+    "r": "W",
+    "m": 23149.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30000|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30000,
+    "swap": false,
+    "a": 138417.0,
+    "b": 111120.0,
+    "r": "W",
+    "m": 27297.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30000|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30000,
+    "swap": true,
+    "a": 118745.0,
+    "b": 95999.0,
+    "r": "W",
+    "m": 22746.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30001|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30001,
+    "swap": false,
+    "a": 120814.0,
+    "b": 111900.0,
+    "r": "W",
+    "m": 8914.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30001|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30001,
+    "swap": true,
+    "a": 120814.0,
+    "b": 111900.0,
+    "r": "W",
+    "m": 8914.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30002|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30002,
+    "swap": false,
+    "a": 124881.0,
+    "b": 117370.0,
+    "r": "W",
+    "m": 7511.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30002|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30002,
+    "swap": true,
+    "a": 124881.0,
+    "b": 117370.0,
+    "r": "W",
+    "m": 7511.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30003|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30003,
+    "swap": false,
+    "a": 87116.0,
+    "b": 69234.0,
+    "r": "W",
+    "m": 17882.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30003|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30003,
+    "swap": true,
+    "a": 87116.0,
+    "b": 69234.0,
+    "r": "W",
+    "m": 17882.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30004|0": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30004,
+    "swap": false,
+    "a": 76958.0,
+    "b": 43978.0,
+    "r": "W",
+    "m": 32980.0
+  },
+  "candidate|e11|opponent|v15_kaito48|30004|1": {
+    "left": "e11",
+    "right": "v15_kaito48",
+    "seed": 30004,
+    "swap": true,
+    "a": 76958.0,
+    "b": 43978.0,
+    "r": "W",
+    "m": 32980.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30000|0": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30000,
+    "swap": false,
+    "a": 138417.0,
+    "b": 111120.0,
+    "r": "W",
+    "m": 27297.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30000|1": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30000,
+    "swap": true,
+    "a": 118745.0,
+    "b": 95999.0,
+    "r": "W",
+    "m": 22746.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30001|0": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30001,
+    "swap": false,
+    "a": 120814.0,
+    "b": 111900.0,
+    "r": "W",
+    "m": 8914.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30001|1": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30001,
+    "swap": true,
+    "a": 120814.0,
+    "b": 111900.0,
+    "r": "W",
+    "m": 8914.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30002|0": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30002,
+    "swap": false,
+    "a": 124881.0,
+    "b": 117370.0,
+    "r": "W",
+    "m": 7511.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30002|1": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30002,
+    "swap": true,
+    "a": 124881.0,
+    "b": 117370.0,
+    "r": "W",
+    "m": 7511.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30003|0": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30003,
+    "swap": false,
+    "a": 87116.0,
+    "b": 69234.0,
+    "r": "W",
+    "m": 17882.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30003|1": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30003,
+    "swap": true,
+    "a": 87116.0,
+    "b": 69234.0,
+    "r": "W",
+    "m": 17882.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30004|0": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30004,
+    "swap": false,
+    "a": 76958.0,
+    "b": 43978.0,
+    "r": "W",
+    "m": 32980.0
+  },
+  "candidate|e17_idle_water|opponent|v15_kaito48|30004|1": {
+    "left": "e17_idle_water",
+    "right": "v15_kaito48",
+    "seed": 30004,
+    "swap": true,
+    "a": 76958.0,
+    "b": 43978.0,
+    "r": "W",
+    "m": 32980.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30000|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30000,
+    "swap": false,
+    "a": 94818.0,
+    "b": 60051.0,
+    "r": "W",
+    "m": 34767.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30000|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30000,
+    "swap": true,
+    "a": 94818.0,
+    "b": 60051.0,
+    "r": "W",
+    "m": 34767.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30001|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30001,
+    "swap": false,
+    "a": 159102.0,
+    "b": 140502.0,
+    "r": "W",
+    "m": 18600.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30001|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30001,
+    "swap": true,
+    "a": 159102.0,
+    "b": 140502.0,
+    "r": "W",
+    "m": 18600.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30002|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30002,
+    "swap": false,
+    "a": 95014.0,
+    "b": 80494.0,
+    "r": "W",
+    "m": 14520.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30002|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30002,
+    "swap": true,
+    "a": 95014.0,
+    "b": 80494.0,
+    "r": "W",
+    "m": 14520.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30003|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30003,
+    "swap": false,
+    "a": 108429.0,
+    "b": 91869.0,
+    "r": "W",
+    "m": 16560.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30003|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30003,
+    "swap": true,
+    "a": 108429.0,
+    "b": 91869.0,
+    "r": "W",
+    "m": 16560.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30004|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30004,
+    "swap": false,
+    "a": 135133.0,
+    "b": 111131.0,
+    "r": "W",
+    "m": 24002.0
+  },
+  "candidate|e11|opponent|qeinstein_champion|30004|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 30004,
+    "swap": true,
+    "a": 135133.0,
+    "b": 111131.0,
+    "r": "W",
+    "m": 24002.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30000|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30000,
+    "swap": false,
+    "a": 94818.0,
+    "b": 60051.0,
+    "r": "W",
+    "m": 34767.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30000|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30000,
+    "swap": true,
+    "a": 94818.0,
+    "b": 60051.0,
+    "r": "W",
+    "m": 34767.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30001|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30001,
+    "swap": false,
+    "a": 159102.0,
+    "b": 140502.0,
+    "r": "W",
+    "m": 18600.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30001|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30001,
+    "swap": true,
+    "a": 159102.0,
+    "b": 140502.0,
+    "r": "W",
+    "m": 18600.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30002|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30002,
+    "swap": false,
+    "a": 95014.0,
+    "b": 80494.0,
+    "r": "W",
+    "m": 14520.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30002|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30002,
+    "swap": true,
+    "a": 95014.0,
+    "b": 80494.0,
+    "r": "W",
+    "m": 14520.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30003|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30003,
+    "swap": false,
+    "a": 108429.0,
+    "b": 91869.0,
+    "r": "W",
+    "m": 16560.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30003|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30003,
+    "swap": true,
+    "a": 108429.0,
+    "b": 91869.0,
+    "r": "W",
+    "m": 16560.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30004|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30004,
+    "swap": false,
+    "a": 135133.0,
+    "b": 111131.0,
+    "r": "W",
+    "m": 24002.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_champion|30004|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_champion",
+    "seed": 30004,
+    "swap": true,
+    "a": 135133.0,
+    "b": 111131.0,
+    "r": "W",
+    "m": 24002.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30000|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30000,
+    "swap": false,
+    "a": 88806.0,
+    "b": 81937.0,
+    "r": "W",
+    "m": 6869.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30000|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30000,
+    "swap": true,
+    "a": 88806.0,
+    "b": 81937.0,
+    "r": "W",
+    "m": 6869.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30001|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30001,
+    "swap": false,
+    "a": 79120.0,
+    "b": 67068.0,
+    "r": "W",
+    "m": 12052.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30001|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30001,
+    "swap": true,
+    "a": 79120.0,
+    "b": 67068.0,
+    "r": "W",
+    "m": 12052.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30002|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30002,
+    "swap": false,
+    "a": 103422.0,
+    "b": 85102.0,
+    "r": "W",
+    "m": 18320.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30002|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30002,
+    "swap": true,
+    "a": 103422.0,
+    "b": 85102.0,
+    "r": "W",
+    "m": 18320.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30003|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30003,
+    "swap": false,
+    "a": 86692.0,
+    "b": 68874.0,
+    "r": "W",
+    "m": 17818.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30003|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30003,
+    "swap": true,
+    "a": 86692.0,
+    "b": 68874.0,
+    "r": "W",
+    "m": 17818.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30004|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30004,
+    "swap": false,
+    "a": 73127.0,
+    "b": 55184.0,
+    "r": "W",
+    "m": 17943.0
+  },
+  "candidate|e11|opponent|qeinstein_candidate7|30004|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 30004,
+    "swap": true,
+    "a": 73127.0,
+    "b": 55184.0,
+    "r": "W",
+    "m": 17943.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30000|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30000,
+    "swap": false,
+    "a": 88806.0,
+    "b": 81937.0,
+    "r": "W",
+    "m": 6869.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30000|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30000,
+    "swap": true,
+    "a": 88806.0,
+    "b": 81937.0,
+    "r": "W",
+    "m": 6869.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30001|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30001,
+    "swap": false,
+    "a": 79120.0,
+    "b": 67068.0,
+    "r": "W",
+    "m": 12052.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30001|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30001,
+    "swap": true,
+    "a": 79120.0,
+    "b": 67068.0,
+    "r": "W",
+    "m": 12052.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30002|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30002,
+    "swap": false,
+    "a": 103422.0,
+    "b": 85102.0,
+    "r": "W",
+    "m": 18320.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30002|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30002,
+    "swap": true,
+    "a": 103422.0,
+    "b": 85102.0,
+    "r": "W",
+    "m": 18320.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30003|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30003,
+    "swap": false,
+    "a": 86692.0,
+    "b": 68874.0,
+    "r": "W",
+    "m": 17818.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30003|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30003,
+    "swap": true,
+    "a": 86692.0,
+    "b": 68874.0,
+    "r": "W",
+    "m": 17818.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30004|0": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30004,
+    "swap": false,
+    "a": 73127.0,
+    "b": 55184.0,
+    "r": "W",
+    "m": 17943.0
+  },
+  "candidate|e17_idle_water|opponent|qeinstein_candidate7|30004|1": {
+    "left": "e17_idle_water",
+    "right": "qeinstein_candidate7",
+    "seed": 30004,
+    "swap": true,
+    "a": 73127.0,
+    "b": 55184.0,
+    "r": "W",
+    "m": 17943.0
+  }
+}

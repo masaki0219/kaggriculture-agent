@@ -1,0 +1,16 @@
+Kaggriculture Local Arena
+========================
+
+Confirmed Local Bradley-Terry (relative; NOT Kaggle live score)
+ 1. prvsiyan_frontier                 +2422.7
+ 2. reacting_market_smart_public_refresh  +1047.9
+ 3. reacting_evgen_v226_public_refresh   +900.2
+ 4. reacting_aurax7_v2_public_refresh   +816.5
+ 5. sub-009-moev2                      +545.3
+ 6. _extract_submission_tar_2          +325.6
+ 7. _extract_submission_tar_4          +200.0
+ 8. _extract_submission_tar_3         -1458.1
+ 9. _extract_submission_tar           -4800.0
+
+Non-transitive cycles (>55% each edge)
+none detected

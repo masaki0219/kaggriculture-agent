@@ -1,0 +1,102 @@
+=== EXACT E11 LAND INSPECTION ===
+source : kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/prvsiyan_frontier/raw/main.py
+sha256 : 02b1fee4b0e48027d4d3baeeb99518346f4fc5a14724cdb202d09a3425b15a79
+bytes  : 89193
+
+BUY_LAND raw occurrences: 4
+
+--- raw occurrence 1: line 777 ---
+     769:     if obs['private']['seeds'].get('TOMATO',0) or obs['private']['shed'].get('TOMATO',0):
+     770:         return False
+     771:     if any(isinstance(t,dict) and t.get('crop')=='TOMATO' for row in farm['tiles'] for t in row):
+     772:         return False
+     773:     # The investment uses spare land and new worker indices. Avoid taking over
+     774:     # any native tomato or land purchase obligation on the known own schedule.
+     775:     for day in range(18,30):
+     776:         for a in _v219_native_day(native,day):
+>>   777:             if any(o and o[0]=='BUY_LAND' for o in a.get('market',[])):return False
+     778:             if any(c==['PLANT','TOMATO'] for c in [a.get('farmer')]+a.get('hands',[])):return False
+     779:     return True
+     780:
+     781:
+     782: def _v219_walk(pos, target):
+     783:     x,y=pos;tx,ty=target
+     784:     if x != tx:return ['EAST' if x < tx else 'WEST']
+     785:     if y != ty:return ['SOUTH' if y < ty else 'NORTH']
+
+--- raw occurrence 2: line 814 ---
+     806:     if len(farm['hands'])+parent_hires != expected:return action
+     807:     fertilizer=bool(_V219_FERTILIZE and day in (24,27) and obs['market']['prices']['FERTILIZER']<=30)
+     808:     # One watering tour: at most 2 entry moves + 9 between tiles + 10 waters.
+     809:     # A hire request by hour2 leaves at least21 callbacks after confirmation.
+     810:     crop_workers=1 if day in (19,20,21,22,23,25) and offset<=2 else (3 if 26<=day<=28 else 2)
+     811:     count=crop_workers+int(fertilizer and day==27)
+     812:     extra=[]
+     813:     if not state.get('committed'):
+>>   814:         extra += [['BUY_LAND'],['BUY_SEED','TOMATO',10]]
+     815:     if fertilizer:extra.append(['BUY_PRODUCT','FERTILIZER',10])
+     816:     extra += [['HIRE'] for _ in range(count)]
+     817:     if len(action['market'])+len(extra)>MAX_ORDERS:return action
+     818:     # No assumed sale proceeds. Reserve 3,000 for parent obligations and price
+     819:     # movement; the qualification separately requires 12,000 initial liquidity.
+     820:     budget=sum(_v219_fib(n) for n in range(farm['hires_today'],farm['hires_today']+parent_hires+count))
+     821:     if not state.get('committed'):budget+=4500
+     822:     if fertilizer:budget+=10*(obs['market']['prices']['FERTILIZER']+5)
+
+--- raw occurrence 3: line 954 ---
+     946:
+     947: # V224: prioritize already requested sales without crossing same-item purchases.
+     948: _V224_PARENT=agent
+     949: del agent
+     950: _V224_REPORT=dict(_V219_REPORT, reordered_market_turns=0)
+     951:
+     952: def _v224_sales_first(action):
+     953:     original=action.get('market',[])[:MAX_ORDERS]
+>>   954:     orders=[list(o) for o in original if o and (o[0] in ('HIRE','BUY_LAND') or (len(o)>=3 and int(o[2])>0))]
+     955:     for index in range(len(orders)):
+     956:         order=orders[index]
+     957:         if order[0]!='SELL':continue
+     958:         cursor=index
+     959:         while cursor>0:
+     960:             previous=orders[cursor-1]
+     961:             if previous[0]=='SELL':break
+     962:             if previous[0] in ('BUY_PRODUCT','BUY_ANIMAL') and previous[1]==order[1]:break
+
+--- raw occurrence 4: line 995 ---
+     987:
+     988: def _v226_topup(obs,action,state,configuration=None):
+     989:     step=int(obs['step']);player=int(obs['player'])
+     990:     if configuration is not None and any(configuration.get(k,v)!=v for k,v in
+     991:         (('boardSize',10),('turnsPerDay',24),('shedCapacity',100),('maxMarketOrdersPerTurn',10))):return action
+     992:     if not 24<=step<696 or step%24==23 or (step+1)%72==0:return action
+     993:     market=action.get('market',[])[:MAX_ORDERS]
+     994:     if len(market)>=MAX_ORDERS:return action
+>>   995:     purchases={'HIRE','BUY_LAND','BUY_PRODUCT','BUY_ANIMAL','BUY_SEED'}
+     996:     if any(o and (o[0] in purchases or (len(o)>1 and o[1]=='WHEAT')) for o in market):return action
+     997:     tape=_POLICY.tapes[state.plan]
+     998:     nxt=tape[step+1]
+     999:     if any(o and o[0] in purchases for o in nxt.get('market',[])):return action
+    1000:     view=FarmView(obs);commands=[action.get('farmer') or ['PASS'],*(action.get('hands') or [])]
+    1001:     future=[nxt.get('farmer') or ['PASS'],*(nxt.get('hands') or [])]
+    1002:     demand=0
+    1003:     for actor,pos in enumerate(view.positions):
+
+=== TOP-LEVEL LITERAL PATHS CONTAINING BUY_LAND ===
+literal BUY_LAND hits in top-level assignments: 0
+
+=== FUNCTIONS CONTAINING BUY_LAND ===
+_v219_qualifies: lines 759-779
+_v219_request: lines 793-836
+_v224_sales_first: lines 952-968
+_v226_topup: lines 988-1035
+
+=== ARCHITECTURE KEYWORDS ===
+replay          : 0
+trajectory      : 0
+route           : 16
+snapshot        : 0
+expert          : 0
+nearest         : 0
+distance        : 4
+BUY_LAND        : 4
+market_actions  : 0

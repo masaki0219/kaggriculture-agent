@@ -1,0 +1,104 @@
+{
+  "e18_vs_e11": {
+    "W": 0,
+    "D": 14,
+    "L": 2,
+    "mean_margin": -117.375,
+    "telemetry": {
+      "new_shop_events": 86,
+      "route_candidates": 46,
+      "safe_switches": 2,
+      "unsafe_rejects": 40,
+      "same_plan": 4,
+      "no_supported_pair": 40
+    }
+  },
+  "e2_boatlee29": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 23194.375
+    },
+    "e18": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 23194.375
+    },
+    "telemetry": {
+      "new_shop_events": 96,
+      "route_candidates": 57,
+      "safe_switches": 0,
+      "unsafe_rejects": 51,
+      "same_plan": 6,
+      "no_supported_pair": 39
+    }
+  },
+  "v15_kaito48": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 21964.875
+    },
+    "e18": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 21961.0
+    },
+    "telemetry": {
+      "new_shop_events": 86,
+      "route_candidates": 20,
+      "safe_switches": 2,
+      "unsafe_rejects": 18,
+      "same_plan": 0,
+      "no_supported_pair": 66
+    }
+  },
+  "qeinstein_champion": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 22109.25
+    },
+    "e18": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 22109.25
+    },
+    "telemetry": {
+      "new_shop_events": 96,
+      "route_candidates": 57,
+      "safe_switches": 0,
+      "unsafe_rejects": 51,
+      "same_plan": 6,
+      "no_supported_pair": 39
+    }
+  },
+  "qeinstein_candidate7": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 17504.375
+    },
+    "e18": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 17663.375
+    },
+    "telemetry": {
+      "new_shop_events": 86,
+      "route_candidates": 36,
+      "safe_switches": 2,
+      "unsafe_rejects": 32,
+      "same_plan": 2,
+      "no_supported_pair": 50
+    }
+  }
+}
