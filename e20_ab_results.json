@@ -1,0 +1,159 @@
+{
+  "e20_vs_e11": {
+    "W": 0,
+    "D": 0,
+    "L": 16,
+    "mean_margin": -1817.0625,
+    "telemetry": {
+      "eligible_games": 16,
+      "early_land_requests": 16,
+      "early_land_activated": 16,
+      "activation_failures": 0,
+      "extra_hires": 22,
+      "seed_prefetch_requests": 32,
+      "seed_prefetch_activated": 32,
+      "native_seed_suppressed": 56,
+      "no_future_seed_order": 0,
+      "preplants": 28,
+      "waters": 72,
+      "native_land_suppressed": 16,
+      "redundant_native_plants_suppressed": 0,
+      "no_targets": 0,
+      "no_seed": 32,
+      "cash_waits": 400,
+      "market_full": 0
+    }
+  },
+  "e2_boatlee29": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 21822.5
+    },
+    "e20": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 20139.8125
+    },
+    "telemetry": {
+      "eligible_games": 16,
+      "early_land_requests": 16,
+      "early_land_activated": 16,
+      "activation_failures": 0,
+      "extra_hires": 23,
+      "seed_prefetch_requests": 44,
+      "seed_prefetch_activated": 32,
+      "native_seed_suppressed": 55,
+      "no_future_seed_order": 0,
+      "preplants": 28,
+      "waters": 47,
+      "native_land_suppressed": 16,
+      "redundant_native_plants_suppressed": 0,
+      "no_targets": 0,
+      "no_seed": 44,
+      "cash_waits": 392,
+      "market_full": 0
+    }
+  },
+  "v15_kaito48": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 18897.75
+    },
+    "e20": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 14072.25
+    },
+    "telemetry": {
+      "eligible_games": 16,
+      "early_land_requests": 16,
+      "early_land_activated": 16,
+      "activation_failures": 0,
+      "extra_hires": 18,
+      "seed_prefetch_requests": 30,
+      "seed_prefetch_activated": 30,
+      "native_seed_suppressed": 58,
+      "no_future_seed_order": 0,
+      "preplants": 32,
+      "waters": 70,
+      "native_land_suppressed": 16,
+      "redundant_native_plants_suppressed": 0,
+      "no_targets": 0,
+      "no_seed": 30,
+      "cash_waits": 486,
+      "market_full": 0
+    }
+  },
+  "qeinstein_champion": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 21156.8125
+    },
+    "e20": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 18887.9375
+    },
+    "telemetry": {
+      "eligible_games": 16,
+      "early_land_requests": 16,
+      "early_land_activated": 16,
+      "activation_failures": 0,
+      "extra_hires": 23,
+      "seed_prefetch_requests": 44,
+      "seed_prefetch_activated": 32,
+      "native_seed_suppressed": 55,
+      "no_future_seed_order": 0,
+      "preplants": 28,
+      "waters": 47,
+      "native_land_suppressed": 16,
+      "redundant_native_plants_suppressed": 0,
+      "no_targets": 0,
+      "no_seed": 44,
+      "cash_waits": 392,
+      "market_full": 0
+    }
+  },
+  "qeinstein_candidate7": {
+    "e11": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 11181.0625
+    },
+    "e20": {
+      "W": 16,
+      "D": 0,
+      "L": 0,
+      "mean_margin": 11502.5
+    },
+    "telemetry": {
+      "eligible_games": 16,
+      "early_land_requests": 16,
+      "early_land_activated": 16,
+      "activation_failures": 0,
+      "extra_hires": 16,
+      "seed_prefetch_requests": 30,
+      "seed_prefetch_activated": 30,
+      "native_seed_suppressed": 60,
+      "no_future_seed_order": 0,
+      "preplants": 32,
+      "waters": 50,
+      "native_land_suppressed": 16,
+      "redundant_native_plants_suppressed": 0,
+      "no_targets": 0,
+      "no_seed": 30,
+      "cash_waits": 558,
+      "market_full": 0
+    }
+  }
+}

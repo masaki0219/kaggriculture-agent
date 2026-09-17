@@ -1,0 +1,550 @@
+{
+  "version": 1,
+  "profile": "core",
+  "seed_start": 40000,
+  "seeds": 4,
+  "candidates": [
+    "e11",
+    "e20",
+    "e21"
+  ],
+  "opponents": {
+    "boatlee29": {
+      "family": "boatlee",
+      "kind": "elite",
+      "ref": "boatlee29"
+    },
+    "kaito27": {
+      "family": "kaito",
+      "kind": "elite",
+      "ref": "kaito27_current"
+    },
+    "kaito43": {
+      "family": "kaito",
+      "kind": "elite",
+      "ref": "kaito43_current"
+    },
+    "kaito58": {
+      "family": "kaito",
+      "kind": "elite",
+      "ref": "kaito58"
+    },
+    "shape_top10": {
+      "family": "shape",
+      "kind": "elite",
+      "ref": "shape_top10"
+    },
+    "adaptive_route_v2": {
+      "family": "adaptive_route",
+      "kind": "elite",
+      "ref": "adaptive_route_v2"
+    },
+    "kaito48_v15": {
+      "family": "kaito",
+      "kind": "module",
+      "ref": "agent_v15"
+    },
+    "qeinstein_champion": {
+      "family": "qeinstein",
+      "kind": "path",
+      "ref": "/Users/takahashimasaki/Desktop/Kaggle/public_agents/qeinstein/scripts/champion_entry.py"
+    },
+    "qeinstein_candidate7": {
+      "family": "qeinstein",
+      "kind": "path",
+      "ref": "/Users/takahashimasaki/Desktop/Kaggle/public_agents/qeinstein/scripts/candidate7_entry.py"
+    }
+  },
+  "per_candidate": {
+    "e11": {
+      "boatlee29": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 30932.625
+      },
+      "kaito27": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 59087.75
+      },
+      "kaito43": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 20750.25
+      },
+      "kaito58": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 12256.0
+      },
+      "shape_top10": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "adaptive_route_v2": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 168956.5
+      },
+      "kaito48_v15": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 20355.5
+      },
+      "qeinstein_champion": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 29289.0
+      },
+      "qeinstein_candidate7": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 11673.0
+      }
+    },
+    "e20": {
+      "boatlee29": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 22806.875
+      },
+      "kaito27": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 47066.75
+      },
+      "kaito43": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 17952.125
+      },
+      "kaito58": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 9275.0
+      },
+      "shape_top10": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "adaptive_route_v2": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 169491.875
+      },
+      "kaito48_v15": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 17616.625
+      },
+      "qeinstein_champion": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 21367.625
+      },
+      "qeinstein_candidate7": {
+        "W": 8,
+        "D": 0,
+        "L": 0,
+        "N": 8,
+        "pairwise_score": 1.0,
+        "mean_margin": 13070.875
+      }
+    },
+    "e21": {
+      "boatlee29": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "kaito27": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "kaito43": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "kaito58": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "shape_top10": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "adaptive_route_v2": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "kaito48_v15": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "qeinstein_champion": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      },
+      "qeinstein_candidate7": {
+        "W": 0,
+        "D": 0,
+        "L": 0,
+        "N": 0,
+        "pairwise_score": NaN,
+        "mean_margin": NaN
+      }
+    }
+  },
+  "aggregates": {
+    "e11": {
+      "W": 64,
+      "D": 0,
+      "L": 0,
+      "micro_pairwise_score": 1.0,
+      "family_balanced_score": 1.0,
+      "family_scores": {
+        "boatlee": 1.0,
+        "kaito": 1.0,
+        "adaptive_route": 1.0,
+        "qeinstein": 1.0
+      }
+    },
+    "e20": {
+      "W": 64,
+      "D": 0,
+      "L": 0,
+      "micro_pairwise_score": 1.0,
+      "family_balanced_score": 1.0,
+      "family_scores": {
+        "boatlee": 1.0,
+        "kaito": 1.0,
+        "adaptive_route": 1.0,
+        "qeinstein": 1.0
+      }
+    },
+    "e21": {
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "micro_pairwise_score": NaN,
+      "family_balanced_score": NaN,
+      "family_scores": {}
+    }
+  },
+  "candidate_h2h": {
+    "e11__e20": {
+      "W": 8,
+      "D": 0,
+      "L": 0,
+      "N": 8,
+      "pairwise_score": 1.0,
+      "mean_margin": 1517.125
+    },
+    "e11__e21": {
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "N": 0,
+      "pairwise_score": NaN,
+      "mean_margin": NaN
+    },
+    "e20__e21": {
+      "W": 0,
+      "D": 0,
+      "L": 0,
+      "N": 0,
+      "pairwise_score": NaN,
+      "mean_margin": NaN
+    }
+  },
+  "local_bt": {
+    "e11": {
+      "logit": 5.844124765961242,
+      "display": 1015.2284549644402
+    },
+    "e20": {
+      "logit": 3.1872121790464263,
+      "display": 553.6754648058808
+    },
+    "e21": {
+      "logit": -3.3155583854849417e-15,
+      "display": -5.759714844976659e-13
+    },
+    "boatlee29": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "kaito27": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "kaito43": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "kaito58": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "shape_top10": {
+      "logit": -3.3155583854849417e-15,
+      "display": -5.759714844976659e-13
+    },
+    "adaptive_route_v2": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "kaito48_v15": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "qeinstein_champion": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    },
+    "qeinstein_candidate7": {
+      "logit": -1.1289171181259576,
+      "display": -196.11298997128995
+    }
+  },
+  "matchup_delta_vs_e11": {
+    "e20": {
+      "boatlee29": 0.0,
+      "kaito27": 0.0,
+      "kaito43": 0.0,
+      "kaito58": 0.0,
+      "shape_top10": NaN,
+      "adaptive_route_v2": 0.0,
+      "kaito48_v15": 0.0,
+      "qeinstein_champion": 0.0,
+      "qeinstein_candidate7": 0.0
+    },
+    "e21": {
+      "boatlee29": NaN,
+      "kaito27": NaN,
+      "kaito43": NaN,
+      "kaito58": NaN,
+      "shape_top10": NaN,
+      "adaptive_route_v2": NaN,
+      "kaito48_v15": NaN,
+      "qeinstein_champion": NaN,
+      "qeinstein_candidate7": NaN
+    }
+  },
+  "skipped_errors": {
+    "e21__boatlee29": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__kaito27": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__kaito43": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__kaito58": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e11__shape_top10": [
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')"
+    ],
+    "e20__shape_top10": [
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+      "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')"
+    ],
+    "e21__shape_top10": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__adaptive_route_v2": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__kaito48_v15": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__qeinstein_champion": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e21__qeinstein_candidate7": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e11__e21": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ],
+    "e20__e21": [
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+      "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'"
+    ]
+  }
+}

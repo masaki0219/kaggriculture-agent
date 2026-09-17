@@ -1,0 +1,2090 @@
+{
+  "v1|core|candidate|e11|opponent|boatlee29|40000|0": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40000,
+    "swap": false,
+    "a": 114604.0,
+    "b": 87657.0,
+    "r": "W",
+    "m": 26947.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40000|1": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40000,
+    "swap": true,
+    "a": 114604.0,
+    "b": 87657.0,
+    "r": "W",
+    "m": 26947.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40001|0": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40001,
+    "swap": false,
+    "a": 115938.0,
+    "b": 102119.0,
+    "r": "W",
+    "m": 13819.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40001|1": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40001,
+    "swap": true,
+    "a": 121645.0,
+    "b": 101773.0,
+    "r": "W",
+    "m": 19872.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40002|0": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40002,
+    "swap": false,
+    "a": 100297.0,
+    "b": 61105.0,
+    "r": "W",
+    "m": 39192.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40002|1": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40002,
+    "swap": true,
+    "a": 100297.0,
+    "b": 61105.0,
+    "r": "W",
+    "m": 39192.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40003|0": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40003,
+    "swap": false,
+    "a": 139631.0,
+    "b": 98885.0,
+    "r": "W",
+    "m": 40746.0
+  },
+  "v1|core|candidate|e11|opponent|boatlee29|40003|1": {
+    "left": "e11",
+    "right": "boatlee29",
+    "seed": 40003,
+    "swap": true,
+    "a": 139631.0,
+    "b": 98885.0,
+    "r": "W",
+    "m": 40746.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40000|0": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40000,
+    "swap": false,
+    "a": 88717.0,
+    "b": 73324.0,
+    "r": "W",
+    "m": 15393.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40000|1": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40000,
+    "swap": true,
+    "a": 88717.0,
+    "b": 73324.0,
+    "r": "W",
+    "m": 15393.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40001|0": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40001,
+    "swap": false,
+    "a": 126457.0,
+    "b": 116155.0,
+    "r": "W",
+    "m": 10302.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40001|1": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40001,
+    "swap": true,
+    "a": 121059.0,
+    "b": 106576.0,
+    "r": "W",
+    "m": 14483.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40002|0": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40002,
+    "swap": false,
+    "a": 100134.0,
+    "b": 61247.0,
+    "r": "W",
+    "m": 38887.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40002|1": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40002,
+    "swap": true,
+    "a": 100134.0,
+    "b": 61247.0,
+    "r": "W",
+    "m": 38887.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40003|0": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40003,
+    "swap": false,
+    "a": 105324.0,
+    "b": 80769.0,
+    "r": "W",
+    "m": 24555.0
+  },
+  "v1|core|candidate|e20|opponent|boatlee29|40003|1": {
+    "left": "e20",
+    "right": "boatlee29",
+    "seed": 40003,
+    "swap": true,
+    "a": 105324.0,
+    "b": 80769.0,
+    "r": "W",
+    "m": 24555.0
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|boatlee29|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "boatlee29",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40000|0": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40000,
+    "swap": false,
+    "a": 158460.0,
+    "b": 85213.0,
+    "r": "W",
+    "m": 73247.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40000|1": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40000,
+    "swap": true,
+    "a": 158460.0,
+    "b": 85213.0,
+    "r": "W",
+    "m": 73247.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40001|0": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40001,
+    "swap": false,
+    "a": 140907.0,
+    "b": 80757.0,
+    "r": "W",
+    "m": 60150.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40001|1": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40001,
+    "swap": true,
+    "a": 140803.0,
+    "b": 80821.0,
+    "r": "W",
+    "m": 59982.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40002|0": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40002,
+    "swap": false,
+    "a": 112983.0,
+    "b": 69162.0,
+    "r": "W",
+    "m": 43821.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40002|1": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40002,
+    "swap": true,
+    "a": 113440.0,
+    "b": 68991.0,
+    "r": "W",
+    "m": 44449.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40003|0": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40003,
+    "swap": false,
+    "a": 118941.0,
+    "b": 60038.0,
+    "r": "W",
+    "m": 58903.0
+  },
+  "v1|core|candidate|e11|opponent|kaito27|40003|1": {
+    "left": "e11",
+    "right": "kaito27",
+    "seed": 40003,
+    "swap": true,
+    "a": 118941.0,
+    "b": 60038.0,
+    "r": "W",
+    "m": 58903.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40000|0": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40000,
+    "swap": false,
+    "a": 142196.0,
+    "b": 89517.0,
+    "r": "W",
+    "m": 52679.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40000|1": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40000,
+    "swap": true,
+    "a": 142196.0,
+    "b": 89517.0,
+    "r": "W",
+    "m": 52679.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40001|0": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40001,
+    "swap": false,
+    "a": 114596.0,
+    "b": 67081.0,
+    "r": "W",
+    "m": 47515.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40001|1": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40001,
+    "swap": true,
+    "a": 114434.0,
+    "b": 67144.0,
+    "r": "W",
+    "m": 47290.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40002|0": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40002,
+    "swap": false,
+    "a": 131880.0,
+    "b": 91871.0,
+    "r": "W",
+    "m": 40009.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40002|1": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40002,
+    "swap": true,
+    "a": 132488.0,
+    "b": 92098.0,
+    "r": "W",
+    "m": 40390.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40003|0": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40003,
+    "swap": false,
+    "a": 146638.0,
+    "b": 98652.0,
+    "r": "W",
+    "m": 47986.0
+  },
+  "v1|core|candidate|e20|opponent|kaito27|40003|1": {
+    "left": "e20",
+    "right": "kaito27",
+    "seed": 40003,
+    "swap": true,
+    "a": 146638.0,
+    "b": 98652.0,
+    "r": "W",
+    "m": 47986.0
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito27|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito27",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40000|0": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40000,
+    "swap": false,
+    "a": 111570.0,
+    "b": 103266.0,
+    "r": "W",
+    "m": 8304.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40000|1": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40000,
+    "swap": true,
+    "a": 111570.0,
+    "b": 103266.0,
+    "r": "W",
+    "m": 8304.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40001|0": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40001,
+    "swap": false,
+    "a": 111449.0,
+    "b": 93408.0,
+    "r": "W",
+    "m": 18041.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40001|1": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40001,
+    "swap": true,
+    "a": 111527.0,
+    "b": 93363.0,
+    "r": "W",
+    "m": 18164.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40002|0": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40002,
+    "swap": false,
+    "a": 83253.0,
+    "b": 51199.0,
+    "r": "W",
+    "m": 32054.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40002|1": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40002,
+    "swap": true,
+    "a": 78666.0,
+    "b": 52079.0,
+    "r": "W",
+    "m": 26587.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40003|0": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40003,
+    "swap": false,
+    "a": 114463.0,
+    "b": 87189.0,
+    "r": "W",
+    "m": 27274.0
+  },
+  "v1|core|candidate|e11|opponent|kaito43|40003|1": {
+    "left": "e11",
+    "right": "kaito43",
+    "seed": 40003,
+    "swap": true,
+    "a": 114463.0,
+    "b": 87189.0,
+    "r": "W",
+    "m": 27274.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40000|0": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40000,
+    "swap": false,
+    "a": 104852.0,
+    "b": 96070.0,
+    "r": "W",
+    "m": 8782.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40000|1": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40000,
+    "swap": true,
+    "a": 104852.0,
+    "b": 96070.0,
+    "r": "W",
+    "m": 8782.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40001|0": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40001,
+    "swap": false,
+    "a": 115305.0,
+    "b": 101369.0,
+    "r": "W",
+    "m": 13936.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40001|1": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40001,
+    "swap": true,
+    "a": 115331.0,
+    "b": 101215.0,
+    "r": "W",
+    "m": 14116.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40002|0": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40002,
+    "swap": false,
+    "a": 75002.0,
+    "b": 50770.0,
+    "r": "W",
+    "m": 24232.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40002|1": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40002,
+    "swap": true,
+    "a": 71104.0,
+    "b": 51367.0,
+    "r": "W",
+    "m": 19737.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40003|0": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40003,
+    "swap": false,
+    "a": 112056.0,
+    "b": 85040.0,
+    "r": "W",
+    "m": 27016.0
+  },
+  "v1|core|candidate|e20|opponent|kaito43|40003|1": {
+    "left": "e20",
+    "right": "kaito43",
+    "seed": 40003,
+    "swap": true,
+    "a": 112056.0,
+    "b": 85040.0,
+    "r": "W",
+    "m": 27016.0
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito43|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito43",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40000|0": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40000,
+    "swap": false,
+    "a": 126285.0,
+    "b": 122808.0,
+    "r": "W",
+    "m": 3477.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40000|1": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40000,
+    "swap": true,
+    "a": 126285.0,
+    "b": 122808.0,
+    "r": "W",
+    "m": 3477.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40001|0": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40001,
+    "swap": false,
+    "a": 96094.0,
+    "b": 86945.0,
+    "r": "W",
+    "m": 9149.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40001|1": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40001,
+    "swap": true,
+    "a": 96094.0,
+    "b": 86945.0,
+    "r": "W",
+    "m": 9149.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40002|0": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40002,
+    "swap": false,
+    "a": 53937.0,
+    "b": 41636.0,
+    "r": "W",
+    "m": 12301.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40002|1": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40002,
+    "swap": true,
+    "a": 53937.0,
+    "b": 41636.0,
+    "r": "W",
+    "m": 12301.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40003|0": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40003,
+    "swap": false,
+    "a": 112166.0,
+    "b": 88069.0,
+    "r": "W",
+    "m": 24097.0
+  },
+  "v1|core|candidate|e11|opponent|kaito58|40003|1": {
+    "left": "e11",
+    "right": "kaito58",
+    "seed": 40003,
+    "swap": true,
+    "a": 112166.0,
+    "b": 88069.0,
+    "r": "W",
+    "m": 24097.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40000|0": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40000,
+    "swap": false,
+    "a": 132130.0,
+    "b": 127090.0,
+    "r": "W",
+    "m": 5040.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40000|1": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40000,
+    "swap": true,
+    "a": 132130.0,
+    "b": 127090.0,
+    "r": "W",
+    "m": 5040.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40001|0": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40001,
+    "swap": false,
+    "a": 134023.0,
+    "b": 129175.0,
+    "r": "W",
+    "m": 4848.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40001|1": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40001,
+    "swap": true,
+    "a": 134023.0,
+    "b": 129175.0,
+    "r": "W",
+    "m": 4848.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40002|0": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40002,
+    "swap": false,
+    "a": 53882.0,
+    "b": 42587.0,
+    "r": "W",
+    "m": 11295.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40002|1": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40002,
+    "swap": true,
+    "a": 53882.0,
+    "b": 42587.0,
+    "r": "W",
+    "m": 11295.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40003|0": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40003,
+    "swap": false,
+    "a": 121877.0,
+    "b": 105960.0,
+    "r": "W",
+    "m": 15917.0
+  },
+  "v1|core|candidate|e20|opponent|kaito58|40003|1": {
+    "left": "e20",
+    "right": "kaito58",
+    "seed": 40003,
+    "swap": true,
+    "a": 121877.0,
+    "b": 105960.0,
+    "r": "W",
+    "m": 15917.0
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito58|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito58",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40000|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40000|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40001|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40001|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40002|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40002|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40003|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e11|opponent|shape_top10|40003|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e11",
+    "right": "shape_top10",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40000|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40000|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40001|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40001|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40002|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40002|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40003|0": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e20|opponent|shape_top10|40003|1": {
+    "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/kaggriculture_elite_bundle_PATCHED_v2/public_agents/elite/shape_top10/raw/_extract_submission_tar/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy')",
+    "left": "e20",
+    "right": "shape_top10",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|shape_top10|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "shape_top10",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40000|0": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40000,
+    "swap": false,
+    "a": 156383.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 153383.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40000|1": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40000,
+    "swap": true,
+    "a": 153303.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 150303.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40001|0": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40001,
+    "swap": false,
+    "a": 185072.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 182072.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40001|1": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40001,
+    "swap": true,
+    "a": 185072.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 182072.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40002|0": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40002,
+    "swap": false,
+    "a": 156967.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 153967.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40002|1": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40002,
+    "swap": true,
+    "a": 156967.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 153967.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40003|0": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40003,
+    "swap": false,
+    "a": 190944.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 187944.0
+  },
+  "v1|core|candidate|e11|opponent|adaptive_route_v2|40003|1": {
+    "left": "e11",
+    "right": "adaptive_route_v2",
+    "seed": 40003,
+    "swap": true,
+    "a": 190944.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 187944.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40000|0": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40000,
+    "swap": false,
+    "a": 153924.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 150924.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40000|1": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40000,
+    "swap": true,
+    "a": 175551.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 172551.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40001|0": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40001,
+    "swap": false,
+    "a": 172578.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 169578.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40001|1": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40001,
+    "swap": true,
+    "a": 172578.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 169578.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40002|0": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40002,
+    "swap": false,
+    "a": 158253.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 155253.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40002|1": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40002,
+    "swap": true,
+    "a": 158253.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 155253.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40003|0": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40003,
+    "swap": false,
+    "a": 194399.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 191399.0
+  },
+  "v1|core|candidate|e20|opponent|adaptive_route_v2|40003|1": {
+    "left": "e20",
+    "right": "adaptive_route_v2",
+    "seed": 40003,
+    "swap": true,
+    "a": 194399.0,
+    "b": 3000.0,
+    "r": "W",
+    "m": 191399.0
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|adaptive_route_v2|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "adaptive_route_v2",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40000|0": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40000,
+    "swap": false,
+    "a": 110782.0,
+    "b": 104057.0,
+    "r": "W",
+    "m": 6725.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40000|1": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40000,
+    "swap": true,
+    "a": 110782.0,
+    "b": 104057.0,
+    "r": "W",
+    "m": 6725.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40001|0": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40001,
+    "swap": false,
+    "a": 111449.0,
+    "b": 93408.0,
+    "r": "W",
+    "m": 18041.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40001|1": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40001,
+    "swap": true,
+    "a": 111527.0,
+    "b": 93363.0,
+    "r": "W",
+    "m": 18164.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40002|0": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40002,
+    "swap": false,
+    "a": 83253.0,
+    "b": 51199.0,
+    "r": "W",
+    "m": 32054.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40002|1": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40002,
+    "swap": true,
+    "a": 78666.0,
+    "b": 52079.0,
+    "r": "W",
+    "m": 26587.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40003|0": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40003,
+    "swap": false,
+    "a": 114463.0,
+    "b": 87189.0,
+    "r": "W",
+    "m": 27274.0
+  },
+  "v1|core|candidate|e11|opponent|kaito48_v15|40003|1": {
+    "left": "e11",
+    "right": "kaito48_v15",
+    "seed": 40003,
+    "swap": true,
+    "a": 114463.0,
+    "b": 87189.0,
+    "r": "W",
+    "m": 27274.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40000|0": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40000,
+    "swap": false,
+    "a": 104178.0,
+    "b": 96738.0,
+    "r": "W",
+    "m": 7440.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40000|1": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40000,
+    "swap": true,
+    "a": 104178.0,
+    "b": 96738.0,
+    "r": "W",
+    "m": 7440.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40001|0": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40001,
+    "swap": false,
+    "a": 115305.0,
+    "b": 101369.0,
+    "r": "W",
+    "m": 13936.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40001|1": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40001,
+    "swap": true,
+    "a": 115331.0,
+    "b": 101215.0,
+    "r": "W",
+    "m": 14116.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40002|0": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40002,
+    "swap": false,
+    "a": 75002.0,
+    "b": 50770.0,
+    "r": "W",
+    "m": 24232.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40002|1": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40002,
+    "swap": true,
+    "a": 71104.0,
+    "b": 51367.0,
+    "r": "W",
+    "m": 19737.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40003|0": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40003,
+    "swap": false,
+    "a": 112056.0,
+    "b": 85040.0,
+    "r": "W",
+    "m": 27016.0
+  },
+  "v1|core|candidate|e20|opponent|kaito48_v15|40003|1": {
+    "left": "e20",
+    "right": "kaito48_v15",
+    "seed": 40003,
+    "swap": true,
+    "a": 112056.0,
+    "b": 85040.0,
+    "r": "W",
+    "m": 27016.0
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|kaito48_v15|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "kaito48_v15",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40000|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40000,
+    "swap": false,
+    "a": 114928.0,
+    "b": 88590.0,
+    "r": "W",
+    "m": 26338.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40000|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40000,
+    "swap": true,
+    "a": 114928.0,
+    "b": 88590.0,
+    "r": "W",
+    "m": 26338.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40001|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40001,
+    "swap": false,
+    "a": 115938.0,
+    "b": 102071.0,
+    "r": "W",
+    "m": 13867.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40001|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40001,
+    "swap": true,
+    "a": 121613.0,
+    "b": 102354.0,
+    "r": "W",
+    "m": 19259.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40002|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40002,
+    "swap": false,
+    "a": 100228.0,
+    "b": 66764.0,
+    "r": "W",
+    "m": 33464.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40002|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40002,
+    "swap": true,
+    "a": 100228.0,
+    "b": 66764.0,
+    "r": "W",
+    "m": 33464.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40003|0": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40003,
+    "swap": false,
+    "a": 139931.0,
+    "b": 99140.0,
+    "r": "W",
+    "m": 40791.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_champion|40003|1": {
+    "left": "e11",
+    "right": "qeinstein_champion",
+    "seed": 40003,
+    "swap": true,
+    "a": 139931.0,
+    "b": 99140.0,
+    "r": "W",
+    "m": 40791.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40000|0": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40000,
+    "swap": false,
+    "a": 88865.0,
+    "b": 73987.0,
+    "r": "W",
+    "m": 14878.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40000|1": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40000,
+    "swap": true,
+    "a": 88865.0,
+    "b": 73987.0,
+    "r": "W",
+    "m": 14878.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40001|0": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40001,
+    "swap": false,
+    "a": 126379.0,
+    "b": 115628.0,
+    "r": "W",
+    "m": 10751.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40001|1": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40001,
+    "swap": true,
+    "a": 120974.0,
+    "b": 106276.0,
+    "r": "W",
+    "m": 14698.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40002|0": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40002,
+    "swap": false,
+    "a": 100056.0,
+    "b": 66894.0,
+    "r": "W",
+    "m": 33162.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40002|1": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40002,
+    "swap": true,
+    "a": 100056.0,
+    "b": 66894.0,
+    "r": "W",
+    "m": 33162.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40003|0": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40003,
+    "swap": false,
+    "a": 105611.0,
+    "b": 80905.0,
+    "r": "W",
+    "m": 24706.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_champion|40003|1": {
+    "left": "e20",
+    "right": "qeinstein_champion",
+    "seed": 40003,
+    "swap": true,
+    "a": 105611.0,
+    "b": 80905.0,
+    "r": "W",
+    "m": 24706.0
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_champion|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_champion",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40000|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40000,
+    "swap": false,
+    "a": 124437.0,
+    "b": 109211.0,
+    "r": "W",
+    "m": 15226.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40000|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40000,
+    "swap": true,
+    "a": 124437.0,
+    "b": 109211.0,
+    "r": "W",
+    "m": 15226.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40001|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40001,
+    "swap": false,
+    "a": 101327.0,
+    "b": 87836.0,
+    "r": "W",
+    "m": 13491.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40001|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40001,
+    "swap": true,
+    "a": 80413.0,
+    "b": 69914.0,
+    "r": "W",
+    "m": 10499.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40002|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40002,
+    "swap": false,
+    "a": 75861.0,
+    "b": 66661.0,
+    "r": "W",
+    "m": 9200.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40002|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40002,
+    "swap": true,
+    "a": 75861.0,
+    "b": 66661.0,
+    "r": "W",
+    "m": 9200.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40003|0": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40003,
+    "swap": false,
+    "a": 74016.0,
+    "b": 63745.0,
+    "r": "W",
+    "m": 10271.0
+  },
+  "v1|core|candidate|e11|opponent|qeinstein_candidate7|40003|1": {
+    "left": "e11",
+    "right": "qeinstein_candidate7",
+    "seed": 40003,
+    "swap": true,
+    "a": 74016.0,
+    "b": 63745.0,
+    "r": "W",
+    "m": 10271.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40000|0": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40000,
+    "swap": false,
+    "a": 135964.0,
+    "b": 113461.0,
+    "r": "W",
+    "m": 22503.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40000|1": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40000,
+    "swap": true,
+    "a": 135964.0,
+    "b": 113461.0,
+    "r": "W",
+    "m": 22503.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40001|0": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40001,
+    "swap": false,
+    "a": 81915.0,
+    "b": 73974.0,
+    "r": "W",
+    "m": 7941.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40001|1": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40001,
+    "swap": true,
+    "a": 81301.0,
+    "b": 73299.0,
+    "r": "W",
+    "m": 8002.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40002|0": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40002,
+    "swap": false,
+    "a": 75724.0,
+    "b": 66661.0,
+    "r": "W",
+    "m": 9063.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40002|1": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40002,
+    "swap": true,
+    "a": 75724.0,
+    "b": 66661.0,
+    "r": "W",
+    "m": 9063.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40003|0": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40003,
+    "swap": false,
+    "a": 72604.0,
+    "b": 59858.0,
+    "r": "W",
+    "m": 12746.0
+  },
+  "v1|core|candidate|e20|opponent|qeinstein_candidate7|40003|1": {
+    "left": "e20",
+    "right": "qeinstein_candidate7",
+    "seed": 40003,
+    "swap": true,
+    "a": 72604.0,
+    "b": 59858.0,
+    "r": "W",
+    "m": 12746.0
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e21|opponent|qeinstein_candidate7|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e21",
+    "right": "qeinstein_candidate7",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e11|candidate|e20|40000|0": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40000,
+    "swap": false,
+    "a": 121975.0,
+    "b": 121822.0,
+    "r": "W",
+    "m": 153.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40000|1": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40000,
+    "swap": true,
+    "a": 121975.0,
+    "b": 121822.0,
+    "r": "W",
+    "m": 153.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40001|0": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40001,
+    "swap": false,
+    "a": 142526.0,
+    "b": 137188.0,
+    "r": "W",
+    "m": 5338.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40001|1": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40001,
+    "swap": true,
+    "a": 140839.0,
+    "b": 138870.0,
+    "r": "W",
+    "m": 1969.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40002|0": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40002,
+    "swap": false,
+    "a": 67889.0,
+    "b": 66349.0,
+    "r": "W",
+    "m": 1540.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40002|1": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40002,
+    "swap": true,
+    "a": 67889.0,
+    "b": 66349.0,
+    "r": "W",
+    "m": 1540.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40003|0": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40003,
+    "swap": false,
+    "a": 75481.0,
+    "b": 74759.0,
+    "r": "W",
+    "m": 722.0
+  },
+  "v1|core|candidate|e11|candidate|e20|40003|1": {
+    "left": "e11",
+    "right": "e20",
+    "seed": 40003,
+    "swap": true,
+    "a": 75481.0,
+    "b": 74759.0,
+    "r": "W",
+    "m": 722.0
+  },
+  "v1|core|candidate|e11|candidate|e21|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e11|candidate|e21|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e11|candidate|e21|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e11|candidate|e21|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e11|candidate|e21|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e11|candidate|e21|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e11|candidate|e21|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e11|candidate|e21|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e11",
+    "right": "e21",
+    "seed": 40003,
+    "swap": true
+  },
+  "v1|core|candidate|e20|candidate|e21|40000|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40000,
+    "swap": false
+  },
+  "v1|core|candidate|e20|candidate|e21|40000|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40000,
+    "swap": true
+  },
+  "v1|core|candidate|e20|candidate|e21|40001|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40001,
+    "swap": false
+  },
+  "v1|core|candidate|e20|candidate|e21|40001|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40001,
+    "swap": true
+  },
+  "v1|core|candidate|e20|candidate|e21|40002|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40002,
+    "swap": false
+  },
+  "v1|core|candidate|e20|candidate|e21|40002|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40002,
+    "swap": true
+  },
+  "v1|core|candidate|e20|candidate|e21|40003|0": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40003,
+    "swap": false
+  },
+  "v1|core|candidate|e20|candidate|e21|40003|1": {
+    "error": "ModuleNotFoundError: No module named 'agent_e21_prvsiyan_early_sw'",
+    "left": "e20",
+    "right": "e21",
+    "seed": 40003,
+    "swap": true
+  }
+}

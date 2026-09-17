@@ -1,0 +1,23 @@
+{
+  "e19_vs_e11": {
+    "W": 1,
+    "D": 0,
+    "L": 15,
+    "mean_margin": -358.0,
+    "telemetry": {
+      "eligible_games": 16,
+      "early_land_requests": 16,
+      "early_land_activated": 16,
+      "activation_failures": 0,
+      "extra_hires": 22,
+      "preplants": 0,
+      "waters": 0,
+      "native_land_suppressed": 16,
+      "redundant_native_plants_suppressed": 0,
+      "no_targets": 0,
+      "no_seed": 242,
+      "cash_waits": 400,
+      "market_full": 0
+    }
+  }
+}
