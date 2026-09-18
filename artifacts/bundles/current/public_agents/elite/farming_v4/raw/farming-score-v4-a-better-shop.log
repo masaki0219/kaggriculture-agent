@@ -1,0 +1,25 @@
+[{"stream_name":"stderr","time":17.123250868,"data":"0.01s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":17.123329585,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":17.123352866,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":17.123357791,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":18.662466437,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":18.662512261,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":18.662519285,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":18.662525434,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.836131812,"data":"Build directory: /kaggle/working\n"}
+,{"stream_name":"stdout","time":21.119753539,"data":"Writing main.py\n"}
+,{"stream_name":"stdout","time":21.591671089,"data":"main.py bytes: 336431\n"}
+,{"stream_name":"stdout","time":21.591912238,"data":"main.py SHA-256: 03e263f1a20db29d6aa3404e978b97549bdac7f81d2b7f8dea5b36a3d6e91edc\n"}
+,{"stream_name":"stdout","time":21.591985568,"data":"Entry point: agent(observation, configuration)\n"}
+,{"stream_name":"stdout","time":21.699109059,"data":"Archive: /kaggle/working/submission_v42_replay_guarded.tar.gz\n"}
+,{"stream_name":"stdout","time":21.69915252,"data":"Archive SHA-256: 529056d74eee841a86f08513fa8ad61bb75f300abb4b366ca22a0331d0f8cd64\n"}
+,{"stream_name":"stdout","time":21.699160323,"data":"Verified member: main.py\n"}
+,{"stream_name":"stderr","time":27.028134746,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":27.028179203,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":27.353637384,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":27.353698299,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":28.77518831,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":29.299172532,"data":"[NbConvertApp] Writing 385067 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":34.133670244,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":36.621741712,"data":"[NbConvertApp] Writing 1615238 bytes to __results__.html\n"}
+]

@@ -1,0 +1,1304 @@
+{
+  "version": "frontier_screen_v2_2026-09-18",
+  "seed_start": 18000,
+  "seeds": 8,
+  "errors": [
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "e11",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "shape_top10",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "adaptive_route_v2",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "aurax7_v7",
+      "right_kind": "candidate",
+      "right": "ahmed_v44",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "candidate",
+      "right": "tetsu_market_v23",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "kaito58",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "boatlee29",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_champion",
+      "seed": 18007,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18000,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18000,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18001,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18001,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18002,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18002,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18003,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18003,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18004,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18004,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18005,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18005,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18006,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18006,
+      "swap": true
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18007,
+      "swap": false
+    },
+    {
+      "error": "AttributeError: /Users/takahashimasaki/Desktop/Kaggle/artifacts/bundles/current/public_agents/elite/ahmed_v44_current/notebook_extract/main.py exposes none of ('agent', 'kaggle_submission_agent', 'submission_agent', 'melon_maxxer', 'policy', 'kaggriculture_e776_agent')",
+      "left_kind": "candidate",
+      "left": "ahmed_v44",
+      "right_kind": "holdout",
+      "right": "qeinstein_candidate7",
+      "seed": 18007,
+      "swap": true
+    }
+  ],
+  "status": "ABORTED_ON_GAME_ERRORS"
+}

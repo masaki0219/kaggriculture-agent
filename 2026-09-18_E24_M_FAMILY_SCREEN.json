@@ -1,0 +1,964 @@
+{
+  "generated": "2026-09-18T17:09:04+09:00",
+  "status": "complete",
+  "smoke_max_reward": 16803.0,
+  "smoke": [
+    {
+      "opponent": "e21",
+      "seed": 24990,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 161012.0,
+      "margin": -161012.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 24990,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 161012.0,
+      "margin": -161012.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 24991,
+      "e24_seat": 0,
+      "e24_reward": 16803.0,
+      "opponent_reward": 132417.0,
+      "margin": -115614.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 24991,
+      "e24_seat": 1,
+      "e24_reward": 16803.0,
+      "opponent_reward": 132417.0,
+      "margin": -115614.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 24990,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 147354.0,
+      "margin": -147354.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 24990,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 147354.0,
+      "margin": -147354.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 24991,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 144612.0,
+      "margin": -144612.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 24991,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 144612.0,
+      "margin": -144612.0,
+      "outcome": "L"
+    }
+  ],
+  "fresh_seeds": [
+    25000,
+    25001,
+    25002,
+    25003,
+    25004,
+    25005,
+    25006,
+    25007
+  ],
+  "opponents": [
+    "e21",
+    "e22",
+    "aurax7_v7",
+    "ahmed_v44",
+    "kaito43",
+    "tetsu_shape"
+  ],
+  "fresh": [
+    {
+      "opponent": "e21",
+      "seed": 25000,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 177235.0,
+      "margin": -177235.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25000,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 177235.0,
+      "margin": -177235.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25001,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 143251.0,
+      "margin": -143251.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25001,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 142231.0,
+      "margin": -142231.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25002,
+      "e24_seat": 0,
+      "e24_reward": 24598.0,
+      "opponent_reward": 202541.0,
+      "margin": -177943.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25002,
+      "e24_seat": 1,
+      "e24_reward": 24598.0,
+      "opponent_reward": 202541.0,
+      "margin": -177943.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25003,
+      "e24_seat": 0,
+      "e24_reward": 181.0,
+      "opponent_reward": 126346.0,
+      "margin": -126165.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25003,
+      "e24_seat": 1,
+      "e24_reward": 23.0,
+      "opponent_reward": 149655.0,
+      "margin": -149632.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25004,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 158506.0,
+      "margin": -158506.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25004,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 158506.0,
+      "margin": -158506.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25005,
+      "e24_seat": 0,
+      "e24_reward": 25376.0,
+      "opponent_reward": 163192.0,
+      "margin": -137816.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25005,
+      "e24_seat": 1,
+      "e24_reward": 25376.0,
+      "opponent_reward": 163192.0,
+      "margin": -137816.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25006,
+      "e24_seat": 0,
+      "e24_reward": 12202.0,
+      "opponent_reward": 191765.0,
+      "margin": -179563.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25006,
+      "e24_seat": 1,
+      "e24_reward": 12202.0,
+      "opponent_reward": 191765.0,
+      "margin": -179563.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25007,
+      "e24_seat": 0,
+      "e24_reward": 2.0,
+      "opponent_reward": 163493.0,
+      "margin": -163491.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e21",
+      "seed": 25007,
+      "e24_seat": 1,
+      "e24_reward": 53.0,
+      "opponent_reward": 165961.0,
+      "margin": -165908.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25000,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 177272.0,
+      "margin": -177272.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25000,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 177272.0,
+      "margin": -177272.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25001,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 143280.0,
+      "margin": -143280.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25001,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 142274.0,
+      "margin": -142274.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25002,
+      "e24_seat": 0,
+      "e24_reward": 24601.0,
+      "opponent_reward": 202573.0,
+      "margin": -177972.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25002,
+      "e24_seat": 1,
+      "e24_reward": 24601.0,
+      "opponent_reward": 202573.0,
+      "margin": -177972.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25003,
+      "e24_seat": 0,
+      "e24_reward": 181.0,
+      "opponent_reward": 126347.0,
+      "margin": -126166.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25003,
+      "e24_seat": 1,
+      "e24_reward": 23.0,
+      "opponent_reward": 149700.0,
+      "margin": -149677.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25004,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 158559.0,
+      "margin": -158559.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25004,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 158559.0,
+      "margin": -158559.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25005,
+      "e24_seat": 0,
+      "e24_reward": 25349.0,
+      "opponent_reward": 162593.0,
+      "margin": -137244.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25005,
+      "e24_seat": 1,
+      "e24_reward": 25349.0,
+      "opponent_reward": 162593.0,
+      "margin": -137244.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25006,
+      "e24_seat": 0,
+      "e24_reward": 12202.0,
+      "opponent_reward": 191793.0,
+      "margin": -179591.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25006,
+      "e24_seat": 1,
+      "e24_reward": 12202.0,
+      "opponent_reward": 191793.0,
+      "margin": -179591.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25007,
+      "e24_seat": 0,
+      "e24_reward": 2.0,
+      "opponent_reward": 163810.0,
+      "margin": -163808.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "e22",
+      "seed": 25007,
+      "e24_seat": 1,
+      "e24_reward": 53.0,
+      "opponent_reward": 166057.0,
+      "margin": -166004.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25000,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 181863.0,
+      "margin": -181863.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25000,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 181863.0,
+      "margin": -181863.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25001,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 153288.0,
+      "margin": -153288.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25001,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 153687.0,
+      "margin": -153687.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25002,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 179687.0,
+      "margin": -179687.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25002,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 179687.0,
+      "margin": -179687.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25003,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 140981.0,
+      "margin": -140981.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25003,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 140981.0,
+      "margin": -140981.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25004,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 127141.0,
+      "margin": -127141.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25004,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 127141.0,
+      "margin": -127141.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25005,
+      "e24_seat": 0,
+      "e24_reward": 8.0,
+      "opponent_reward": 177275.0,
+      "margin": -177267.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25005,
+      "e24_seat": 1,
+      "e24_reward": 8.0,
+      "opponent_reward": 177275.0,
+      "margin": -177267.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25006,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 195607.0,
+      "margin": -195607.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25006,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 195607.0,
+      "margin": -195607.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25007,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 163394.0,
+      "margin": -163394.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 25007,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 181376.0,
+      "margin": -181376.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25000,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 182417.0,
+      "margin": -182417.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25000,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 182417.0,
+      "margin": -182417.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25001,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 154619.0,
+      "margin": -154619.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25001,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 154936.0,
+      "margin": -154936.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25002,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 181080.0,
+      "margin": -181080.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25002,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 181080.0,
+      "margin": -181080.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25003,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 141790.0,
+      "margin": -141790.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25003,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 141790.0,
+      "margin": -141790.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25004,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 127737.0,
+      "margin": -127737.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25004,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 127737.0,
+      "margin": -127737.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25005,
+      "e24_seat": 0,
+      "e24_reward": 8.0,
+      "opponent_reward": 178726.0,
+      "margin": -178718.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25005,
+      "e24_seat": 1,
+      "e24_reward": 8.0,
+      "opponent_reward": 178726.0,
+      "margin": -178718.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25006,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 196303.0,
+      "margin": -196303.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25006,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 196303.0,
+      "margin": -196303.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25007,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 163796.0,
+      "margin": -163796.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "ahmed_v44",
+      "seed": 25007,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 182617.0,
+      "margin": -182617.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25000,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 116021.0,
+      "margin": -116021.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25000,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 116021.0,
+      "margin": -116021.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25001,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 120853.0,
+      "margin": -120853.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25001,
+      "e24_seat": 1,
+      "e24_reward": 18.0,
+      "opponent_reward": 118442.0,
+      "margin": -118424.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25002,
+      "e24_seat": 0,
+      "e24_reward": 26697.0,
+      "opponent_reward": 167385.0,
+      "margin": -140688.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25002,
+      "e24_seat": 1,
+      "e24_reward": 24745.0,
+      "opponent_reward": 144575.0,
+      "margin": -119830.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25003,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 147876.0,
+      "margin": -147876.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25003,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 147876.0,
+      "margin": -147876.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25004,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 170634.0,
+      "margin": -170634.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25004,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 170427.0,
+      "margin": -170427.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25005,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 176371.0,
+      "margin": -176371.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25005,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 176371.0,
+      "margin": -176371.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25006,
+      "e24_seat": 0,
+      "e24_reward": 16323.0,
+      "opponent_reward": 160638.0,
+      "margin": -144315.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25006,
+      "e24_seat": 1,
+      "e24_reward": 16323.0,
+      "opponent_reward": 160638.0,
+      "margin": -144315.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25007,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 120330.0,
+      "margin": -120330.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "kaito43",
+      "seed": 25007,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 165458.0,
+      "margin": -165458.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25000,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 164482.0,
+      "margin": -164482.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25000,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 164482.0,
+      "margin": -164482.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25001,
+      "e24_seat": 0,
+      "e24_reward": 1.0,
+      "opponent_reward": 140712.0,
+      "margin": -140711.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25001,
+      "e24_seat": 1,
+      "e24_reward": 1.0,
+      "opponent_reward": 138925.0,
+      "margin": -138924.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25002,
+      "e24_seat": 0,
+      "e24_reward": 24125.0,
+      "opponent_reward": 193270.0,
+      "margin": -169145.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25002,
+      "e24_seat": 1,
+      "e24_reward": 24125.0,
+      "opponent_reward": 193270.0,
+      "margin": -169145.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25003,
+      "e24_seat": 0,
+      "e24_reward": 21219.0,
+      "opponent_reward": 91019.0,
+      "margin": -69800.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25003,
+      "e24_seat": 1,
+      "e24_reward": 19999.0,
+      "opponent_reward": 94998.0,
+      "margin": -74999.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25004,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 158502.0,
+      "margin": -158502.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25004,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 158502.0,
+      "margin": -158502.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25005,
+      "e24_seat": 0,
+      "e24_reward": 16546.0,
+      "opponent_reward": 147559.0,
+      "margin": -131013.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25005,
+      "e24_seat": 1,
+      "e24_reward": 16546.0,
+      "opponent_reward": 147559.0,
+      "margin": -131013.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25006,
+      "e24_seat": 0,
+      "e24_reward": 17186.0,
+      "opponent_reward": 170567.0,
+      "margin": -153381.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25006,
+      "e24_seat": 1,
+      "e24_reward": 17186.0,
+      "opponent_reward": 170567.0,
+      "margin": -153381.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25007,
+      "e24_seat": 0,
+      "e24_reward": 0.0,
+      "opponent_reward": 175895.0,
+      "margin": -175895.0,
+      "outcome": "L"
+    },
+    {
+      "opponent": "tetsu_shape",
+      "seed": 25007,
+      "e24_seat": 1,
+      "e24_reward": 0.0,
+      "opponent_reward": 177184.0,
+      "margin": -177184.0,
+      "outcome": "L"
+    }
+  ],
+  "errors": []
+}

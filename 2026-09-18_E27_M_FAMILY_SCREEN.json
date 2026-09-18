@@ -1,0 +1,2260 @@
+{
+  "generated": "2026-09-18T17:54:51+09:00",
+  "status": "smoke_failed",
+  "economic_pass": true,
+  "trajectory_pass": false,
+  "median_reward": 35414.5,
+  "productive_games": 12,
+  "trajectory_medians": {
+    "71": {
+      "structures": 5.0,
+      "crops": 18.0,
+      "animals": 5.0,
+      "hands": 6.0,
+      "quadrants": 1.0,
+      "money": 52.5
+    },
+    "143": {
+      "structures": 5.0,
+      "crops": 19.0,
+      "animals": 5.0,
+      "hands": 6.0,
+      "quadrants": 1.0,
+      "money": 299.0
+    },
+    "215": {
+      "structures": 9.0,
+      "crops": 18.0,
+      "animals": 8.0,
+      "hands": 8.0,
+      "quadrants": 2.0,
+      "money": 435.5
+    },
+    "287": {
+      "structures": 9.0,
+      "crops": 36.0,
+      "animals": 9.0,
+      "hands": 11.0,
+      "quadrants": 2.5,
+      "money": 619.5
+    },
+    "359": {
+      "structures": 12.5,
+      "crops": 26.5,
+      "animals": 12.5,
+      "hands": 11.0,
+      "quadrants": 3.0,
+      "money": 5692.0
+    },
+    "431": {
+      "structures": 14.0,
+      "crops": 26.0,
+      "animals": 14.0,
+      "hands": 11.0,
+      "quadrants": 3.0,
+      "money": 9713.5
+    },
+    "575": {
+      "structures": 14.0,
+      "crops": 18.5,
+      "animals": 14.0,
+      "hands": 11.0,
+      "quadrants": 3.0,
+      "money": 21993.0
+    },
+    "719": {
+      "structures": 16.0,
+      "crops": 3.0,
+      "animals": 14.5,
+      "hands": 10.0,
+      "quadrants": 3.0,
+      "money": 35414.5
+    }
+  },
+  "smoke": [
+    {
+      "opponent": "e21",
+      "seed": 27990,
+      "e27_seat": 0,
+      "e27_reward": 31688.0,
+      "opponent_reward": 157152.0,
+      "margin": -125464.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 65.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 196.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 184.0,
+          "crop_total": 17,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 5,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 10
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 7
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 6,
+          "quadrants": 2,
+          "money": 866.0,
+          "crop_total": 20,
+          "structure_total": 13,
+          "animal_total": 13,
+          "crops": {
+            "STRAWBERRY": 9,
+            "MELON": 11
+          },
+          "structures": {
+            "PASTURE": 13
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 10
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5154.0,
+          "crop_total": 10,
+          "structure_total": 17,
+          "animal_total": 16,
+          "crops": {
+            "WHEAT": 1,
+            "STRAWBERRY": 5,
+            "TOMATO": 4
+          },
+          "structures": {
+            "PASTURE": 16,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 13
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 12471.0,
+          "crop_total": 10,
+          "structure_total": 19,
+          "animal_total": 18,
+          "crops": {
+            "STRAWBERRY": 5,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 13
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 21993.0,
+          "crop_total": 8,
+          "structure_total": 19,
+          "animal_total": 18,
+          "crops": {
+            "STRAWBERRY": 3,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 13
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 31688.0,
+          "crop_total": 0,
+          "structure_total": 19,
+          "animal_total": 18,
+          "crops": {},
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 13
+          }
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 27990,
+      "e27_seat": 1,
+      "e27_reward": 31688.0,
+      "opponent_reward": 157152.0,
+      "margin": -125464.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 65.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 196.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 184.0,
+          "crop_total": 17,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 5,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 10
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 7
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 6,
+          "quadrants": 2,
+          "money": 866.0,
+          "crop_total": 20,
+          "structure_total": 13,
+          "animal_total": 13,
+          "crops": {
+            "STRAWBERRY": 9,
+            "MELON": 11
+          },
+          "structures": {
+            "PASTURE": 13
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 10
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5154.0,
+          "crop_total": 10,
+          "structure_total": 17,
+          "animal_total": 16,
+          "crops": {
+            "WHEAT": 1,
+            "STRAWBERRY": 5,
+            "TOMATO": 4
+          },
+          "structures": {
+            "PASTURE": 16,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 13
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 12471.0,
+          "crop_total": 10,
+          "structure_total": 19,
+          "animal_total": 18,
+          "crops": {
+            "STRAWBERRY": 5,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 13
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 21993.0,
+          "crop_total": 8,
+          "structure_total": 19,
+          "animal_total": 18,
+          "crops": {
+            "STRAWBERRY": 3,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 13
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 31688.0,
+          "crop_total": 0,
+          "structure_total": 19,
+          "animal_total": 18,
+          "crops": {},
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 13
+          }
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 27991,
+      "e27_seat": 0,
+      "e27_reward": 36779.0,
+      "opponent_reward": 115237.0,
+      "margin": -78458.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 65.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 196.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 9,
+          "quadrants": 2,
+          "money": 1437.0,
+          "crop_total": 32,
+          "structure_total": 8,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 16,
+            "MELON": 12,
+            "WHEAT": 4
+          },
+          "structures": {
+            "PASTURE": 8
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 3041.0,
+          "crop_total": 43,
+          "structure_total": 8,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 23,
+            "WHEAT": 11,
+            "MELON": 9
+          },
+          "structures": {
+            "PASTURE": 8
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 6110.0,
+          "crop_total": 19,
+          "structure_total": 14,
+          "animal_total": 14,
+          "crops": {
+            "STRAWBERRY": 12,
+            "WHEAT": 7
+          },
+          "structures": {
+            "PASTURE": 14
+          },
+          "animals": {
+            "SHEEP": 9,
+            "COW": 5
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 7915.0,
+          "crop_total": 14,
+          "structure_total": 17,
+          "animal_total": 17,
+          "crops": {
+            "WHEAT": 4,
+            "STRAWBERRY": 2,
+            "TOMATO": 8
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 15
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 5
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 21497.0,
+          "crop_total": 16,
+          "structure_total": 17,
+          "animal_total": 17,
+          "crops": {
+            "WHEAT": 1,
+            "CARROT": 9,
+            "STRAWBERRY": 1,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 15
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 5
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 36779.0,
+          "crop_total": 6,
+          "structure_total": 17,
+          "animal_total": 17,
+          "crops": {
+            "CARROT": 5,
+            "TOMATO": 1
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 15
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 5
+          }
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 27991,
+      "e27_seat": 1,
+      "e27_reward": 36779.0,
+      "opponent_reward": 115237.0,
+      "margin": -78458.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 65.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 196.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 9,
+          "quadrants": 2,
+          "money": 1437.0,
+          "crop_total": 32,
+          "structure_total": 8,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 16,
+            "MELON": 12,
+            "WHEAT": 4
+          },
+          "structures": {
+            "PASTURE": 8
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 3041.0,
+          "crop_total": 43,
+          "structure_total": 8,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 23,
+            "WHEAT": 11,
+            "MELON": 9
+          },
+          "structures": {
+            "PASTURE": 8
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 6110.0,
+          "crop_total": 19,
+          "structure_total": 14,
+          "animal_total": 14,
+          "crops": {
+            "STRAWBERRY": 12,
+            "WHEAT": 7
+          },
+          "structures": {
+            "PASTURE": 14
+          },
+          "animals": {
+            "SHEEP": 9,
+            "COW": 5
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 7915.0,
+          "crop_total": 14,
+          "structure_total": 17,
+          "animal_total": 17,
+          "crops": {
+            "WHEAT": 4,
+            "STRAWBERRY": 2,
+            "TOMATO": 8
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 15
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 5
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 21497.0,
+          "crop_total": 16,
+          "structure_total": 17,
+          "animal_total": 17,
+          "crops": {
+            "WHEAT": 1,
+            "CARROT": 9,
+            "STRAWBERRY": 1,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 15
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 5
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 36779.0,
+          "crop_total": 6,
+          "structure_total": 17,
+          "animal_total": 17,
+          "crops": {
+            "CARROT": 5,
+            "TOMATO": 1
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 15
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 5
+          }
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 27992,
+      "e27_seat": 0,
+      "e27_reward": 41260.0,
+      "opponent_reward": 126356.0,
+      "margin": -85096.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 65.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 196.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 767.0,
+          "crop_total": 26,
+          "structure_total": 8,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 14,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 8
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 2,
+          "money": 1657.0,
+          "crop_total": 36,
+          "structure_total": 9,
+          "animal_total": 9,
+          "crops": {
+            "STRAWBERRY": 28,
+            "MELON": 8
+          },
+          "structures": {
+            "PASTURE": 9
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 9741.0,
+          "crop_total": 42,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "STRAWBERRY": 27,
+            "WHEAT": 7,
+            "TOMATO": 8
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 11512.0,
+          "crop_total": 44,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 12,
+            "TOMATO": 6
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 27313.0,
+          "crop_total": 21,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "WHEAT": 2,
+            "STRAWBERRY": 12,
+            "CARROT": 3,
+            "TOMATO": 4
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 41260.0,
+          "crop_total": 4,
+          "structure_total": 12,
+          "animal_total": 12,
+          "crops": {
+            "STRAWBERRY": 1,
+            "CARROT": 2,
+            "TOMATO": 1
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 10
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 7
+          }
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 27992,
+      "e27_seat": 1,
+      "e27_reward": 37292.0,
+      "opponent_reward": 116366.0,
+      "margin": -79074.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 65.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 196.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 767.0,
+          "crop_total": 26,
+          "structure_total": 8,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 14,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 8
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 2,
+          "money": 1657.0,
+          "crop_total": 36,
+          "structure_total": 9,
+          "animal_total": 9,
+          "crops": {
+            "STRAWBERRY": 28,
+            "MELON": 8
+          },
+          "structures": {
+            "PASTURE": 9
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 8826.0,
+          "crop_total": 34,
+          "structure_total": 11,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 4,
+            "TOMATO": 4
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 1,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 12591.0,
+          "crop_total": 38,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 5,
+            "TOMATO": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 28535.0,
+          "crop_total": 25,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "WHEAT": 6,
+            "STRAWBERRY": 14,
+            "CARROT": 1,
+            "TOMATO": 4
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 37292.0,
+          "crop_total": 9,
+          "structure_total": 12,
+          "animal_total": 12,
+          "crops": {
+            "CARROT": 9
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 10
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 7
+          }
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 27990,
+      "e27_seat": 0,
+      "e27_reward": 42857.0,
+      "opponent_reward": 142809.0,
+      "margin": -99952.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 40.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 402.0,
+          "crop_total": 20,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 8,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 212.0,
+          "crop_total": 17,
+          "structure_total": 9,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 13,
+            "MELON": 4
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 2,
+          "money": 373.0,
+          "crop_total": 37,
+          "structure_total": 9,
+          "animal_total": 9,
+          "crops": {
+            "STRAWBERRY": 33,
+            "MELON": 2,
+            "WHEAT": 2
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "GOOSE": 1,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5695.0,
+          "crop_total": 45,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 36,
+            "WHEAT": 4,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5792.0,
+          "crop_total": 45,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 32,
+            "WHEAT": 6,
+            "TOMATO": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 30212.0,
+          "crop_total": 30,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "STRAWBERRY": 22,
+            "WHEAT": 1,
+            "TOMATO": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 42857.0,
+          "crop_total": 1,
+          "structure_total": 15,
+          "animal_total": 11,
+          "crops": {
+            "CARROT": 1
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 13
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 27990,
+      "e27_seat": 1,
+      "e27_reward": 42857.0,
+      "opponent_reward": 142809.0,
+      "margin": -99952.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 40.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 402.0,
+          "crop_total": 20,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 8,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 212.0,
+          "crop_total": 17,
+          "structure_total": 9,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 13,
+            "MELON": 4
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 2,
+          "money": 373.0,
+          "crop_total": 37,
+          "structure_total": 9,
+          "animal_total": 9,
+          "crops": {
+            "STRAWBERRY": 33,
+            "MELON": 2,
+            "WHEAT": 2
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "GOOSE": 1,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5695.0,
+          "crop_total": 45,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 36,
+            "WHEAT": 4,
+            "TOMATO": 5
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5792.0,
+          "crop_total": 45,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 32,
+            "WHEAT": 6,
+            "TOMATO": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 30212.0,
+          "crop_total": 30,
+          "structure_total": 11,
+          "animal_total": 11,
+          "crops": {
+            "STRAWBERRY": 22,
+            "WHEAT": 1,
+            "TOMATO": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 9
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 42857.0,
+          "crop_total": 1,
+          "structure_total": 15,
+          "animal_total": 11,
+          "crops": {
+            "CARROT": 1
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 13
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 27991,
+      "e27_seat": 0,
+      "e27_reward": 21047.0,
+      "opponent_reward": 116589.0,
+      "margin": -95542.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 40.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 402.0,
+          "crop_total": 20,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 8,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 322.0,
+          "crop_total": 19,
+          "structure_total": 12,
+          "animal_total": 12,
+          "crops": {
+            "STRAWBERRY": 7,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 12
+          },
+          "animals": {
+            "SHEEP": 7,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 5,
+          "quadrants": 3,
+          "money": 300.0,
+          "crop_total": 16,
+          "structure_total": 15,
+          "animal_total": 14,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 10
+          },
+          "structures": {
+            "PASTURE": 15
+          },
+          "animals": {
+            "SHEEP": 9,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5689.0,
+          "crop_total": 11,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "WHEAT": 4,
+            "STRAWBERRY": 5,
+            "TOMATO": 2
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 12133.0,
+          "crop_total": 9,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "STRAWBERRY": 5,
+            "TOMATO": 4
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 16658.0,
+          "crop_total": 8,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "STRAWBERRY": 3,
+            "CARROT": 2,
+            "TOMATO": 3
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 21047.0,
+          "crop_total": 7,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "CARROT": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 27991,
+      "e27_seat": 1,
+      "e27_reward": 21047.0,
+      "opponent_reward": 116589.0,
+      "margin": -95542.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 40.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 402.0,
+          "crop_total": 20,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 8,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 322.0,
+          "crop_total": 19,
+          "structure_total": 12,
+          "animal_total": 12,
+          "crops": {
+            "STRAWBERRY": 7,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 12
+          },
+          "animals": {
+            "SHEEP": 7,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 5,
+          "quadrants": 3,
+          "money": 300.0,
+          "crop_total": 16,
+          "structure_total": 15,
+          "animal_total": 14,
+          "crops": {
+            "STRAWBERRY": 6,
+            "MELON": 10
+          },
+          "structures": {
+            "PASTURE": 15
+          },
+          "animals": {
+            "SHEEP": 9,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 5689.0,
+          "crop_total": 11,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "WHEAT": 4,
+            "STRAWBERRY": 5,
+            "TOMATO": 2
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 12133.0,
+          "crop_total": 9,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "STRAWBERRY": 5,
+            "TOMATO": 4
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 16658.0,
+          "crop_total": 8,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "STRAWBERRY": 3,
+            "CARROT": 2,
+            "TOMATO": 3
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 21047.0,
+          "crop_total": 7,
+          "structure_total": 19,
+          "animal_total": 19,
+          "crops": {
+            "CARROT": 7
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 17
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 10,
+            "COW": 7
+          }
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 27992,
+      "e27_seat": 0,
+      "e27_reward": 34050.0,
+      "opponent_reward": 123130.0,
+      "margin": -89080.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 40.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 402.0,
+          "crop_total": 20,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 8,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 549.0,
+          "crop_total": 17,
+          "structure_total": 9,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 13,
+            "MELON": 4
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 44.0,
+          "crop_total": 36,
+          "structure_total": 9,
+          "animal_total": 9,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 7,
+            "MELON": 3
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "GOOSE": 1,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 4326.0,
+          "crop_total": 39,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 2,
+            "TOMATO": 11
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 3629.0,
+          "crop_total": 40,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 25,
+            "WHEAT": 3,
+            "TOMATO": 12
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 24190.0,
+          "crop_total": 40,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 21,
+            "CARROT": 6,
+            "WHEAT": 1,
+            "TOMATO": 12
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 34050.0,
+          "crop_total": 2,
+          "structure_total": 12,
+          "animal_total": 11,
+          "crops": {
+            "WHEAT": 1,
+            "TOMATO": 1
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 10
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 27992,
+      "e27_seat": 1,
+      "e27_reward": 27178.0,
+      "opponent_reward": 114249.0,
+      "margin": -87071.0,
+      "outcome": "L",
+      "trajectory": {
+        "71": {
+          "step": 71,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 40.0,
+          "crop_total": 18,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "MELON": 12,
+            "WHEAT": 6
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "143": {
+          "step": 143,
+          "hands": 6,
+          "quadrants": 1,
+          "money": 402.0,
+          "crop_total": 20,
+          "structure_total": 5,
+          "animal_total": 5,
+          "crops": {
+            "STRAWBERRY": 8,
+            "MELON": 12
+          },
+          "structures": {
+            "PASTURE": 5
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 2
+          }
+        },
+        "215": {
+          "step": 215,
+          "hands": 8,
+          "quadrants": 2,
+          "money": 549.0,
+          "crop_total": 17,
+          "structure_total": 9,
+          "animal_total": 8,
+          "crops": {
+            "STRAWBERRY": 13,
+            "MELON": 4
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "287": {
+          "step": 287,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 44.0,
+          "crop_total": 36,
+          "structure_total": 9,
+          "animal_total": 9,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 7,
+            "MELON": 3
+          },
+          "structures": {
+            "PASTURE": 8,
+            "COOP": 1
+          },
+          "animals": {
+            "SHEEP": 3,
+            "GOOSE": 1,
+            "COW": 5
+          }
+        },
+        "359": {
+          "step": 359,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 4326.0,
+          "crop_total": 40,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 26,
+            "WHEAT": 2,
+            "TOMATO": 12
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "431": {
+          "step": 431,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 3877.0,
+          "crop_total": 40,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "WHEAT": 4,
+            "STRAWBERRY": 24,
+            "TOMATO": 12
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "575": {
+          "step": 575,
+          "hands": 11,
+          "quadrants": 3,
+          "money": 21789.0,
+          "crop_total": 34,
+          "structure_total": 10,
+          "animal_total": 10,
+          "crops": {
+            "STRAWBERRY": 19,
+            "CARROT": 3,
+            "WHEAT": 1,
+            "TOMATO": 11
+          },
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 8
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 5
+          }
+        },
+        "719": {
+          "step": 719,
+          "hands": 10,
+          "quadrants": 3,
+          "money": 27178.0,
+          "crop_total": 0,
+          "structure_total": 12,
+          "animal_total": 11,
+          "crops": {},
+          "structures": {
+            "COOP": 2,
+            "PASTURE": 10
+          },
+          "animals": {
+            "GOOSE": 2,
+            "SHEEP": 3,
+            "COW": 6
+          }
+        }
+      }
+    }
+  ],
+  "errors": []
+}

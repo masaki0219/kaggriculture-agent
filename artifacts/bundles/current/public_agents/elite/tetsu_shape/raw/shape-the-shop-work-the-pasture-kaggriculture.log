@@ -1,0 +1,40 @@
+[{"stream_name":"stderr","time":9.335938489,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.336028821,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.336036736,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.336041821,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.149779686,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.149821493,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.149828109,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.149833363,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.661488447,"data":" step              public condition                                 continuation\n"}
+,{"stream_name":"stdout","time":12.661549754,"data":"  226       YARN_STORE has unlocked                    wool-leaning continuation\n"}
+,{"stream_name":"stdout","time":12.661555703,"data":"  360      carrot market price ≥ 42 carrot continuation (when prefix-compatible)\n"}
+,{"stream_name":"stdout","time":12.66156096,"data":"  433 milk market inventory ≥ 10067   milk continuation (when prefix-compatible)\n"}
+,{"stream_name":"stdout","time":12.783158227,"data":"variant: public_router_value_aware_reserve_1\n"}
+,{"stream_name":"stdout","time":12.783207535,"data":"main.py SHA-256: 2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916\n"}
+,{"stream_name":"stdout","time":12.783214087,"data":"syntax: PASS\n"}
+,{"stream_name":"stdout","time":12.783218641,"data":"archive structure: PASS\n"}
+,{"stream_name":"stdout","time":12.823883274,"data":"agent callable: PASS\n"}
+,{"stream_name":"stdout","time":12.823924792,"data":"standalone import: PASS\n"}
+,{"stream_name":"stdout","time":12.823929612,"data":"single-file main.py: PASS\n"}
+,{"stream_name":"stdout","time":63.094850772,"data":"variant: public_router_value_aware_reserve_1\n"}
+,{"stream_name":"stdout","time":63.094902222,"data":"submission candidate: submission.tar.gz\n"}
+,{"stream_name":"stdout","time":63.094909276,"data":"files: main.py\n"}
+,{"stream_name":"stdout","time":63.094915527,"data":"internet required: NO\n"}
+,{"stream_name":"stdout","time":63.094920817,"data":"external Dataset required: NO\n"}
+,{"stream_name":"stdout","time":63.094926308,"data":"archive check: PASS\n"}
+,{"stream_name":"stderr","time":68.662448311,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":68.662503861,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":68.901707789,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":68.901765338,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":69.922977577,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":70.416128342,"data":"[NbConvertApp] Writing 409562 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":74.103926512,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":75.421434453,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":75.421471991,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":75.422147843,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":75.422413738,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":75.422916265,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":75.422954303,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":75.423096188,"data":"[NbConvertApp] Writing 541555 bytes to __results__.html\n"}
+]

@@ -1,0 +1,2643 @@
+{
+  "generated": "2026-09-18T15:58:57+09:00",
+  "seeds": [
+    23000,
+    23001,
+    23002,
+    23003,
+    23004,
+    23005,
+    23006,
+    23007
+  ],
+  "available_panel": [
+    {
+      "name": "aurax7_v7",
+      "elite": "aurax7_v7_current",
+      "setup": null,
+      "tier": "frontier",
+      "license": "benchmark",
+      "required": true
+    },
+    {
+      "name": "ahmed_v44",
+      "elite": "ahmed_v44_current",
+      "setup": null,
+      "tier": "frontier",
+      "license": "benchmark",
+      "required": true
+    },
+    {
+      "name": "kaito43",
+      "elite": "kaito43_current",
+      "setup": "kaito43_current",
+      "tier": "frontier",
+      "license": "Apache-2.0",
+      "required": false
+    },
+    {
+      "name": "kaito27",
+      "elite": "kaito27_current",
+      "setup": "kaito27_current",
+      "tier": "frontier",
+      "license": "Apache-2.0",
+      "required": false
+    },
+    {
+      "name": "tetsu_shape",
+      "elite": "tetsu_shape",
+      "setup": "tetsu_shape",
+      "tier": "frontier",
+      "license": "VERIFY before submission",
+      "required": false
+    },
+    {
+      "name": "farming_v4",
+      "elite": "farming_v4",
+      "setup": "farming_v4",
+      "tier": "frontier",
+      "license": "VERIFY before submission",
+      "required": false
+    },
+    {
+      "name": "kaito58",
+      "elite": "kaito58",
+      "setup": "kaito58",
+      "tier": "legacy",
+      "license": "Apache-2.0",
+      "required": false
+    },
+    {
+      "name": "boatlee29",
+      "elite": "boatlee29",
+      "setup": "boatlee29",
+      "tier": "legacy",
+      "license": "Apache-2.0",
+      "required": false
+    }
+  ],
+  "skipped_panel": [],
+  "rows": [
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 102520.0,
+      "opponent_reward": 102289.0,
+      "margin": 231.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 102520.0,
+      "opponent_reward": 102289.0,
+      "margin": 231.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 158492.0,
+      "opponent_reward": 158359.0,
+      "margin": 133.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 158492.0,
+      "opponent_reward": 158359.0,
+      "margin": 133.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 83600.0,
+      "opponent_reward": 83656.0,
+      "margin": -56.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 83732.0,
+      "opponent_reward": 83524.0,
+      "margin": 208.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 63617.0,
+      "opponent_reward": 63282.0,
+      "margin": 335.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 63617.0,
+      "opponent_reward": 63282.0,
+      "margin": 335.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 109937.0,
+      "opponent_reward": 105294.0,
+      "margin": 4643.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 109937.0,
+      "opponent_reward": 105294.0,
+      "margin": 4643.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 80176.0,
+      "opponent_reward": 78572.0,
+      "margin": 1604.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 80176.0,
+      "opponent_reward": 78572.0,
+      "margin": 1604.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 99868.0,
+      "opponent_reward": 98314.0,
+      "margin": 1554.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 99868.0,
+      "opponent_reward": 98314.0,
+      "margin": 1554.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 126857.0,
+      "opponent_reward": 126850.0,
+      "margin": 7.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "aurax7_v7",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 126857.0,
+      "opponent_reward": 126850.0,
+      "margin": 7.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 106167.0,
+      "opponent_reward": 106189.0,
+      "margin": -22.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 106167.0,
+      "opponent_reward": 106189.0,
+      "margin": -22.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 159554.0,
+      "opponent_reward": 159091.0,
+      "margin": 463.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 159554.0,
+      "opponent_reward": 159091.0,
+      "margin": 463.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 83844.0,
+      "opponent_reward": 83681.0,
+      "margin": 163.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 83976.0,
+      "opponent_reward": 83549.0,
+      "margin": 427.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 63722.0,
+      "opponent_reward": 63272.0,
+      "margin": 450.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 63722.0,
+      "opponent_reward": 63272.0,
+      "margin": 450.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 110143.0,
+      "opponent_reward": 105509.0,
+      "margin": 4634.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 110143.0,
+      "opponent_reward": 105509.0,
+      "margin": 4634.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 80560.0,
+      "opponent_reward": 78583.0,
+      "margin": 1977.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 80560.0,
+      "opponent_reward": 78583.0,
+      "margin": 1977.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 99794.0,
+      "opponent_reward": 97647.0,
+      "margin": 2147.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 99794.0,
+      "opponent_reward": 97647.0,
+      "margin": 2147.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 129026.0,
+      "opponent_reward": 128678.0,
+      "margin": 348.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "ahmed_v44",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 129026.0,
+      "opponent_reward": 128678.0,
+      "margin": 348.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 142053.0,
+      "opponent_reward": 114533.0,
+      "margin": 27520.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 142053.0,
+      "opponent_reward": 114533.0,
+      "margin": 27520.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 123145.0,
+      "opponent_reward": 93570.0,
+      "margin": 29575.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 123145.0,
+      "opponent_reward": 93570.0,
+      "margin": 29575.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 115489.0,
+      "opponent_reward": 83586.0,
+      "margin": 31903.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 124340.0,
+      "opponent_reward": 93849.0,
+      "margin": 30491.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 82202.0,
+      "opponent_reward": 58866.0,
+      "margin": 23336.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 82202.0,
+      "opponent_reward": 58866.0,
+      "margin": 23336.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 132232.0,
+      "opponent_reward": 102274.0,
+      "margin": 29958.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 132232.0,
+      "opponent_reward": 102274.0,
+      "margin": 29958.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 129281.0,
+      "opponent_reward": 86628.0,
+      "margin": 42653.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 129281.0,
+      "opponent_reward": 86628.0,
+      "margin": 42653.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 122076.0,
+      "opponent_reward": 102093.0,
+      "margin": 19983.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 122076.0,
+      "opponent_reward": 102093.0,
+      "margin": 19983.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 121146.0,
+      "opponent_reward": 90631.0,
+      "margin": 30515.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito43",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 121146.0,
+      "opponent_reward": 90631.0,
+      "margin": 30515.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 104201.0,
+      "opponent_reward": 58215.0,
+      "margin": 45986.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 104201.0,
+      "opponent_reward": 58215.0,
+      "margin": 45986.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 124349.0,
+      "opponent_reward": 92132.0,
+      "margin": 32217.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 124349.0,
+      "opponent_reward": 92132.0,
+      "margin": 32217.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 74816.0,
+      "opponent_reward": 42321.0,
+      "margin": 32495.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 74816.0,
+      "opponent_reward": 42321.0,
+      "margin": 32495.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 128229.0,
+      "opponent_reward": 85915.0,
+      "margin": 42314.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 128229.0,
+      "opponent_reward": 85915.0,
+      "margin": 42314.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 82615.0,
+      "opponent_reward": 48574.0,
+      "margin": 34041.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 82615.0,
+      "opponent_reward": 48574.0,
+      "margin": 34041.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 101754.0,
+      "opponent_reward": 74670.0,
+      "margin": 27084.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 101754.0,
+      "opponent_reward": 74670.0,
+      "margin": 27084.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 154496.0,
+      "opponent_reward": 131714.0,
+      "margin": 22782.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 154496.0,
+      "opponent_reward": 131714.0,
+      "margin": 22782.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 154509.0,
+      "opponent_reward": 132770.0,
+      "margin": 21739.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito27",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 154509.0,
+      "opponent_reward": 132770.0,
+      "margin": 21739.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 111546.0,
+      "opponent_reward": 94585.0,
+      "margin": 16961.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 111546.0,
+      "opponent_reward": 94585.0,
+      "margin": 16961.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 153756.0,
+      "opponent_reward": 147773.0,
+      "margin": 5983.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 153756.0,
+      "opponent_reward": 147773.0,
+      "margin": 5983.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 100553.0,
+      "opponent_reward": 85420.0,
+      "margin": 15133.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 100688.0,
+      "opponent_reward": 85282.0,
+      "margin": 15406.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 65864.0,
+      "opponent_reward": 52640.0,
+      "margin": 13224.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 65864.0,
+      "opponent_reward": 52640.0,
+      "margin": 13224.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 105615.0,
+      "opponent_reward": 88139.0,
+      "margin": 17476.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 105615.0,
+      "opponent_reward": 88139.0,
+      "margin": 17476.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 111922.0,
+      "opponent_reward": 81298.0,
+      "margin": 30624.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 111922.0,
+      "opponent_reward": 81298.0,
+      "margin": 30624.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 127851.0,
+      "opponent_reward": 99555.0,
+      "margin": 28296.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 127851.0,
+      "opponent_reward": 99555.0,
+      "margin": 28296.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 131046.0,
+      "opponent_reward": 133629.0,
+      "margin": -2583.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "tetsu_shape",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 131046.0,
+      "opponent_reward": 133629.0,
+      "margin": -2583.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 109099.0,
+      "opponent_reward": 104008.0,
+      "margin": 5091.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 109099.0,
+      "opponent_reward": 104008.0,
+      "margin": 5091.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 160299.0,
+      "opponent_reward": 158559.0,
+      "margin": 1740.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 160299.0,
+      "opponent_reward": 158559.0,
+      "margin": 1740.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 84109.0,
+      "opponent_reward": 82596.0,
+      "margin": 1513.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 77099.0,
+      "opponent_reward": 75592.0,
+      "margin": 1507.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 63839.0,
+      "opponent_reward": 58768.0,
+      "margin": 5071.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 63839.0,
+      "opponent_reward": 58768.0,
+      "margin": 5071.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 111174.0,
+      "opponent_reward": 104870.0,
+      "margin": 6304.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 111174.0,
+      "opponent_reward": 104870.0,
+      "margin": 6304.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 81515.0,
+      "opponent_reward": 77143.0,
+      "margin": 4372.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 81515.0,
+      "opponent_reward": 77143.0,
+      "margin": 4372.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 101523.0,
+      "opponent_reward": 95777.0,
+      "margin": 5746.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 101523.0,
+      "opponent_reward": 95777.0,
+      "margin": 5746.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 130962.0,
+      "opponent_reward": 127135.0,
+      "margin": 3827.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "farming_v4",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 130962.0,
+      "opponent_reward": 127135.0,
+      "margin": 3827.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 113290.0,
+      "opponent_reward": 75481.0,
+      "margin": 37809.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 113290.0,
+      "opponent_reward": 75481.0,
+      "margin": 37809.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 154011.0,
+      "opponent_reward": 144583.0,
+      "margin": 9428.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 154011.0,
+      "opponent_reward": 144583.0,
+      "margin": 9428.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 68554.0,
+      "opponent_reward": 51241.0,
+      "margin": 17313.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 68554.0,
+      "opponent_reward": 51241.0,
+      "margin": 17313.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 68675.0,
+      "opponent_reward": 46565.0,
+      "margin": 22110.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 68675.0,
+      "opponent_reward": 46565.0,
+      "margin": 22110.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 125283.0,
+      "opponent_reward": 114390.0,
+      "margin": 10893.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 125283.0,
+      "opponent_reward": 114390.0,
+      "margin": 10893.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 85702.0,
+      "opponent_reward": 74391.0,
+      "margin": 11311.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 85702.0,
+      "opponent_reward": 74391.0,
+      "margin": 11311.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 132834.0,
+      "opponent_reward": 121190.0,
+      "margin": 11644.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 132834.0,
+      "opponent_reward": 121190.0,
+      "margin": 11644.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 122093.0,
+      "opponent_reward": 107905.0,
+      "margin": 14188.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "kaito58",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 122093.0,
+      "opponent_reward": 107905.0,
+      "margin": 14188.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 94896.0,
+      "opponent_reward": 74292.0,
+      "margin": 20604.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 94896.0,
+      "opponent_reward": 74292.0,
+      "margin": 20604.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 166965.0,
+      "opponent_reward": 163145.0,
+      "margin": 3820.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 166965.0,
+      "opponent_reward": 163145.0,
+      "margin": 3820.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 55965.0,
+      "opponent_reward": 38712.0,
+      "margin": 17253.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 55615.0,
+      "opponent_reward": 37670.0,
+      "margin": 17945.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 127010.0,
+      "opponent_reward": 90514.0,
+      "margin": 36496.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 127010.0,
+      "opponent_reward": 90514.0,
+      "margin": 36496.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 104759.0,
+      "opponent_reward": 63061.0,
+      "margin": 41698.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 104759.0,
+      "opponent_reward": 63061.0,
+      "margin": 41698.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 98003.0,
+      "opponent_reward": 81412.0,
+      "margin": 16591.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 98003.0,
+      "opponent_reward": 81412.0,
+      "margin": 16591.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 125672.0,
+      "opponent_reward": 117821.0,
+      "margin": 7851.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 125672.0,
+      "opponent_reward": 117821.0,
+      "margin": 7851.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 69679.0,
+      "opponent_reward": 50050.0,
+      "margin": 19629.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e21",
+      "opponent": "boatlee29",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 69679.0,
+      "opponent_reward": 50050.0,
+      "margin": 19629.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 102505.0,
+      "opponent_reward": 102459.0,
+      "margin": 46.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 102505.0,
+      "opponent_reward": 102459.0,
+      "margin": 46.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 158475.0,
+      "opponent_reward": 158447.0,
+      "margin": 28.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 158475.0,
+      "opponent_reward": 158447.0,
+      "margin": 28.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 83757.0,
+      "opponent_reward": 83851.0,
+      "margin": -94.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 83889.0,
+      "opponent_reward": 83719.0,
+      "margin": 170.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 63455.0,
+      "opponent_reward": 63413.0,
+      "margin": 42.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 63455.0,
+      "opponent_reward": 63413.0,
+      "margin": 42.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 109848.0,
+      "opponent_reward": 105420.0,
+      "margin": 4428.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 109848.0,
+      "opponent_reward": 105420.0,
+      "margin": 4428.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 79523.0,
+      "opponent_reward": 79509.0,
+      "margin": 14.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 79523.0,
+      "opponent_reward": 79509.0,
+      "margin": 14.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 98950.0,
+      "opponent_reward": 98937.0,
+      "margin": 13.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 98950.0,
+      "opponent_reward": 98937.0,
+      "margin": 13.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 126949.0,
+      "opponent_reward": 126874.0,
+      "margin": 75.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "aurax7_v7",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 126949.0,
+      "opponent_reward": 126874.0,
+      "margin": 75.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 106270.0,
+      "opponent_reward": 106384.0,
+      "margin": -114.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 106270.0,
+      "opponent_reward": 106384.0,
+      "margin": -114.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 159551.0,
+      "opponent_reward": 159170.0,
+      "margin": 381.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 159551.0,
+      "opponent_reward": 159170.0,
+      "margin": 381.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 83675.0,
+      "opponent_reward": 83403.0,
+      "margin": 272.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 83807.0,
+      "opponent_reward": 83271.0,
+      "margin": 536.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 63687.0,
+      "opponent_reward": 63290.0,
+      "margin": 397.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 63687.0,
+      "opponent_reward": 63290.0,
+      "margin": 397.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 110226.0,
+      "opponent_reward": 105608.0,
+      "margin": 4618.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 110226.0,
+      "opponent_reward": 105608.0,
+      "margin": 4618.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 80555.0,
+      "opponent_reward": 78776.0,
+      "margin": 1779.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 80555.0,
+      "opponent_reward": 78776.0,
+      "margin": 1779.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 99848.0,
+      "opponent_reward": 97734.0,
+      "margin": 2114.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 99848.0,
+      "opponent_reward": 97734.0,
+      "margin": 2114.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 129172.0,
+      "opponent_reward": 128909.0,
+      "margin": 263.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "ahmed_v44",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 129172.0,
+      "opponent_reward": 128909.0,
+      "margin": 263.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 142150.0,
+      "opponent_reward": 114641.0,
+      "margin": 27509.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 142150.0,
+      "opponent_reward": 114641.0,
+      "margin": 27509.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 123223.0,
+      "opponent_reward": 93602.0,
+      "margin": 29621.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 123223.0,
+      "opponent_reward": 93602.0,
+      "margin": 29621.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 115592.0,
+      "opponent_reward": 83641.0,
+      "margin": 31951.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 124464.0,
+      "opponent_reward": 93883.0,
+      "margin": 30581.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 82479.0,
+      "opponent_reward": 59072.0,
+      "margin": 23407.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 82479.0,
+      "opponent_reward": 59072.0,
+      "margin": 23407.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 132317.0,
+      "opponent_reward": 102294.0,
+      "margin": 30023.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 132317.0,
+      "opponent_reward": 102294.0,
+      "margin": 30023.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 129308.0,
+      "opponent_reward": 86680.0,
+      "margin": 42628.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 129308.0,
+      "opponent_reward": 86680.0,
+      "margin": 42628.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 122226.0,
+      "opponent_reward": 102149.0,
+      "margin": 20077.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 122226.0,
+      "opponent_reward": 102149.0,
+      "margin": 20077.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 121267.0,
+      "opponent_reward": 90662.0,
+      "margin": 30605.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito43",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 121267.0,
+      "opponent_reward": 90662.0,
+      "margin": 30605.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 104396.0,
+      "opponent_reward": 58325.0,
+      "margin": 46071.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 104396.0,
+      "opponent_reward": 58325.0,
+      "margin": 46071.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 124329.0,
+      "opponent_reward": 92072.0,
+      "margin": 32257.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 124329.0,
+      "opponent_reward": 92072.0,
+      "margin": 32257.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 74882.0,
+      "opponent_reward": 42392.0,
+      "margin": 32490.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 74882.0,
+      "opponent_reward": 42392.0,
+      "margin": 32490.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 128301.0,
+      "opponent_reward": 85914.0,
+      "margin": 42387.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 128301.0,
+      "opponent_reward": 85914.0,
+      "margin": 42387.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 82638.0,
+      "opponent_reward": 48587.0,
+      "margin": 34051.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 82638.0,
+      "opponent_reward": 48587.0,
+      "margin": 34051.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 101847.0,
+      "opponent_reward": 74669.0,
+      "margin": 27178.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 101847.0,
+      "opponent_reward": 74669.0,
+      "margin": 27178.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 154552.0,
+      "opponent_reward": 131713.0,
+      "margin": 22839.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 154552.0,
+      "opponent_reward": 131713.0,
+      "margin": 22839.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 154557.0,
+      "opponent_reward": 132772.0,
+      "margin": 21785.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito27",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 154557.0,
+      "opponent_reward": 132772.0,
+      "margin": 21785.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 111593.0,
+      "opponent_reward": 94644.0,
+      "margin": 16949.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 111593.0,
+      "opponent_reward": 94644.0,
+      "margin": 16949.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 153873.0,
+      "opponent_reward": 147755.0,
+      "margin": 6118.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 153873.0,
+      "opponent_reward": 147755.0,
+      "margin": 6118.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 100752.0,
+      "opponent_reward": 85335.0,
+      "margin": 15417.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 100887.0,
+      "opponent_reward": 85197.0,
+      "margin": 15690.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 65898.0,
+      "opponent_reward": 52664.0,
+      "margin": 13234.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 65898.0,
+      "opponent_reward": 52664.0,
+      "margin": 13234.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 105714.0,
+      "opponent_reward": 88233.0,
+      "margin": 17481.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 105714.0,
+      "opponent_reward": 88233.0,
+      "margin": 17481.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 112054.0,
+      "opponent_reward": 81309.0,
+      "margin": 30745.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 112054.0,
+      "opponent_reward": 81309.0,
+      "margin": 30745.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 127959.0,
+      "opponent_reward": 99594.0,
+      "margin": 28365.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 127959.0,
+      "opponent_reward": 99594.0,
+      "margin": 28365.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 131234.0,
+      "opponent_reward": 133505.0,
+      "margin": -2271.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "tetsu_shape",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 131234.0,
+      "opponent_reward": 133505.0,
+      "margin": -2271.0,
+      "outcome": "L"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 109039.0,
+      "opponent_reward": 104203.0,
+      "margin": 4836.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 109039.0,
+      "opponent_reward": 104203.0,
+      "margin": 4836.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 160283.0,
+      "opponent_reward": 158621.0,
+      "margin": 1662.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 160283.0,
+      "opponent_reward": 158621.0,
+      "margin": 1662.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 84294.0,
+      "opponent_reward": 82791.0,
+      "margin": 1503.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 77097.0,
+      "opponent_reward": 75642.0,
+      "margin": 1455.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 63810.0,
+      "opponent_reward": 58857.0,
+      "margin": 4953.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 63810.0,
+      "opponent_reward": 58857.0,
+      "margin": 4953.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 111190.0,
+      "opponent_reward": 104869.0,
+      "margin": 6321.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 111190.0,
+      "opponent_reward": 104869.0,
+      "margin": 6321.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 81417.0,
+      "opponent_reward": 77775.0,
+      "margin": 3642.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 81417.0,
+      "opponent_reward": 77775.0,
+      "margin": 3642.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 101573.0,
+      "opponent_reward": 95907.0,
+      "margin": 5666.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 101573.0,
+      "opponent_reward": 95907.0,
+      "margin": 5666.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 131024.0,
+      "opponent_reward": 127207.0,
+      "margin": 3817.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "farming_v4",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 131024.0,
+      "opponent_reward": 127207.0,
+      "margin": 3817.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 113289.0,
+      "opponent_reward": 75581.0,
+      "margin": 37708.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 113289.0,
+      "opponent_reward": 75581.0,
+      "margin": 37708.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 154099.0,
+      "opponent_reward": 144620.0,
+      "margin": 9479.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 154099.0,
+      "opponent_reward": 144620.0,
+      "margin": 9479.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 68552.0,
+      "opponent_reward": 51327.0,
+      "margin": 17225.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 68552.0,
+      "opponent_reward": 51327.0,
+      "margin": 17225.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 68669.0,
+      "opponent_reward": 46575.0,
+      "margin": 22094.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 68669.0,
+      "opponent_reward": 46575.0,
+      "margin": 22094.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 125432.0,
+      "opponent_reward": 114535.0,
+      "margin": 10897.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 125432.0,
+      "opponent_reward": 114535.0,
+      "margin": 10897.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 85445.0,
+      "opponent_reward": 74356.0,
+      "margin": 11089.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 85445.0,
+      "opponent_reward": 74356.0,
+      "margin": 11089.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 132680.0,
+      "opponent_reward": 121176.0,
+      "margin": 11504.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 132680.0,
+      "opponent_reward": 121176.0,
+      "margin": 11504.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 122045.0,
+      "opponent_reward": 107956.0,
+      "margin": 14089.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "kaito58",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 122045.0,
+      "opponent_reward": 107956.0,
+      "margin": 14089.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23000,
+      "candidate_seat": 0,
+      "candidate_reward": 94958.0,
+      "opponent_reward": 74338.0,
+      "margin": 20620.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23000,
+      "candidate_seat": 1,
+      "candidate_reward": 94958.0,
+      "opponent_reward": 74338.0,
+      "margin": 20620.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23001,
+      "candidate_seat": 0,
+      "candidate_reward": 167012.0,
+      "opponent_reward": 163157.0,
+      "margin": 3855.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23001,
+      "candidate_seat": 1,
+      "candidate_reward": 167012.0,
+      "opponent_reward": 163157.0,
+      "margin": 3855.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23002,
+      "candidate_seat": 0,
+      "candidate_reward": 55953.0,
+      "opponent_reward": 38769.0,
+      "margin": 17184.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23002,
+      "candidate_seat": 1,
+      "candidate_reward": 55610.0,
+      "opponent_reward": 37702.0,
+      "margin": 17908.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23003,
+      "candidate_seat": 0,
+      "candidate_reward": 127074.0,
+      "opponent_reward": 90612.0,
+      "margin": 36462.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23003,
+      "candidate_seat": 1,
+      "candidate_reward": 127074.0,
+      "opponent_reward": 90612.0,
+      "margin": 36462.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23004,
+      "candidate_seat": 0,
+      "candidate_reward": 104744.0,
+      "opponent_reward": 63221.0,
+      "margin": 41523.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23004,
+      "candidate_seat": 1,
+      "candidate_reward": 104744.0,
+      "opponent_reward": 63221.0,
+      "margin": 41523.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23005,
+      "candidate_seat": 0,
+      "candidate_reward": 97990.0,
+      "opponent_reward": 81464.0,
+      "margin": 16526.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23005,
+      "candidate_seat": 1,
+      "candidate_reward": 97990.0,
+      "opponent_reward": 81464.0,
+      "margin": 16526.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23006,
+      "candidate_seat": 0,
+      "candidate_reward": 125883.0,
+      "opponent_reward": 117827.0,
+      "margin": 8056.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23006,
+      "candidate_seat": 1,
+      "candidate_reward": 125883.0,
+      "opponent_reward": 117827.0,
+      "margin": 8056.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23007,
+      "candidate_seat": 0,
+      "candidate_reward": 69664.0,
+      "opponent_reward": 50151.0,
+      "margin": 19513.0,
+      "outcome": "W"
+    },
+    {
+      "candidate": "e22",
+      "opponent": "boatlee29",
+      "seed": 23007,
+      "candidate_seat": 1,
+      "candidate_reward": 69664.0,
+      "opponent_reward": 50151.0,
+      "margin": 19513.0,
+      "outcome": "W"
+    }
+  ],
+  "errors": []
+}

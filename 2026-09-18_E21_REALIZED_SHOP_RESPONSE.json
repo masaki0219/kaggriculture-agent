@@ -1,0 +1,2219 @@
+{
+  "generated": "2026-09-18T14:37:15+09:00",
+  "seed_start": 19000,
+  "seeds": 12,
+  "opponents": [
+    "e11",
+    "aurax7_v7"
+  ],
+  "rows": [
+    {
+      "seed": 19000,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "BAKERY",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 60422.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19000,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "BAKERY",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 60422.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19001,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "BRUNCH_SPOT",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops4": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "YARN_STORE",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 75791.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19001,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "BRUNCH_SPOT",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops4": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 161,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 72846.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19002,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 81938.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19002,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 81938.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19003,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops3": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops4": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 11,
+      "min_locked_tiles": 25,
+      "reward": 152373.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19003,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops3": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops4": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 11,
+      "min_locked_tiles": 25,
+      "reward": 152373.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19004,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 110392.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19004,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 110392.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19005,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 117232.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19005,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 117232.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19006,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 102679.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19006,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 102679.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19007,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 76869.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19007,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 76869.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19008,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 70599.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19008,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 70599.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19009,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 104179.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19009,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 104179.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19010,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops3": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 72641.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19010,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops3": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 72641.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19011,
+      "seat": 0,
+      "opponent": "e11",
+      "shops2": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 85719.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19011,
+      "seat": 1,
+      "opponent": "e11",
+      "shops2": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 85719.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19000,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "BAKERY",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 57983.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19000,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "BAKERY",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "BAKERY",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "BAKERY",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 57983.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19001,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "BRUNCH_SPOT",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops4": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 75674.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19001,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "BRUNCH_SPOT",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops4": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "BRUNCH_SPOT",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 161,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 75549.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19002,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 11,
+      "min_locked_tiles": 25,
+      "reward": 79018.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19002,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "SMOOTHIE_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 11,
+      "min_locked_tiles": 25,
+      "reward": 79018.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19003,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops3": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops4": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 11,
+      "min_locked_tiles": 25,
+      "reward": 150455.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19003,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops3": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "shops4": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "YARN_STORE",
+        "BRUNCH_SPOT"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 11,
+      "min_locked_tiles": 25,
+      "reward": 150455.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19004,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 108261.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19004,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "FARMERS_MARKET",
+        "YARN_STORE",
+        "BAKERY",
+        "YARN_STORE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 108261.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19005,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 115519.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19005,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "PET_CAFE",
+        "BRUNCH_SPOT",
+        "FARMERS_MARKET"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 115519.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19006,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 98481.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19006,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "BAKERY",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 9,
+        "SHEEP": 5,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 98481.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19007,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 75441.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19007,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PIZZA_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "PET_CAFE",
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 75441.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19008,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 71477.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19008,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE"
+      ],
+      "shops4": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "all_shops": [
+        "SMOOTHIE_SHOP",
+        "PET_CAFE",
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "YARN_STORE",
+        "BAKERY",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 71477.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19009,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 107253.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19009,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "FARMERS_MARKET",
+        "PET_CAFE"
+      ],
+      "shops3": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP"
+      ],
+      "shops4": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP"
+      ],
+      "all_shops": [
+        "FARMERS_MARKET",
+        "PET_CAFE",
+        "ICE_CREAM_SHOP",
+        "SMOOTHIE_SHOP",
+        "BRUNCH_SPOT",
+        "PIZZA_SHOP",
+        "SMOOTHIE_SHOP",
+        "BAKERY"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 6,
+        "SHEEP": 6,
+        "GOOSE": 5
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 107253.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19010,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops3": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 73358.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19010,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "shops3": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET"
+      ],
+      "shops4": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY"
+      ],
+      "all_shops": [
+        "PET_CAFE",
+        "PIZZA_SHOP",
+        "FARMERS_MARKET",
+        "BAKERY",
+        "ICE_CREAM_SHOP",
+        "FARMERS_MARKET",
+        "PIZZA_SHOP",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 10,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 14,
+      "min_locked_tiles": 0,
+      "reward": 73358.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19011,
+      "seat": 0,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 87919.0,
+      "status": "DONE"
+    },
+    {
+      "seed": 19011,
+      "seat": 1,
+      "opponent": "aurax7_v7",
+      "shops2": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT"
+      ],
+      "shops3": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT"
+      ],
+      "shops4": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP"
+      ],
+      "all_shops": [
+        "PIZZA_SHOP",
+        "BRUNCH_SPOT",
+        "BRUNCH_SPOT",
+        "ICE_CREAM_SHOP",
+        "PET_CAFE",
+        "YARN_STORE",
+        "PET_CAFE",
+        "PIZZA_SHOP"
+      ],
+      "plants": {
+        "WHEAT": 162,
+        "CARROT": 31,
+        "TOMATO": 0,
+        "STRAWBERRY": 33,
+        "MELON": 12
+      },
+      "animals": {
+        "COW": 8,
+        "SHEEP": 6,
+        "GOOSE": 3
+      },
+      "max_hands": 12,
+      "min_locked_tiles": 25,
+      "reward": 87919.0,
+      "status": "DONE"
+    }
+  ]
+}

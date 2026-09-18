@@ -1,0 +1,237 @@
+{
+  "generated": "2026-09-18T15:29:08+09:00",
+  "tetsu": {
+    "path": "artifacts/bundles/current/public_agents/elite/tetsu_market_v23_current/raw/_extract_submission_tar/main.py",
+    "sha256": "f6a756cfb900b9d5f499905d596b63f1fde2445342ac4b1ae04e353739bd62d2",
+    "lines": 3631
+  },
+  "aurax": {
+    "path": "artifacts/bundles/current/public_agents/elite/aurax7_v7_current/raw/_extract_submission_tar/main.py",
+    "sha256": "e221f4875daff8b03e8f0ec7c86bd3a2a72c0768b049d4c25064abd5301a532b",
+    "lines": 3937
+  },
+  "line_similarity": 0.9164904862579282,
+  "market_related_diffs": [
+    {
+      "key": "FunctionDef:advance_sales#1",
+      "status": "aurax-only",
+      "market_score": 29,
+      "production_score": 2,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3820,
+        3878
+      ]
+    },
+    {
+      "key": "FunctionDef:frontload#1",
+      "status": "aurax-only",
+      "market_score": 26,
+      "production_score": 0,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3765,
+        3801
+      ]
+    },
+    {
+      "key": "FunctionDef:agent#28",
+      "status": "changed",
+      "market_score": 30,
+      "production_score": 9,
+      "tetsu_lines": [
+        3501,
+        3529
+      ],
+      "aurax_lines": [
+        3463,
+        3477
+      ]
+    },
+    {
+      "key": "FunctionDef:_adv_apply#1",
+      "status": "tetsu-only",
+      "market_score": 24,
+      "production_score": 0,
+      "tetsu_lines": [
+        3553,
+        3601
+      ],
+      "aurax_lines": null
+    },
+    {
+      "key": "FunctionDef:_adv_frontload#1",
+      "status": "tetsu-only",
+      "market_score": 21,
+      "production_score": 0,
+      "tetsu_lines": [
+        3602,
+        3616
+      ],
+      "aurax_lines": null
+    },
+    {
+      "key": "FunctionDef:_race_lost#1",
+      "status": "changed",
+      "market_score": 17,
+      "production_score": 0,
+      "tetsu_lines": [
+        3409,
+        3435
+      ],
+      "aurax_lines": [
+        3391,
+        3408
+      ]
+    },
+    {
+      "key": "FunctionDef:agent#30",
+      "status": "aurax-only",
+      "market_score": 12,
+      "production_score": 3,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3915,
+        3936
+      ]
+    },
+    {
+      "key": "FunctionDef:_simulate#1",
+      "status": "aurax-only",
+      "market_score": 11,
+      "production_score": 3,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3713,
+        3762
+      ]
+    },
+    {
+      "key": "FunctionDef:_price#1",
+      "status": "aurax-only",
+      "market_score": 4,
+      "production_score": 0,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3696,
+        3704
+      ]
+    },
+    {
+      "key": "FunctionDef:_r60_risks#1",
+      "status": "aurax-only",
+      "market_score": 4,
+      "production_score": 0,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3524,
+        3535
+      ]
+    },
+    {
+      "key": "FunctionDef:agent#29",
+      "status": "changed",
+      "market_score": 3,
+      "production_score": 0,
+      "tetsu_lines": [
+        3617,
+        3629
+      ],
+      "aurax_lines": [
+        3604,
+        3617
+      ]
+    },
+    {
+      "key": "Assign:_V43_OPENING#2",
+      "status": "aurax-only",
+      "market_score": 4,
+      "production_score": 3,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3635,
+        3635
+      ]
+    },
+    {
+      "key": "Assign:_OPEN_STEP0#1",
+      "status": "tetsu-only",
+      "market_score": 3,
+      "production_score": 2,
+      "tetsu_lines": [
+        3497,
+        3497
+      ],
+      "aurax_lines": null
+    },
+    {
+      "key": "Assign:_V43_OPENING#1",
+      "status": "aurax-only",
+      "market_score": 3,
+      "production_score": 2,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3629,
+        3629
+      ]
+    },
+    {
+      "key": "Assign:LOOKAHEAD#1",
+      "status": "aurax-only",
+      "market_score": 2,
+      "production_score": 0,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3816,
+        3816
+      ]
+    },
+    {
+      "key": "FunctionDef:_future_market#1",
+      "status": "aurax-only",
+      "market_score": 2,
+      "production_score": 0,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3885,
+        3899
+      ]
+    },
+    {
+      "key": "FunctionDef:_r60_opening_liquidity#1",
+      "status": "aurax-only",
+      "market_score": 4,
+      "production_score": 6,
+      "tetsu_lines": null,
+      "aurax_lines": [
+        3496,
+        3516
+      ]
+    },
+    {
+      "key": "FunctionDef:_adv_future#1",
+      "status": "tetsu-only",
+      "market_score": 1,
+      "production_score": 0,
+      "tetsu_lines": [
+        3550,
+        3552
+      ],
+      "aurax_lines": null
+    },
+    {
+      "key": "FunctionDef:agent#27",
+      "status": "changed",
+      "market_score": 1,
+      "production_score": 0,
+      "tetsu_lines": [
+        3451,
+        3484
+      ],
+      "aurax_lines": [
+        3424,
+        3449
+      ]
+    }
+  ]
+}

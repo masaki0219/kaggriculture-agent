@@ -15,6 +15,7 @@ CALLABLE_NAMES = (
     "submission_agent",
     "melon_maxxer",
     "policy",
+    "kaggriculture_e776_agent",
 )
 
 def _entrypoint(name: str) -> Path:

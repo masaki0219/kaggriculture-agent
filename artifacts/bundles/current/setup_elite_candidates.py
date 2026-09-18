@@ -24,6 +24,25 @@ ROOT = Path(__file__).resolve().parent
 DEST = ROOT / "public_agents" / "elite"
 
 SOURCES = {
+    # 2026-09-18 frontier refresh.  Benchmark/base candidates for the
+    # current reactive public lineage.  Public score is not used as a
+    # promotion criterion; the family-balanced local screen decides which
+    # exact artifact is worth freezing as a new immutable experiment.
+    "aurax7_v7_current": {
+        "kernel": "aurax7/kaggriculture-shop-router-reactive-v7",
+        "license": "Apache-2.0",
+        "status": "benchmark/base candidate; keep exact downloaded hash in manifest",
+    },
+    "ahmed_v44_current": {
+        "kernel": "ahmedberatozer/kaggriculture-v44-winning-the-same-turn-sale-race",
+        "license": "Apache-2.0",
+        "status": "benchmark/base candidate; keep exact downloaded hash in manifest",
+    },
+    "tetsu_market_v23_current": {
+        "kernel": "tetsutani/market-smart-farming-kaggriculture",
+        "license": "Apache-2.0",
+        "status": "benchmark/base candidate; keep exact downloaded hash in manifest",
+    },
     "kaito27_current": {
         "kernel": "kaitofukami/44-46-strict-future-top-30-v22-price-impact",
         "license": "Apache-2.0",

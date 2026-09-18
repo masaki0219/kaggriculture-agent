@@ -1,0 +1,3410 @@
+{
+  "generated": "2026-09-18T15:02:22+09:00",
+  "design": {
+    "round_robin_seeds": [
+      20000,
+      20001,
+      20002,
+      20003,
+      20004,
+      20005,
+      20006,
+      20007,
+      20008,
+      20009,
+      20010,
+      20011,
+      20012,
+      20013,
+      20014,
+      20015
+    ],
+    "panel_seeds": [
+      21000,
+      21001,
+      21002,
+      21003,
+      21004,
+      21005,
+      21006,
+      21007
+    ],
+    "candidates": [
+      "e21",
+      "ahmed_v44",
+      "aurax7_v7"
+    ],
+    "fixed_panel": [
+      "e11",
+      "shape_top10",
+      "kaito58",
+      "boatlee29",
+      "adaptive_route_v2"
+    ]
+  },
+  "round_robin": [
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20000,
+      "left_seat": 0,
+      "left_reward": 83737.0,
+      "right_reward": 83152.0,
+      "margin": 585.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20000,
+      "left_seat": 1,
+      "left_reward": 83737.0,
+      "right_reward": 83152.0,
+      "margin": 585.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20001,
+      "left_seat": 0,
+      "left_reward": 119465.0,
+      "right_reward": 119183.0,
+      "margin": 282.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20001,
+      "left_seat": 1,
+      "left_reward": 119465.0,
+      "right_reward": 119183.0,
+      "margin": 282.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20002,
+      "left_seat": 0,
+      "left_reward": 124524.0,
+      "right_reward": 125800.0,
+      "margin": -1276.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20002,
+      "left_seat": 1,
+      "left_reward": 125509.0,
+      "right_reward": 124815.0,
+      "margin": 694.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20003,
+      "left_seat": 0,
+      "left_reward": 97379.0,
+      "right_reward": 97471.0,
+      "margin": -92.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20003,
+      "left_seat": 1,
+      "left_reward": 97379.0,
+      "right_reward": 97471.0,
+      "margin": -92.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20004,
+      "left_seat": 0,
+      "left_reward": 142594.0,
+      "right_reward": 142357.0,
+      "margin": 237.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20004,
+      "left_seat": 1,
+      "left_reward": 142594.0,
+      "right_reward": 142357.0,
+      "margin": 237.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20005,
+      "left_seat": 0,
+      "left_reward": 61014.0,
+      "right_reward": 61031.0,
+      "margin": -17.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20005,
+      "left_seat": 1,
+      "left_reward": 60934.0,
+      "right_reward": 61111.0,
+      "margin": -177.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20006,
+      "left_seat": 0,
+      "left_reward": 72571.0,
+      "right_reward": 70834.0,
+      "margin": 1737.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20006,
+      "left_seat": 1,
+      "left_reward": 72571.0,
+      "right_reward": 70834.0,
+      "margin": 1737.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20007,
+      "left_seat": 0,
+      "left_reward": 107368.0,
+      "right_reward": 107359.0,
+      "margin": 9.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20007,
+      "left_seat": 1,
+      "left_reward": 107368.0,
+      "right_reward": 107359.0,
+      "margin": 9.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20008,
+      "left_seat": 0,
+      "left_reward": 106678.0,
+      "right_reward": 105399.0,
+      "margin": 1279.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20008,
+      "left_seat": 1,
+      "left_reward": 106746.0,
+      "right_reward": 105331.0,
+      "margin": 1415.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20009,
+      "left_seat": 0,
+      "left_reward": 93485.0,
+      "right_reward": 92860.0,
+      "margin": 625.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20009,
+      "left_seat": 1,
+      "left_reward": 93485.0,
+      "right_reward": 92860.0,
+      "margin": 625.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20010,
+      "left_seat": 0,
+      "left_reward": 85415.0,
+      "right_reward": 84833.0,
+      "margin": 582.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20010,
+      "left_seat": 1,
+      "left_reward": 85415.0,
+      "right_reward": 84833.0,
+      "margin": 582.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20011,
+      "left_seat": 0,
+      "left_reward": 97910.0,
+      "right_reward": 97904.0,
+      "margin": 6.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20011,
+      "left_seat": 1,
+      "left_reward": 97910.0,
+      "right_reward": 97904.0,
+      "margin": 6.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20012,
+      "left_seat": 0,
+      "left_reward": 88733.0,
+      "right_reward": 88406.0,
+      "margin": 327.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20012,
+      "left_seat": 1,
+      "left_reward": 88733.0,
+      "right_reward": 88406.0,
+      "margin": 327.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20013,
+      "left_seat": 0,
+      "left_reward": 86182.0,
+      "right_reward": 85976.0,
+      "margin": 206.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20013,
+      "left_seat": 1,
+      "left_reward": 86182.0,
+      "right_reward": 85976.0,
+      "margin": 206.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20014,
+      "left_seat": 0,
+      "left_reward": 106008.0,
+      "right_reward": 106098.0,
+      "margin": -90.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20014,
+      "left_seat": 1,
+      "left_reward": 107054.0,
+      "right_reward": 105274.0,
+      "margin": 1780.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20015,
+      "left_seat": 0,
+      "left_reward": 122124.0,
+      "right_reward": 121622.0,
+      "margin": 502.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "ahmed_v44",
+      "seed": 20015,
+      "left_seat": 1,
+      "left_reward": 122124.0,
+      "right_reward": 121622.0,
+      "margin": 502.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20000,
+      "left_seat": 0,
+      "left_reward": 83605.0,
+      "right_reward": 83321.0,
+      "margin": 284.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20000,
+      "left_seat": 1,
+      "left_reward": 83605.0,
+      "right_reward": 83321.0,
+      "margin": 284.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20001,
+      "left_seat": 0,
+      "left_reward": 118217.0,
+      "right_reward": 118039.0,
+      "margin": 178.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20001,
+      "left_seat": 1,
+      "left_reward": 118217.0,
+      "right_reward": 118039.0,
+      "margin": 178.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20002,
+      "left_seat": 0,
+      "left_reward": 121004.0,
+      "right_reward": 121852.0,
+      "margin": -848.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20002,
+      "left_seat": 1,
+      "left_reward": 121958.0,
+      "right_reward": 120898.0,
+      "margin": 1060.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20003,
+      "left_seat": 0,
+      "left_reward": 97298.0,
+      "right_reward": 97472.0,
+      "margin": -174.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20003,
+      "left_seat": 1,
+      "left_reward": 97298.0,
+      "right_reward": 97472.0,
+      "margin": -174.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20004,
+      "left_seat": 0,
+      "left_reward": 141404.0,
+      "right_reward": 141270.0,
+      "margin": 134.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20004,
+      "left_seat": 1,
+      "left_reward": 141404.0,
+      "right_reward": 141270.0,
+      "margin": 134.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20005,
+      "left_seat": 0,
+      "left_reward": 60828.0,
+      "right_reward": 60914.0,
+      "margin": -86.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20005,
+      "left_seat": 1,
+      "left_reward": 60748.0,
+      "right_reward": 60994.0,
+      "margin": -246.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20006,
+      "left_seat": 0,
+      "left_reward": 72139.0,
+      "right_reward": 70536.0,
+      "margin": 1603.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20006,
+      "left_seat": 1,
+      "left_reward": 72139.0,
+      "right_reward": 70536.0,
+      "margin": 1603.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20007,
+      "left_seat": 0,
+      "left_reward": 105874.0,
+      "right_reward": 106143.0,
+      "margin": -269.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20007,
+      "left_seat": 1,
+      "left_reward": 105874.0,
+      "right_reward": 106143.0,
+      "margin": -269.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20008,
+      "left_seat": 0,
+      "left_reward": 105174.0,
+      "right_reward": 104523.0,
+      "margin": 651.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20008,
+      "left_seat": 1,
+      "left_reward": 105242.0,
+      "right_reward": 104455.0,
+      "margin": 787.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20009,
+      "left_seat": 0,
+      "left_reward": 93858.0,
+      "right_reward": 93369.0,
+      "margin": 489.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20009,
+      "left_seat": 1,
+      "left_reward": 93858.0,
+      "right_reward": 93369.0,
+      "margin": 489.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20010,
+      "left_seat": 0,
+      "left_reward": 84606.0,
+      "right_reward": 84622.0,
+      "margin": -16.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20010,
+      "left_seat": 1,
+      "left_reward": 84606.0,
+      "right_reward": 84622.0,
+      "margin": -16.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20011,
+      "left_seat": 0,
+      "left_reward": 97321.0,
+      "right_reward": 97517.0,
+      "margin": -196.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20011,
+      "left_seat": 1,
+      "left_reward": 97321.0,
+      "right_reward": 97517.0,
+      "margin": -196.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20012,
+      "left_seat": 0,
+      "left_reward": 88381.0,
+      "right_reward": 88133.0,
+      "margin": 248.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20012,
+      "left_seat": 1,
+      "left_reward": 88381.0,
+      "right_reward": 88133.0,
+      "margin": 248.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20013,
+      "left_seat": 0,
+      "left_reward": 86010.0,
+      "right_reward": 85747.0,
+      "margin": 263.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20013,
+      "left_seat": 1,
+      "left_reward": 86010.0,
+      "right_reward": 85747.0,
+      "margin": 263.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20014,
+      "left_seat": 0,
+      "left_reward": 104550.0,
+      "right_reward": 104954.0,
+      "margin": -404.0,
+      "outcome": "L"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20014,
+      "left_seat": 1,
+      "left_reward": 105328.0,
+      "right_reward": 104176.0,
+      "margin": 1152.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20015,
+      "left_seat": 0,
+      "left_reward": 121586.0,
+      "right_reward": 121527.0,
+      "margin": 59.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "aurax7_v7",
+      "seed": 20015,
+      "left_seat": 1,
+      "left_reward": 121586.0,
+      "right_reward": 121527.0,
+      "margin": 59.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20000,
+      "left_seat": 0,
+      "left_reward": 82887.0,
+      "right_reward": 83614.0,
+      "margin": -727.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20000,
+      "left_seat": 1,
+      "left_reward": 82887.0,
+      "right_reward": 83614.0,
+      "margin": -727.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20001,
+      "left_seat": 0,
+      "left_reward": 118038.0,
+      "right_reward": 118507.0,
+      "margin": -469.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20001,
+      "left_seat": 1,
+      "left_reward": 118038.0,
+      "right_reward": 118507.0,
+      "margin": -469.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20002,
+      "left_seat": 0,
+      "left_reward": 120963.0,
+      "right_reward": 121979.0,
+      "margin": -1016.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20002,
+      "left_seat": 1,
+      "left_reward": 121917.0,
+      "right_reward": 121025.0,
+      "margin": 892.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20003,
+      "left_seat": 0,
+      "left_reward": 97339.0,
+      "right_reward": 97473.0,
+      "margin": -134.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20003,
+      "left_seat": 1,
+      "left_reward": 97339.0,
+      "right_reward": 97473.0,
+      "margin": -134.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20004,
+      "left_seat": 0,
+      "left_reward": 141188.0,
+      "right_reward": 141686.0,
+      "margin": -498.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20004,
+      "left_seat": 1,
+      "left_reward": 141188.0,
+      "right_reward": 141686.0,
+      "margin": -498.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20005,
+      "left_seat": 0,
+      "left_reward": 60273.0,
+      "right_reward": 60993.0,
+      "margin": -720.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20005,
+      "left_seat": 1,
+      "left_reward": 60193.0,
+      "right_reward": 61073.0,
+      "margin": -880.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20006,
+      "left_seat": 0,
+      "left_reward": 70462.0,
+      "right_reward": 72098.0,
+      "margin": -1636.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20006,
+      "left_seat": 1,
+      "left_reward": 70462.0,
+      "right_reward": 72098.0,
+      "margin": -1636.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20007,
+      "left_seat": 0,
+      "left_reward": 105839.0,
+      "right_reward": 106285.0,
+      "margin": -446.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20007,
+      "left_seat": 1,
+      "left_reward": 105839.0,
+      "right_reward": 106285.0,
+      "margin": -446.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20008,
+      "left_seat": 0,
+      "left_reward": 104305.0,
+      "right_reward": 105706.0,
+      "margin": -1401.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20008,
+      "left_seat": 1,
+      "left_reward": 104373.0,
+      "right_reward": 105638.0,
+      "margin": -1265.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20009,
+      "left_seat": 0,
+      "left_reward": 92375.0,
+      "right_reward": 93559.0,
+      "margin": -1184.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20009,
+      "left_seat": 1,
+      "left_reward": 92375.0,
+      "right_reward": 93559.0,
+      "margin": -1184.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20010,
+      "left_seat": 0,
+      "left_reward": 84185.0,
+      "right_reward": 85131.0,
+      "margin": -946.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20010,
+      "left_seat": 1,
+      "left_reward": 84185.0,
+      "right_reward": 85131.0,
+      "margin": -946.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20011,
+      "left_seat": 0,
+      "left_reward": 97008.0,
+      "right_reward": 98323.0,
+      "margin": -1315.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20011,
+      "left_seat": 1,
+      "left_reward": 97008.0,
+      "right_reward": 98323.0,
+      "margin": -1315.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20012,
+      "left_seat": 0,
+      "left_reward": 87830.0,
+      "right_reward": 88546.0,
+      "margin": -716.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20012,
+      "left_seat": 1,
+      "left_reward": 87830.0,
+      "right_reward": 88546.0,
+      "margin": -716.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20013,
+      "left_seat": 0,
+      "left_reward": 85674.0,
+      "right_reward": 86245.0,
+      "margin": -571.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20013,
+      "left_seat": 1,
+      "left_reward": 85674.0,
+      "right_reward": 86245.0,
+      "margin": -571.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20014,
+      "left_seat": 0,
+      "left_reward": 103796.0,
+      "right_reward": 105786.0,
+      "margin": -1990.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20014,
+      "left_seat": 1,
+      "left_reward": 104578.0,
+      "right_reward": 105004.0,
+      "margin": -426.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20015,
+      "left_seat": 0,
+      "left_reward": 121125.0,
+      "right_reward": 122070.0,
+      "margin": -945.0,
+      "outcome": "L"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "aurax7_v7",
+      "seed": 20015,
+      "left_seat": 1,
+      "left_reward": 121125.0,
+      "right_reward": 122070.0,
+      "margin": -945.0,
+      "outcome": "L"
+    }
+  ],
+  "fixed_panel": [
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 155382.0,
+      "right_reward": 149583.0,
+      "margin": 5799.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 155382.0,
+      "right_reward": 149583.0,
+      "margin": 5799.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 101339.0,
+      "right_reward": 93948.0,
+      "margin": 7391.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 101339.0,
+      "right_reward": 93948.0,
+      "margin": 7391.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 100641.0,
+      "right_reward": 94654.0,
+      "margin": 5987.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 100641.0,
+      "right_reward": 94654.0,
+      "margin": 5987.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 87374.0,
+      "right_reward": 70355.0,
+      "margin": 17019.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 87374.0,
+      "right_reward": 70355.0,
+      "margin": 17019.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 65745.0,
+      "right_reward": 55903.0,
+      "margin": 9842.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 65745.0,
+      "right_reward": 55903.0,
+      "margin": 9842.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 98527.0,
+      "right_reward": 92191.0,
+      "margin": 6336.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 98527.0,
+      "right_reward": 92191.0,
+      "margin": 6336.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 71183.0,
+      "right_reward": 67648.0,
+      "margin": 3535.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 92000.0,
+      "right_reward": 88483.0,
+      "margin": 3517.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 127253.0,
+      "right_reward": 122034.0,
+      "margin": 5219.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "e11",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 127253.0,
+      "right_reward": 122034.0,
+      "margin": 5219.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 154844.0,
+      "right_reward": 132119.0,
+      "margin": 22725.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 154844.0,
+      "right_reward": 132119.0,
+      "margin": 22725.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 83194.0,
+      "right_reward": 69026.0,
+      "margin": 14168.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 83194.0,
+      "right_reward": 69026.0,
+      "margin": 14168.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 108501.0,
+      "right_reward": 93723.0,
+      "margin": 14778.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 108501.0,
+      "right_reward": 93723.0,
+      "margin": 14778.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 81450.0,
+      "right_reward": 43423.0,
+      "margin": 38027.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 81450.0,
+      "right_reward": 43423.0,
+      "margin": 38027.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 78296.0,
+      "right_reward": 61890.0,
+      "margin": 16406.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 78296.0,
+      "right_reward": 61890.0,
+      "margin": 16406.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 105653.0,
+      "right_reward": 75855.0,
+      "margin": 29798.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 105653.0,
+      "right_reward": 75855.0,
+      "margin": 29798.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 94298.0,
+      "right_reward": 80787.0,
+      "margin": 13511.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 73958.0,
+      "right_reward": 58025.0,
+      "margin": 15933.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 128121.0,
+      "right_reward": 117613.0,
+      "margin": 10508.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "shape_top10",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 128121.0,
+      "right_reward": 117613.0,
+      "margin": 10508.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 122972.0,
+      "right_reward": 114648.0,
+      "margin": 8324.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 122972.0,
+      "right_reward": 114648.0,
+      "margin": 8324.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 118764.0,
+      "right_reward": 102113.0,
+      "margin": 16651.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 118764.0,
+      "right_reward": 102113.0,
+      "margin": 16651.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 85491.0,
+      "right_reward": 73505.0,
+      "margin": 11986.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 85491.0,
+      "right_reward": 73505.0,
+      "margin": 11986.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 89342.0,
+      "right_reward": 48838.0,
+      "margin": 40504.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 89342.0,
+      "right_reward": 48838.0,
+      "margin": 40504.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 96732.0,
+      "right_reward": 80764.0,
+      "margin": 15968.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 96732.0,
+      "right_reward": 80764.0,
+      "margin": 15968.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 102332.0,
+      "right_reward": 57262.0,
+      "margin": 45070.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 102332.0,
+      "right_reward": 57262.0,
+      "margin": 45070.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 63605.0,
+      "right_reward": 46485.0,
+      "margin": 17120.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 99332.0,
+      "right_reward": 69372.0,
+      "margin": 29960.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 127594.0,
+      "right_reward": 110508.0,
+      "margin": 17086.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "kaito58",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 127594.0,
+      "right_reward": 110508.0,
+      "margin": 17086.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 129805.0,
+      "right_reward": 124457.0,
+      "margin": 5348.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 129805.0,
+      "right_reward": 124457.0,
+      "margin": 5348.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 80607.0,
+      "right_reward": 70520.0,
+      "margin": 10087.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 80607.0,
+      "right_reward": 70520.0,
+      "margin": 10087.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 77727.0,
+      "right_reward": 57342.0,
+      "margin": 20385.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 77727.0,
+      "right_reward": 57342.0,
+      "margin": 20385.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 110341.0,
+      "right_reward": 103107.0,
+      "margin": 7234.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 110369.0,
+      "right_reward": 103093.0,
+      "margin": 7276.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 111249.0,
+      "right_reward": 82994.0,
+      "margin": 28255.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 111249.0,
+      "right_reward": 82994.0,
+      "margin": 28255.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 106584.0,
+      "right_reward": 62840.0,
+      "margin": 43744.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 106584.0,
+      "right_reward": 62840.0,
+      "margin": 43744.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 96797.0,
+      "right_reward": 69159.0,
+      "margin": 27638.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 72721.0,
+      "right_reward": 60069.0,
+      "margin": 12652.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 94192.0,
+      "right_reward": 80652.0,
+      "margin": 13540.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "boatlee29",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 94192.0,
+      "right_reward": 80652.0,
+      "margin": 13540.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 189347.0,
+      "right_reward": 3000.0,
+      "margin": 186347.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 189347.0,
+      "right_reward": 3000.0,
+      "margin": 186347.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 182192.0,
+      "right_reward": 3000.0,
+      "margin": 179192.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 182192.0,
+      "right_reward": 3000.0,
+      "margin": 179192.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 172605.0,
+      "right_reward": 3000.0,
+      "margin": 169605.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 172605.0,
+      "right_reward": 3000.0,
+      "margin": 169605.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 145812.0,
+      "right_reward": 3000.0,
+      "margin": 142812.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 145812.0,
+      "right_reward": 3000.0,
+      "margin": 142812.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 193495.0,
+      "right_reward": 3000.0,
+      "margin": 190495.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 193495.0,
+      "right_reward": 3000.0,
+      "margin": 190495.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 192924.0,
+      "right_reward": 3000.0,
+      "margin": 189924.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 192924.0,
+      "right_reward": 3000.0,
+      "margin": 189924.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 169397.0,
+      "right_reward": 3000.0,
+      "margin": 166397.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 186683.0,
+      "right_reward": 3000.0,
+      "margin": 183683.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 186788.0,
+      "right_reward": 3000.0,
+      "margin": 183788.0,
+      "outcome": "W"
+    },
+    {
+      "left": "e21",
+      "right": "adaptive_route_v2",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 186788.0,
+      "right_reward": 3000.0,
+      "margin": 183788.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 154963.0,
+      "right_reward": 149976.0,
+      "margin": 4987.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 154963.0,
+      "right_reward": 149976.0,
+      "margin": 4987.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 101508.0,
+      "right_reward": 93953.0,
+      "margin": 7555.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 101508.0,
+      "right_reward": 93953.0,
+      "margin": 7555.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 100825.0,
+      "right_reward": 94662.0,
+      "margin": 6163.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 100825.0,
+      "right_reward": 94662.0,
+      "margin": 6163.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 87410.0,
+      "right_reward": 70470.0,
+      "margin": 16940.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 87410.0,
+      "right_reward": 70470.0,
+      "margin": 16940.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 65726.0,
+      "right_reward": 55890.0,
+      "margin": 9836.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 65726.0,
+      "right_reward": 55890.0,
+      "margin": 9836.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 98422.0,
+      "right_reward": 92438.0,
+      "margin": 5984.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 98422.0,
+      "right_reward": 92438.0,
+      "margin": 5984.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 71388.0,
+      "right_reward": 67772.0,
+      "margin": 3616.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 92499.0,
+      "right_reward": 88562.0,
+      "margin": 3937.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 127489.0,
+      "right_reward": 121975.0,
+      "margin": 5514.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "e11",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 127489.0,
+      "right_reward": 121975.0,
+      "margin": 5514.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 154970.0,
+      "right_reward": 132149.0,
+      "margin": 22821.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 154970.0,
+      "right_reward": 132149.0,
+      "margin": 22821.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 83230.0,
+      "right_reward": 69250.0,
+      "margin": 13980.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 83230.0,
+      "right_reward": 69250.0,
+      "margin": 13980.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 108726.0,
+      "right_reward": 94141.0,
+      "margin": 14585.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 108726.0,
+      "right_reward": 94141.0,
+      "margin": 14585.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 69581.0,
+      "right_reward": 42396.0,
+      "margin": 27185.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 69581.0,
+      "right_reward": 42396.0,
+      "margin": 27185.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 78219.0,
+      "right_reward": 61820.0,
+      "margin": 16399.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 78219.0,
+      "right_reward": 61820.0,
+      "margin": 16399.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 105778.0,
+      "right_reward": 76021.0,
+      "margin": 29757.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 105778.0,
+      "right_reward": 76021.0,
+      "margin": 29757.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 94352.0,
+      "right_reward": 80945.0,
+      "margin": 13407.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 73866.0,
+      "right_reward": 58051.0,
+      "margin": 15815.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 128124.0,
+      "right_reward": 117977.0,
+      "margin": 10147.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "shape_top10",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 128124.0,
+      "right_reward": 117977.0,
+      "margin": 10147.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 143285.0,
+      "right_reward": 137005.0,
+      "margin": 6280.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 143285.0,
+      "right_reward": 137005.0,
+      "margin": 6280.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 84307.0,
+      "right_reward": 69526.0,
+      "margin": 14781.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 84307.0,
+      "right_reward": 69526.0,
+      "margin": 14781.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 109651.0,
+      "right_reward": 90297.0,
+      "margin": 19354.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 109651.0,
+      "right_reward": 90297.0,
+      "margin": 19354.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 86604.0,
+      "right_reward": 46654.0,
+      "margin": 39950.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 86604.0,
+      "right_reward": 46654.0,
+      "margin": 39950.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 66832.0,
+      "right_reward": 46466.0,
+      "margin": 20366.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 66832.0,
+      "right_reward": 46466.0,
+      "margin": 20366.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 101556.0,
+      "right_reward": 67208.0,
+      "margin": 34348.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 101556.0,
+      "right_reward": 67208.0,
+      "margin": 34348.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 94092.0,
+      "right_reward": 76702.0,
+      "margin": 17390.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 72524.0,
+      "right_reward": 57751.0,
+      "margin": 14773.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 129143.0,
+      "right_reward": 115270.0,
+      "margin": 13873.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "kaito58",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 129143.0,
+      "right_reward": 115270.0,
+      "margin": 13873.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 118936.0,
+      "right_reward": 95595.0,
+      "margin": 23341.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 118936.0,
+      "right_reward": 95595.0,
+      "margin": 23341.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 121086.0,
+      "right_reward": 96610.0,
+      "margin": 24476.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 121086.0,
+      "right_reward": 96610.0,
+      "margin": 24476.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 64072.0,
+      "right_reward": 34079.0,
+      "margin": 29993.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 64072.0,
+      "right_reward": 34079.0,
+      "margin": 29993.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 137896.0,
+      "right_reward": 118258.0,
+      "margin": 19638.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 137896.0,
+      "right_reward": 118258.0,
+      "margin": 19638.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 127556.0,
+      "right_reward": 95168.0,
+      "margin": 32388.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 127556.0,
+      "right_reward": 95168.0,
+      "margin": 32388.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 89252.0,
+      "right_reward": 56113.0,
+      "margin": 33139.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 89252.0,
+      "right_reward": 56113.0,
+      "margin": 33139.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 99321.0,
+      "right_reward": 85039.0,
+      "margin": 14282.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 78713.0,
+      "right_reward": 61861.0,
+      "margin": 16852.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 72703.0,
+      "right_reward": 50790.0,
+      "margin": 21913.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "boatlee29",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 72703.0,
+      "right_reward": 50790.0,
+      "margin": 21913.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 189473.0,
+      "right_reward": 3000.0,
+      "margin": 186473.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 189473.0,
+      "right_reward": 3000.0,
+      "margin": 186473.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 182326.0,
+      "right_reward": 3000.0,
+      "margin": 179326.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 182326.0,
+      "right_reward": 3000.0,
+      "margin": 179326.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 172776.0,
+      "right_reward": 3000.0,
+      "margin": 169776.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 172776.0,
+      "right_reward": 3000.0,
+      "margin": 169776.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 145906.0,
+      "right_reward": 3000.0,
+      "margin": 142906.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 145906.0,
+      "right_reward": 3000.0,
+      "margin": 142906.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 193640.0,
+      "right_reward": 3000.0,
+      "margin": 190640.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 193640.0,
+      "right_reward": 3000.0,
+      "margin": 190640.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 193063.0,
+      "right_reward": 3000.0,
+      "margin": 190063.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 193063.0,
+      "right_reward": 3000.0,
+      "margin": 190063.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 169582.0,
+      "right_reward": 3000.0,
+      "margin": 166582.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 186745.0,
+      "right_reward": 3000.0,
+      "margin": 183745.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 186929.0,
+      "right_reward": 3000.0,
+      "margin": 183929.0,
+      "outcome": "W"
+    },
+    {
+      "left": "ahmed_v44",
+      "right": "adaptive_route_v2",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 186929.0,
+      "right_reward": 3000.0,
+      "margin": 183929.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 153008.0,
+      "right_reward": 149856.0,
+      "margin": 3152.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 153008.0,
+      "right_reward": 149856.0,
+      "margin": 3152.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 100683.0,
+      "right_reward": 94135.0,
+      "margin": 6548.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 100683.0,
+      "right_reward": 94135.0,
+      "margin": 6548.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 100046.0,
+      "right_reward": 94840.0,
+      "margin": 5206.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 100046.0,
+      "right_reward": 94840.0,
+      "margin": 5206.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 86413.0,
+      "right_reward": 71043.0,
+      "margin": 15370.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 86413.0,
+      "right_reward": 71043.0,
+      "margin": 15370.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 65443.0,
+      "right_reward": 55976.0,
+      "margin": 9467.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 65443.0,
+      "right_reward": 55976.0,
+      "margin": 9467.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 95445.0,
+      "right_reward": 92011.0,
+      "margin": 3434.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 95445.0,
+      "right_reward": 92011.0,
+      "margin": 3434.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 71170.0,
+      "right_reward": 67803.0,
+      "margin": 3367.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 91825.0,
+      "right_reward": 88544.0,
+      "margin": 3281.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 126339.0,
+      "right_reward": 122889.0,
+      "margin": 3450.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "e11",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 126339.0,
+      "right_reward": 122889.0,
+      "margin": 3450.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 153608.0,
+      "right_reward": 131762.0,
+      "margin": 21846.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 153608.0,
+      "right_reward": 131762.0,
+      "margin": 21846.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 82973.0,
+      "right_reward": 68921.0,
+      "margin": 14052.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 82973.0,
+      "right_reward": 68921.0,
+      "margin": 14052.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 107806.0,
+      "right_reward": 93313.0,
+      "margin": 14493.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 107806.0,
+      "right_reward": 93313.0,
+      "margin": 14493.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 68907.0,
+      "right_reward": 42330.0,
+      "margin": 26577.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 68907.0,
+      "right_reward": 42330.0,
+      "margin": 26577.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 78162.0,
+      "right_reward": 61964.0,
+      "margin": 16198.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 78162.0,
+      "right_reward": 61964.0,
+      "margin": 16198.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 105108.0,
+      "right_reward": 76514.0,
+      "margin": 28594.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 105108.0,
+      "right_reward": 76514.0,
+      "margin": 28594.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 93857.0,
+      "right_reward": 80735.0,
+      "margin": 13122.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 73828.0,
+      "right_reward": 57931.0,
+      "margin": 15897.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 127602.0,
+      "right_reward": 117115.0,
+      "margin": 10487.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "shape_top10",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 127602.0,
+      "right_reward": 117115.0,
+      "margin": 10487.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 142678.0,
+      "right_reward": 136536.0,
+      "margin": 6142.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 142678.0,
+      "right_reward": 136536.0,
+      "margin": 6142.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 83855.0,
+      "right_reward": 69201.0,
+      "margin": 14654.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 83855.0,
+      "right_reward": 69201.0,
+      "margin": 14654.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 108604.0,
+      "right_reward": 89592.0,
+      "margin": 19012.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 108604.0,
+      "right_reward": 89592.0,
+      "margin": 19012.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 85562.0,
+      "right_reward": 46030.0,
+      "margin": 39532.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 85562.0,
+      "right_reward": 46030.0,
+      "margin": 39532.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 66817.0,
+      "right_reward": 46481.0,
+      "margin": 20336.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 66817.0,
+      "right_reward": 46481.0,
+      "margin": 20336.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 101119.0,
+      "right_reward": 66598.0,
+      "margin": 34521.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 101119.0,
+      "right_reward": 66598.0,
+      "margin": 34521.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 93535.0,
+      "right_reward": 76429.0,
+      "margin": 17106.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 72120.0,
+      "right_reward": 57349.0,
+      "margin": 14771.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 128634.0,
+      "right_reward": 114856.0,
+      "margin": 13778.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "kaito58",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 128634.0,
+      "right_reward": 114856.0,
+      "margin": 13778.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 92869.0,
+      "right_reward": 64240.0,
+      "margin": 28629.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 92869.0,
+      "right_reward": 64240.0,
+      "margin": 28629.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 121227.0,
+      "right_reward": 97646.0,
+      "margin": 23581.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 121227.0,
+      "right_reward": 97646.0,
+      "margin": 23581.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 82091.0,
+      "right_reward": 60731.0,
+      "margin": 21360.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 82091.0,
+      "right_reward": 60731.0,
+      "margin": 21360.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 137370.0,
+      "right_reward": 116651.0,
+      "margin": 20719.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 137370.0,
+      "right_reward": 116651.0,
+      "margin": 20719.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 116541.0,
+      "right_reward": 101426.0,
+      "margin": 15115.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 116541.0,
+      "right_reward": 101426.0,
+      "margin": 15115.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 153273.0,
+      "right_reward": 83628.0,
+      "margin": 69645.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 153273.0,
+      "right_reward": 83628.0,
+      "margin": 69645.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 104046.0,
+      "right_reward": 89473.0,
+      "margin": 14573.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 80453.0,
+      "right_reward": 46482.0,
+      "margin": 33971.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 82638.0,
+      "right_reward": 57448.0,
+      "margin": 25190.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "boatlee29",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 82638.0,
+      "right_reward": 57448.0,
+      "margin": 25190.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21000,
+      "left_seat": 0,
+      "left_reward": 188858.0,
+      "right_reward": 3000.0,
+      "margin": 185858.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21000,
+      "left_seat": 1,
+      "left_reward": 188858.0,
+      "right_reward": 3000.0,
+      "margin": 185858.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21001,
+      "left_seat": 0,
+      "left_reward": 181696.0,
+      "right_reward": 3000.0,
+      "margin": 178696.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21001,
+      "left_seat": 1,
+      "left_reward": 181696.0,
+      "right_reward": 3000.0,
+      "margin": 178696.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21002,
+      "left_seat": 0,
+      "left_reward": 171981.0,
+      "right_reward": 3000.0,
+      "margin": 168981.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21002,
+      "left_seat": 1,
+      "left_reward": 171981.0,
+      "right_reward": 3000.0,
+      "margin": 168981.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21003,
+      "left_seat": 0,
+      "left_reward": 145621.0,
+      "right_reward": 3000.0,
+      "margin": 142621.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21003,
+      "left_seat": 1,
+      "left_reward": 145621.0,
+      "right_reward": 3000.0,
+      "margin": 142621.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21004,
+      "left_seat": 0,
+      "left_reward": 193025.0,
+      "right_reward": 3000.0,
+      "margin": 190025.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21004,
+      "left_seat": 1,
+      "left_reward": 193025.0,
+      "right_reward": 3000.0,
+      "margin": 190025.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21005,
+      "left_seat": 0,
+      "left_reward": 191983.0,
+      "right_reward": 3000.0,
+      "margin": 188983.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21005,
+      "left_seat": 1,
+      "left_reward": 191983.0,
+      "right_reward": 3000.0,
+      "margin": 188983.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21006,
+      "left_seat": 0,
+      "left_reward": 168135.0,
+      "right_reward": 3000.0,
+      "margin": 165135.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21006,
+      "left_seat": 1,
+      "left_reward": 185864.0,
+      "right_reward": 3000.0,
+      "margin": 182864.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21007,
+      "left_seat": 0,
+      "left_reward": 185677.0,
+      "right_reward": 3000.0,
+      "margin": 182677.0,
+      "outcome": "W"
+    },
+    {
+      "left": "aurax7_v7",
+      "right": "adaptive_route_v2",
+      "seed": 21007,
+      "left_seat": 1,
+      "left_reward": 185677.0,
+      "right_reward": 3000.0,
+      "margin": 182677.0,
+      "outcome": "W"
+    }
+  ],
+  "errors": []
+}

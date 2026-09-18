@@ -1,0 +1,564 @@
+{
+  "generated": "2026-09-18T17:43:16+09:00",
+  "status": "smoke_failed",
+  "smoke_gate": {
+    "min_median_reward": 30000,
+    "min_productive_games": 6
+  },
+  "smoke_summary": {
+    "median_reward": 16894.5,
+    "productive_games": 6,
+    "max_reward": 29775.0
+  },
+  "smoke": [
+    {
+      "opponent": "e21",
+      "seed": 26990,
+      "e26_seat": 0,
+      "e26_reward": 29775.0,
+      "opponent_reward": 150280.0,
+      "margin": -120505.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 29775.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 3,
+          "SHEEP": 7,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 4,
+          "PASTURE": 22
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 25,
+          "TOMATO": 11,
+          "STRAWBERRY": 13,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 26990,
+      "e26_seat": 1,
+      "e26_reward": 29775.0,
+      "opponent_reward": 150280.0,
+      "margin": -120505.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 29775.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 3,
+          "SHEEP": 7,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 4,
+          "PASTURE": 22
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 25,
+          "TOMATO": 11,
+          "STRAWBERRY": 13,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 26991,
+      "e26_seat": 0,
+      "e26_reward": 12797.0,
+      "opponent_reward": 115310.0,
+      "margin": -102513.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 12797.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 4,
+          "SHEEP": 3,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 6,
+          "PASTURE": 21
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 25,
+          "TOMATO": 0,
+          "STRAWBERRY": 8,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 26991,
+      "e26_seat": 1,
+      "e26_reward": 12797.0,
+      "opponent_reward": 115310.0,
+      "margin": -102513.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 12797.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 4,
+          "SHEEP": 3,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 6,
+          "PASTURE": 21
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 25,
+          "TOMATO": 0,
+          "STRAWBERRY": 8,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 26992,
+      "e26_seat": 0,
+      "e26_reward": 20992.0,
+      "opponent_reward": 97255.0,
+      "margin": -76263.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 20992.0,
+        "crops": {
+          "STRAWBERRY": 2
+        },
+        "animals": {
+          "GOOSE": 4,
+          "SHEEP": 3,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 7,
+          "PASTURE": 14
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 25,
+          "TOMATO": 8,
+          "STRAWBERRY": 13,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "e21",
+      "seed": 26992,
+      "e26_seat": 1,
+      "e26_reward": 23220.0,
+      "opponent_reward": 147205.0,
+      "margin": -123985.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 23220.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 2,
+          "SHEEP": 9,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 3,
+          "PASTURE": 22
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 31,
+          "TOMATO": 13,
+          "STRAWBERRY": 20,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 26990,
+      "e26_seat": 0,
+      "e26_reward": 24836.0,
+      "opponent_reward": 137423.0,
+      "margin": -112587.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 24836.0,
+        "crops": {},
+        "animals": {
+          "SHEEP": 7,
+          "COW": 10,
+          "GOOSE": 1
+        },
+        "structures": {
+          "COOP": 2,
+          "PASTURE": 19
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 36,
+          "TOMATO": 9,
+          "STRAWBERRY": 18,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 26990,
+      "e26_seat": 1,
+      "e26_reward": 24836.0,
+      "opponent_reward": 137423.0,
+      "margin": -112587.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 24836.0,
+        "crops": {},
+        "animals": {
+          "SHEEP": 7,
+          "COW": 10,
+          "GOOSE": 1
+        },
+        "structures": {
+          "COOP": 2,
+          "PASTURE": 19
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 36,
+          "TOMATO": 9,
+          "STRAWBERRY": 18,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 26991,
+      "e26_seat": 0,
+      "e26_reward": 7510.0,
+      "opponent_reward": 105225.0,
+      "margin": -97715.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 7510.0,
+        "crops": {
+          "TOMATO": 1,
+          "CARROT": 6
+        },
+        "animals": {
+          "GOOSE": 6,
+          "SHEEP": 3,
+          "COW": 8
+        },
+        "structures": {
+          "COOP": 7,
+          "PASTURE": 13
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 17,
+          "TOMATO": 6,
+          "STRAWBERRY": 5,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 26991,
+      "e26_seat": 1,
+      "e26_reward": 7510.0,
+      "opponent_reward": 105225.0,
+      "margin": -97715.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 7510.0,
+        "crops": {
+          "TOMATO": 1,
+          "CARROT": 6
+        },
+        "animals": {
+          "GOOSE": 6,
+          "SHEEP": 3,
+          "COW": 8
+        },
+        "structures": {
+          "COOP": 7,
+          "PASTURE": 13
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 17,
+          "TOMATO": 6,
+          "STRAWBERRY": 5,
+          "MELON": 0
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 26992,
+      "e26_seat": 0,
+      "e26_reward": 10861.0,
+      "opponent_reward": 134352.0,
+      "margin": -123491.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 10861.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 5,
+          "SHEEP": 3,
+          "COW": 10
+        },
+        "structures": {
+          "COOP": 7,
+          "PASTURE": 17
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 12,
+          "TOMATO": 4,
+          "STRAWBERRY": 28,
+          "MELON": 1
+        }
+      }
+    },
+    {
+      "opponent": "aurax7_v7",
+      "seed": 26992,
+      "e26_seat": 1,
+      "e26_reward": 4650.0,
+      "opponent_reward": 113892.0,
+      "margin": -109242.0,
+      "outcome": "L",
+      "final": {
+        "hands": 10,
+        "quadrants": 3,
+        "money": 4650.0,
+        "crops": {},
+        "animals": {
+          "GOOSE": 5,
+          "SHEEP": 3,
+          "COW": 8
+        },
+        "structures": {
+          "COOP": 7,
+          "PASTURE": 17
+        },
+        "shed": {
+          "WHEAT": 0,
+          "CARROT": 0,
+          "TOMATO": 0,
+          "STRAWBERRY": 0,
+          "MELON": 0,
+          "EGG": 0,
+          "MILK": 0,
+          "WOOL": 0,
+          "FERTILIZER": 0,
+          "GOOSE": 0,
+          "COW": 0,
+          "SHEEP": 0
+        },
+        "seeds": {
+          "WHEAT": 5,
+          "CARROT": 25,
+          "TOMATO": 8,
+          "STRAWBERRY": 7,
+          "MELON": 0
+        }
+      }
+    }
+  ],
+  "errors": []
+}

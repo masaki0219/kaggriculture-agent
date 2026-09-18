@@ -49,5 +49,40 @@
     "status": "submit-safe subject to Kaggle competition rules / attribution",
     "entrypoint": "raw/_extract_submission_tar/main.py",
     "sha256": "23b0d0c93bcf3dfecaabfecd950ec4ab3b4c46000c0c481bddcf0a63ce019f02"
+  },
+  "aurax7_v7_current": {
+    "kernel": "aurax7/kaggriculture-shop-router-reactive-v7",
+    "license": "Apache-2.0",
+    "status": "benchmark/base candidate; keep exact downloaded hash in manifest",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": null
+  },
+  "ahmed_v44_current": {
+    "kernel": "ahmedberatozer/kaggriculture-v44-winning-the-same-turn-sale-race",
+    "license": "Apache-2.0",
+    "status": "benchmark/base candidate; keep exact downloaded hash in manifest",
+    "entrypoint": "notebook_extract/main.py",
+    "sha256": null
+  },
+  "tetsu_market_v23_current": {
+    "kernel": "tetsutani/market-smart-farming-kaggriculture",
+    "license": "Apache-2.0",
+    "status": "benchmark/base candidate; keep exact downloaded hash in manifest",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "f6a756cfb900b9d5f499905d596b63f1fde2445342ac4b1ae04e353739bd62d2"
+  },
+  "tetsu_shape": {
+    "kernel": "tetsutani/shape-the-shop-work-the-pasture-kaggriculture",
+    "license": "VERIFY",
+    "status": "benchmark first; do not submit until license is confirmed",
+    "entrypoint": "raw/_extract_submission_tar/main.py",
+    "sha256": "2b97e2c653018ac4aeffb8463ec91c8f26b097b4cef81289acc25ccdbc68f916"
+  },
+  "farming_v4": {
+    "kernel": "lynnsakurai/farming-score-v4-a-better-shop",
+    "license": "VERIFY",
+    "status": "benchmark first; do not submit until license is confirmed",
+    "entrypoint": "raw/_extract_submission_v42_replay_guarded_tar/main.py",
+    "sha256": "03e263f1a20db29d6aa3404e978b97549bdac7f81d2b7f8dea5b36a3d6e91edc"
   }
 }
