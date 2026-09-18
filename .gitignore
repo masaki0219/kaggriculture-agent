@@ -5,7 +5,6 @@ __pycache__/
 venv/
 data/meta_cache/**/*.json
 
-# Large replay corpora are preserved in the dated ZIP artifacts at repository root.
-/live_population_2026-09-18/
-/live_population_2026-09-18 2/
-/m_family_corpus_2026-09-18/
+# Large replay corpora are preserved in dated ZIP artifacts under data/.
+/data/replays/*/live_population/
+/data/corpora/*/m_family/

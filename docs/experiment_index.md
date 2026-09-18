@@ -26,22 +26,14 @@ from filenames. E numbers are immutable and no missing number is collapsed.
 | E18 | Conservative late-shop reroute using existing E11 plans | `experiments/e018_late_shop/agent.py` | `experiments/e018_late_shop/arena.py` | sibling `cache.json`; `results.json` | rejected |
 | E19 | Early SW prebuild without changing the selected E11 tape | `experiments/e019_early_sw/agent.py` | `experiments/e019_early_sw/arena.py` | sibling `cache.json`; `results.json` | unresolved mechanism / not promoted |
 | E20 | Early SW prebuild with native strawberry-seed prefetch | `experiments/e020_early_sw/agent.py` | `experiments/e020_early_sw/arena.py` | sibling `cache.json`; `results.json` | rejected / not promoted |
-
-| E21 | Tetsu Market-Smart Farming V23 exact public agent; new frontier baseline | `artifacts/bundles/current/agent_e21_tetsu_market_v23.py` | `evaluation/frontier_screen_v2/arena.py` | frontier screen seeds 18000-18007, both seats | frozen frontier baseline / not yet final-submission decision |
-
-| E22 | E21 pre-ADV strategy + aurax advance_sales/frontload market-policy swap | `artifacts/bundles/current/agent_e22_market_policy_swap.py` | fresh direct screen pending | mechanism-isolation experiment | keeps E21 production/route/opening; swaps only final ADV market block |
-
-| E23 | M-family replay-router v1 (24 replay-derived routes) | `artifacts/bundles/current/agent_e23_m_family_v1.py` | fresh screening pending | independent M-family candidate | 4H/2C3S; step150/220 land; shop-prefix routing |
-
-| E24 | Corrected M-family replay-router (replay t+1 alignment; donor cash-flow preserved) | `artifacts/bundles/current/agent_e24_m_family_corrected.py` | smoke pending | independent M-family candidate | fixes E23 implementation failure; E23 remains immutable |
-
-| E26 | State-based M-family planner/executor; no replay actions | `artifacts/bundles/current/agent_e26_m_family_state_based.py` | smoke pending | independent M-family candidate | 84-run policy inference: 4H/2C3S/M6, shop-conditioned targets, live planner |
-
-| E27 | Trajectory-corrected state-based M-family | `artifacts/bundles/current/agent_e27_m_family_trajectory.py` | smoke pending | independent M-family candidate | first4 routing; 12-melon trajectory; staged structures/crops |
-
-| E28 | Scale-routed state-based M-family | `artifacts/bundles/current/agent_e28_m_family_scale_routed.py` | smoke pending | independent M-family candidate | fixed total scale trajectory + first4 shop composition routing |
-
-| E29 | Staged-opening state-based M-family | `artifacts/bundles/current/agent_e29_m_family_staged_opening.py` | opening-fidelity smoke pending | independent M-family candidate | E27 economics + inferred staged M opening + scale/composition routing |
+| E21 | Tetsu Market-Smart Farming V23 exact public agent; frontier reference | `experiments/e021_tetsu_market_v23/agent.py` | `evaluation/frontier_screen_v2/arena.py`; `current_screen.py` | `evaluation/frontier_screen_v2/` | frozen active reference / not a final-submission decision |
+| E22 | E21 production with aurax market-policy swap | `experiments/e022_market_policy_swap/agent.py` | `screen.py`; `screen_strong_panel.py` | sibling `market_policy_results.*`; `strong_panel_results.*` | evaluated mechanism-isolation experiment; retain with E21 |
+| E23 | M-family replay-router v1 (24 replay-derived routes) | `experiments/e023_m_family_v1/agent.py` | sibling `screen.py` | sibling `results.md`; `results.json` | failed implementation; immutable history |
+| E24 | Corrected M-family replay-router | `experiments/e024_m_family_corrected/agent.py` | sibling `screen.py` | sibling `results.md`; `results.json` | alignment fixed; still insufficient; immutable history |
+| E26 | State-based M-family planner/executor; no replay actions | `experiments/e026_m_family_state_based/agent.py` | sibling `screen.py` | sibling `results.md`; `results.json` | economic improvement; production design insufficient |
+| E27 | Trajectory-corrected state-based M-family | `experiments/e027_m_family_trajectory/agent.py` | sibling `screen.py` | sibling `results.md`; `results.json` | economic gate passed; M-family trajectory fidelity insufficient |
+| E28 | Scale-routed state-based M-family | `experiments/e028_m_family_scale_routed/agent.py` | sibling `screen.py` | sibling `results.md`; `results.json` | implementation regression / near collapse |
+| E29 | Staged-opening state-based M-family | `experiments/e029_m_family_staged_opening/agent.py` | sibling `screen.py` | sibling `results.md`; `results.json` | latest evaluated; later opening improved, opening fidelity failed |
 
 ## Legacy non-E series
 
