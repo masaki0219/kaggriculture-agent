@@ -1,0 +1,38 @@
+[{"stream_name":"stderr","time":8.847127878,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.847235385,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.847243183,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.847247699,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":9.656018308,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.656073007,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.656078031,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.656081166,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":12.503078251,"data":"archive bytes: PASS\n"}
+,{"stream_name":"stdout","time":12.503174403,"data":"main.py bytes: PASS\n"}
+,{"stream_name":"stdout","time":12.503182347,"data":"archive SHA-256: d2d4d0dacc170b1e9e2718a255f332902ba0e3c9c981e7190587bbd09a6bc285\n"}
+,{"stream_name":"stdout","time":12.503187789,"data":"main.py SHA-256: 95b02b9b7ca124c92844b7c2907b4ceacf2cce7773890cdf32aba84f20eababe\n"}
+,{"stream_name":"stdout","time":56.489288039,"data":"direct import: PASS\n"}
+,{"stream_name":"stdout","time":56.489459554,"data":"production loader entrypoint: agent\n"}
+,{"stream_name":"stdout","time":56.489507987,"data":"entrypoint gate: PASS\n"}
+,{"stream_name":"stdout","time":56.489514821,"data":"fourteen-turn sale anticipation: PASS\n"}
+,{"stream_name":"stdout","time":56.489520838,"data":"bakery fallback: PASS\n"}
+,{"stream_name":"stdout","time":56.489647873,"data":"late WOOL demand hold: PASS\n"}
+,{"stream_name":"stdout","time":61.348854971,"data":"production-path 720-turn season: PASS\n"}
+,{"stream_name":"stdout","time":61.348920962,"data":"non-PASS unit actions: 1574\n"}
+,{"stream_name":"stdout","time":61.348931245,"data":"market orders: 1974\n"}
+,{"stream_name":"stdout","time":63.590122968,"data":"variant: demand_preserving_sale_lookahead_14_v65\n"}
+,{"stream_name":"stdout","time":63.590169505,"data":"files: main.py\n"}
+,{"stream_name":"stdout","time":63.590176198,"data":"internet required: NO\n"}
+,{"stream_name":"stdout","time":63.59018149,"data":"external Dataset required: NO\n"}
+,{"stream_name":"stdout","time":63.590186704,"data":"archive SHA-256: d2d4d0dacc170b1e9e2718a255f332902ba0e3c9c981e7190587bbd09a6bc285\n"}
+,{"stream_name":"stdout","time":63.590191702,"data":"archive byte check: PASS\n"}
+,{"stream_name":"stdout","time":63.590203252,"data":"archived production entrypoint: agent\n"}
+,{"stream_name":"stdout","time":63.59020721,"data":"production loader gate: PASS\n"}
+,{"stream_name":"stderr","time":69.150668642,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":69.150751126,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":69.364717142,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":69.364787466,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":70.322985169,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":70.772768234,"data":"[NbConvertApp] Writing 559638 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":74.237474231,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":75.483463295,"data":"[NbConvertApp] Writing 916225 bytes to __results__.html\n"}
+]

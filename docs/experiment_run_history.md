@@ -184,3 +184,12 @@ Lightweight execution history for the repository.
 - No replay action routing used.
 - E23-E28 remain immutable.
 - No Kaggle submission performed.
+## 2026-09-19T10:00:05+09:00 — Refresh live leaderboard population
+
+- Leaderboard rows: 30
+- Teams scouted: 20
+- Teams with replay: 20
+- Replays downloaded: 80
+- Bundle: `live_population.zip`
+- Acquisition only; no agent modification or Kaggle submission.
+
