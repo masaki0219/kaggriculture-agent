@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-2026-09-18 — Refresh live Kaggriculture leaderboard population
+Refresh the live Kaggriculture leaderboard population
 
 Run from the Kaggle repository root:
 
@@ -12,9 +12,9 @@ Default:
     - choose each team's highest-publicScore active submission
     - download up to 2 recent replays per team
 
-Outputs in Kaggle root:
-    data/replays/2026-09-18/live_population/
-    data/replays/2026-09-18/live_population.zip
+Outputs in a date-stamped directory under the Kaggle root:
+    data/replays/YYYY-MM-DD/live_population/
+    data/replays/YYYY-MM-DD/live_population.zip
 
 Purpose
 -------
@@ -38,12 +38,14 @@ import time
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "data" / "replays" / "2026-09-18" / "live_population"
+SNAPSHOT_DATE = datetime.now().astimezone().date().isoformat()
+SNAPSHOT_DIR = ROOT / "data" / "replays" / SNAPSHOT_DATE
+OUT = SNAPSHOT_DIR / "live_population"
 REPLAYS = OUT / "replays"
 LEADERBOARD_JSON = OUT / "leaderboard_top.json"
 MANIFEST_JSON = OUT / "scout_manifest.json"
 REPORT_MD = OUT / "README.md"
-ZIP_OUT = ROOT / "data" / "replays" / "2026-09-18" / "live_population.zip"
+ZIP_OUT = SNAPSHOT_DIR / "live_population.zip"
 HISTORY = ROOT / "docs" / "experiment_run_history.md"
 
 
@@ -353,7 +355,7 @@ def main():
     ]
 
     lines = [
-        "# Live Kaggriculture Population Refresh — 2026-09-18",
+        f"# Live Kaggriculture Population Refresh — {SNAPSHOT_DATE}",
         "",
         f"- Generated: `{manifest['generated']}`",
         f"- Leaderboard rows captured: **{len(leaderboard)}**",

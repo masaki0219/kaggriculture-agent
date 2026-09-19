@@ -1,0 +1,9 @@
+{
+  "name": "E11 Prvsiyan Frontier exact",
+  "experiment": "E11",
+  "status": "submitted",
+  "artifact": "submission.tar.gz",
+  "sha256": "f0e698738d95ad3822d3128c814aeb8548d8b58e2e156bd1a3865a376ccdc1ad",
+  "origin": "artifacts/bundles/current/public_agents/elite/prvsiyan_frontier/raw/submission.tar.gz",
+  "note": "Byte-identical submitted archive; the runtime bundle retains its required raw copy."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "E21 Tetsu Market-Smart Farming V23 exact",
+  "experiment": "E21",
+  "status": "submitted",
+  "artifact": "submission.tar.gz",
+  "sha256": "3f252be79997944c3b724e6577f1a68886a4a81377b4fbdeb0fdfa3db83081ef",
+  "origin": "artifacts/bundles/current/public_agents/elite/tetsu_market_v23_current/raw/submission.tar.gz",
+  "note": "Byte-identical copy of the exact public-source archive used for E21."
+}

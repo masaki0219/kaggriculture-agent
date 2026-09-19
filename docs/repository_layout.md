@@ -10,7 +10,7 @@
 | `archive/` | Superseded bundles, intermediary packages, and retained duplicates |
 | `data/` | Downloaded/cache data and dated compressed replay corpora |
 | `tools/` | Acquisition, setup, and bundle-maintenance utilities |
-| `docs/` | Reorganization record, manifest, experiment index, and README TODO |
+| `docs/` | Current project records, cleanup reports, and dated history |
 
 The active elite runtime is `artifacts/bundles/current/`. For E21-E29, each
 experiment directory contains its builder/screen/results and a lightweight

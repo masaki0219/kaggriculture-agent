@@ -1,0 +1,9 @@
+{
+  "name": "E22 E21 farm plus Aurax market policy swap",
+  "experiment": "E22",
+  "status": "submitted",
+  "artifact": "main.py",
+  "sha256": "72ba21f3ebb7e38df212589969dfad8ab8bf675d83387f715d03a8b9a9ee6e85",
+  "origin": "previously submission_e22_single/main.py",
+  "note": "This standalone file is the artifact accepted by Kaggle. The failed multi-file tar packaging was deleted."
+}

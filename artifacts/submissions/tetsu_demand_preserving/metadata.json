@@ -1,0 +1,9 @@
+{
+  "name": "Tetsu Demand-Preserving Turn Sale Timing",
+  "status": "submitted",
+  "artifact": "submission.tar.gz",
+  "sha256": "d2d4d0dacc170b1e9e2718a255f332902ba0e3c9c981e7190587bbd09a6bc285",
+  "origin": "candidates/2026-09-19_public/tetsutani_demand-preserving-turn-sale-timing/submission.tar.gz",
+  "source": "candidates/2026-09-19_public/tetsutani_demand-preserving-turn-sale-timing/main.py",
+  "note": "Byte-identical submitted archive; the candidate source and acquisition artifact remain together for comparison work."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Kaito27 exact",
+  "experiment": "E10",
+  "status": "submitted",
+  "artifact": "submission.tar.gz",
+  "sha256": "e9ce1efb00f8cce0d51f6b8b8a37d061f5e4ec3e6446fc2f45d6d2a0e5b92e25",
+  "origin": "previously artifacts/submissions/submission_kaito27_current.tar.gz",
+  "source": "artifacts/bundles/current/public_agents/elite/kaito27_current/raw/main.py",
+  "note": "The runtime raw archive has different gzip bytes but contains the same main.py bytes."
+}
